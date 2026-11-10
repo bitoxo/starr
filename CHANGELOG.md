@@ -2,6 +2,11 @@
 
 All notable changes to Starr. Versions follow [SemVer](https://semver.org/); before 1.0.0 minor versions may break.
 
+## Unreleased
+
+### Fixed
+- Jellyfin 12.4 is accepted; account changes were refused as an untested version.
+
 ## 0.4.1 — 2026-11-10 · Security hardening
 
 Fixes from a security review before the public launch. Admins will notice two things: moving a service to another server asks for its API key (or login) again, and a few sensitive changes ask for the password (and TOTP code) once more.

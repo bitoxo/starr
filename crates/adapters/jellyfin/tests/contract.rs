@@ -41,7 +41,7 @@ async fn jellyfin_passes_the_probe_contract() {
         auth: AUTH,
         probe_method: "GET",
         probe_path: "/System/Info",
-        supported: vec![info("10.11.11"), info("12.3.0")],
+        supported: vec![info("10.11.11"), info("12.3.0"), info("12.4.0")],
         unsupported: info("10.10.7"),
         unauthorized: unauthorized(),
         build: Jellyfin::new,
@@ -202,11 +202,11 @@ fn descriptor_declares_libraries_accounts_and_a_tested_range() {
     assert!(
         DESCRIPTOR
             .tested_versions
-            .contains(&Version::new(12, 3, 0, 0))
+            .contains(&Version::new(12, 4, 0, 0))
     );
     assert!(
         !DESCRIPTOR
             .tested_versions
-            .contains(&Version::new(12, 4, 0, 0))
+            .contains(&Version::new(12, 5, 0, 0))
     );
 }
