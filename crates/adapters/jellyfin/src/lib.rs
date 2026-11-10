@@ -42,11 +42,11 @@ pub const DESCRIPTOR: AdapterDescriptor = AdapterDescriptor {
     type_id: "jellyfin",
     display_name: "Jellyfin",
     capabilities: &[Capability::Libraries, Capability::Accounts],
-    // Verified 10.11.11 and 12.1.0–12.3.0 (Sesam's tested range ended
-    // before 12.4).
+    // Verified 10.11.11, 12.1.0–12.3.0; 12.4 only updated .NET (release
+    // notes).
     tested_versions: VersionRange {
         min: Version::new(10, 11, 0, 0),
-        max_exclusive: Version::new(12, 4, 0, 0),
+        max_exclusive: Version::new(12, 5, 0, 0),
     },
     budgets: Budgets {
         // Jellyfin documents no rate limit; item queries are database work

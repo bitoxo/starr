@@ -199,7 +199,7 @@ Then use `image: starr:0.4.1`. Expect a few minutes and several GB of build cach
 | Sonarr | series requests | 4.0.4 and later 4.x |
 | Lidarr | album requests | 3.x |
 | Whisparr | private category requests | v3, from 3.1.0.2088 |
-| Jellyfin | availability, "Open in", accounts | 10.11 and later, below 12.4 |
+| Jellyfin | availability, "Open in", accounts | 10.11 and later, below 12.5 |
 | Emby | availability, "Open in", accounts | 4.10.x |
 | Navidrome | availability, "Open in", accounts | 0.58 to 0.64 |
 | TMDB, MusicBrainz, StashDB | catalogs | |
