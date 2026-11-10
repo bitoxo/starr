@@ -22,7 +22,7 @@
 </p>
 
 > [!NOTE]
-> Starr 0.4.1 is young and pre-1.0 (GPL-3.0-or-later): one maintainer, first commit in November 2026, running against my own production stack. 1.0 comes once it has run stably in real installs for a while.
+> Starr 0.4.2 is young and pre-1.0 (GPL-3.0-or-later): one maintainer, first commit in November 2026, running against my own production stack. 1.0 comes once it has run stably in real installs for a while.
 
 ![Discover in Starr: a full-width hero with this week's top 10, and rows of covers below](docs/images/discover.webp)
 
@@ -91,7 +91,7 @@ services:
 2. `docker compose up -d`, then copy the one-time `SETUP TOKEN` from `docker logs starr`.
 3. Open that address and create the first admin. The admin inbox walks you through the rest: connect services (you need a free TMDB API read access token), switch on a category, turn on TOTP, invite members.
 
-Images: `ghcr.io/bitoxo/starr:0.4.1`, `:0.4` or `:latest`. Every environment variable is in [configuration](docs/configuration.md).
+Images: `ghcr.io/bitoxo/starr:0.4.2`, `:0.4` or `:latest`. Every environment variable is in [configuration](docs/configuration.md).
 
 ## Running it
 
@@ -169,7 +169,7 @@ To restore a `.backup` file: stop Starr, put it in place as `starr.db` owned by 
 
 Pull and restart; migrations run at start-up. Before migrating, Starr copies the database to `/config/backups` (newest five kept, database only, no key files).
 
-A release `vX.Y.Z` publishes `X.Y.Z`, `X.Y` and `latest`; a pre-release like `v0.5.0-rc.1` publishes only `0.5.0-rc.1`. Pin `:0.4.1` or `:0.4` to update by hand. The [changelog](CHANGELOG.md) lists what changed.
+A release `vX.Y.Z` publishes `X.Y.Z`, `X.Y` and `latest`; a pre-release like `v0.5.0-rc.1` publishes only `0.5.0-rc.1`. Pin `:0.4.2` or `:0.4` to update by hand. The [changelog](CHANGELOG.md) lists what changed.
 
 A release only adds to the schema; removals wait at least one release. CI starts the previous release on the new schema and checks it serves login, so rolling back one release is switching the tag back. Further back: restore from `/config/backups`.
 
@@ -180,11 +180,11 @@ A release only adds to the schema; removals wait at least one release. CI starts
 
 ```sh
 git clone https://github.com/bitoxo/starr.git && cd starr
-git checkout v0.4.1               # a release tag; leave out to build main
-docker build -t starr:0.4.1 .
+git checkout v0.4.2               # a release tag; leave out to build main
+docker build -t starr:0.4.2 .
 ```
 
-Then use `image: starr:0.4.1`. Expect a few minutes and several GB of build cache (`docker builder prune`). A build from `main` reports the last release's version, so name the commit in bug reports.
+Then use `image: starr:0.4.2`. Expect a few minutes and several GB of build cache (`docker builder prune`). A build from `main` reports the last release's version, so name the commit in bug reports.
 
 </details>
 

@@ -2,7 +2,7 @@
 
 All notable changes to Starr. Versions follow [SemVer](https://semver.org/); before 1.0.0 minor versions may break.
 
-## Unreleased
+## 0.4.2 — 2026-11-10 · Jellyfin 12.4
 
 ### Fixed
 - Jellyfin 12.4 is accepted; account changes were refused as an untested version.
