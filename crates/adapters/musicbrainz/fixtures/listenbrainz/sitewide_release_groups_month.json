@@ -1,0 +1,24 @@
+{
+  "payload": {
+    "release_groups": [
+      {
+        "artist_mbids": [
+          "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+        ],
+        "artist_name": "Radiohead",
+        "caa_id": 1234567890,
+        "caa_release_mbid": "0b6b4ba0-d36f-47bd-b4ea-6a5b91842d29",
+        "listen_count": 9120,
+        "release_group_mbid": "b1392450-e666-3926-a536-22c65f834433",
+        "release_group_name": "OK Computer"
+      }
+    ],
+    "offset": 25,
+    "count": 1,
+    "total_release_group_count": 26,
+    "range": "month",
+    "last_updated": 1793700000,
+    "from_ts": 1791100000,
+    "to_ts": 1793700000
+  }
+}

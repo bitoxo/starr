@@ -1,0 +1,29 @@
+{
+  "errors": [
+    {
+      "message": "not authorized",
+      "path": [
+        "version"
+      ],
+      "locations": [
+        {
+          "line": 1,
+          "column": 15
+        }
+      ]
+    },
+    {
+      "message": "not authorized",
+      "path": [
+        "me"
+      ],
+      "locations": [
+        {
+          "line": 1,
+          "column": 35
+        }
+      ]
+    }
+  ],
+  "data": null
+}

@@ -1,0 +1,85 @@
+{
+  "Items": [
+    {
+      "Name": "friend",
+      "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+      "Prefix": "F",
+      "DateCreated": "2026-10-02T09:15:41.1234567Z",
+      "Id": "4",
+      "HasPassword": true,
+      "HasConfiguredPassword": true,
+      "LastLoginDate": "2026-10-30T19:02:11.0000000Z",
+      "LastActivityDate": "2026-10-31T08:12:44.0000000Z",
+      "Configuration": {
+        "DisplayMissingEpisodes": false
+      },
+      "Policy": {
+        "IsAdministrator": false,
+        "IsHidden": false,
+        "IsHiddenRemotely": false,
+        "IsHiddenFromUnusedDevices": false,
+        "IsDisabled": false,
+        "LockedOutDate": 0,
+        "BlockedTags": [],
+        "EnableUserPreferenceAccess": true,
+        "AccessSchedules": [],
+        "BlockUnratedItems": [],
+        "EnableRemoteAccess": true,
+        "EnableMediaPlayback": true,
+        "EnableContentDeletion": false,
+        "EnableContentDownloading": true,
+        "EnabledDevices": [],
+        "EnableAllDevices": true,
+        "EnabledChannels": [],
+        "EnableAllChannels": true,
+        "EnabledFolders": [],
+        "EnableAllFolders": true,
+        "InvalidLoginAttemptCount": 0,
+        "EnablePublicSharing": true,
+        "RemoteClientBitrateLimit": 0,
+        "SimultaneousStreamLimit": 0
+      }
+    },
+    {
+      "Name": "admin",
+      "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+      "Prefix": "A",
+      "DateCreated": "2026-10-02T09:15:41.1234567Z",
+      "Id": "1",
+      "HasPassword": true,
+      "HasConfiguredPassword": true,
+      "LastLoginDate": "2026-10-30T19:02:11.0000000Z",
+      "LastActivityDate": "2026-10-31T08:12:44.0000000Z",
+      "Configuration": {
+        "DisplayMissingEpisodes": false
+      },
+      "Policy": {
+        "IsAdministrator": true,
+        "IsHidden": false,
+        "IsHiddenRemotely": false,
+        "IsHiddenFromUnusedDevices": false,
+        "IsDisabled": false,
+        "LockedOutDate": 0,
+        "BlockedTags": [],
+        "EnableUserPreferenceAccess": true,
+        "AccessSchedules": [],
+        "BlockUnratedItems": [],
+        "EnableRemoteAccess": true,
+        "EnableMediaPlayback": true,
+        "EnableContentDeletion": true,
+        "EnableContentDownloading": true,
+        "EnabledDevices": [],
+        "EnableAllDevices": true,
+        "EnabledChannels": [],
+        "EnableAllChannels": true,
+        "EnabledFolders": [],
+        "EnableAllFolders": true,
+        "InvalidLoginAttemptCount": 0,
+        "EnablePublicSharing": true,
+        "RemoteClientBitrateLimit": 0,
+        "SimultaneousStreamLimit": 0
+      }
+    }
+  ],
+  "TotalRecordCount": 2
+}

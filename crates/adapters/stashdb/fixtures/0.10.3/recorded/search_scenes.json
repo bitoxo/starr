@@ -1,0 +1,126 @@
+{
+  "data": {
+    "searchScenes": {
+      "count": 40,
+      "scenes": [
+        {
+          "id": "5ce00012-0000-4000-8000-000000000012",
+          "title": "Scene T",
+          "release_date": "2025-07-15",
+          "duration": 2580,
+          "studio": {
+            "id": "57d1000d-0000-4000-8000-00000000000d",
+            "name": "Studio AE"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f001f-0000-4000-8000-00000000001f",
+                "name": "Performer AT"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0020-0000-4000-8000-000000000020",
+                "name": "Performer AU"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e001b-0000-4000-8000-00000000001b",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "id": "5ce00013-0000-4000-8000-000000000013",
+          "title": "Scene U",
+          "release_date": "2025-08-15",
+          "duration": 2640,
+          "studio": {
+            "id": "57d1000e-0000-4000-8000-00000000000e",
+            "name": "Studio AF"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0021-0000-4000-8000-000000000021",
+                "name": "Performer AV"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0022-0000-4000-8000-000000000022",
+                "name": "Performer AW"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0023-0000-4000-8000-000000000023",
+                "name": "Performer AX"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0024-0000-4000-8000-000000000024",
+                "name": "Performer AY"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0025-0000-4000-8000-000000000025",
+                "name": "Performer AZ"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e001c-0000-4000-8000-00000000001c",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "id": "5ce00014-0000-4000-8000-000000000014",
+          "title": "Scene V",
+          "release_date": "2025-09-15",
+          "duration": 1500,
+          "studio": {
+            "id": "57d1000f-0000-4000-8000-00000000000f",
+            "name": "Studio AG"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0026-0000-4000-8000-000000000026",
+                "name": "Performer BA"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0027-0000-4000-8000-000000000027",
+                "name": "Performer BB"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0028-0000-4000-8000-000000000028",
+                "name": "Performer BC"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e001d-0000-4000-8000-00000000001d",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

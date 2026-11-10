@@ -1,0 +1,350 @@
+[
+  {
+    "imageHash": "0000000000000001",
+    "thumbHash": "00000000000000000000000000000001",
+    "dominantColor": "#000000",
+    "imageWidth": 600,
+    "imageHeight": 600,
+    "id": "recAlbum00000000000001",
+    "libraryId": 1,
+    "libraryPath": "/music",
+    "libraryName": "Music Library",
+    "name": "Album 1",
+    "albumArtistId": "recArtist0000000000001",
+    "albumArtist": "Artist 1",
+    "maxYear": 2026,
+    "minYear": 2026,
+    "date": "2026-01-16",
+    "maxOriginalYear": 0,
+    "minOriginalYear": 0,
+    "compilation": false,
+    "songCount": 1,
+    "duration": 1801.5,
+    "size": 100000000,
+    "discs": {
+      "1": ""
+    },
+    "orderAlbumName": "album 1",
+    "orderAlbumArtistName": "artist 1",
+    "explicitStatus": "",
+    "rgAlbumGain": -8.0,
+    "rgAlbumPeak": 1.0,
+    "externalInfoUpdatedAt": null,
+    "genre": "Dance",
+    "genres": [
+      {
+        "id": "recGenre00000000000001",
+        "name": "Dance"
+      }
+    ],
+    "tags": {
+      "genre": [
+        "Dance"
+      ]
+    },
+    "participants": {
+      "albumartist": [
+        {
+          "id": "recArtist0000000000001",
+          "name": "Artist 1",
+          "missing": false
+        }
+      ],
+      "artist": [
+        {
+          "id": "recArtist0000000000001",
+          "name": "Artist 1",
+          "missing": false
+        }
+      ]
+    },
+    "missing": false,
+    "importedAt": "2026-09-20T02:39:10.382907679Z",
+    "createdAt": "2026-08-30T22:19:18.625987939Z",
+    "updatedAt": "2026-09-20T01:20:57.1132117Z"
+  },
+  {
+    "imageHash": "0000000000000002",
+    "thumbHash": "00000000000000000000000000000002",
+    "dominantColor": "#cdb6a0",
+    "imageWidth": 600,
+    "imageHeight": 600,
+    "id": "recAlbum00000000000002",
+    "libraryId": 1,
+    "libraryPath": "/music",
+    "libraryName": "Music Library",
+    "name": "Album 2",
+    "albumArtistId": "recArtist0000000000002",
+    "albumArtist": "Artist 2",
+    "maxYear": 2025,
+    "minYear": 2025,
+    "date": "2025-03-14",
+    "maxOriginalYear": 0,
+    "minOriginalYear": 0,
+    "compilation": false,
+    "songCount": 1,
+    "duration": 1802.5,
+    "size": 200000000,
+    "discs": {
+      "1": ""
+    },
+    "orderAlbumName": "album 2",
+    "orderAlbumArtistName": "artist 2",
+    "explicitStatus": "",
+    "rgAlbumGain": -8.0,
+    "rgAlbumPeak": 1.0,
+    "externalInfoUpdatedAt": null,
+    "genre": "Electronic",
+    "genres": [
+      {
+        "id": "recGenre00000000000002",
+        "name": "Electronic"
+      }
+    ],
+    "tags": {
+      "disctotal": [
+        "1"
+      ],
+      "genre": [
+        "Electronic"
+      ]
+    },
+    "participants": {
+      "albumartist": [
+        {
+          "id": "recArtist0000000000002",
+          "name": "Artist 2",
+          "missing": false
+        },
+        {
+          "id": "recArtist0000000000003",
+          "name": "Artist 3",
+          "missing": false
+        },
+        {
+          "id": "recArtist0000000000004",
+          "name": "Artist 4",
+          "missing": false
+        }
+      ],
+      "artist": [
+        {
+          "id": "recArtist0000000000002",
+          "name": "Artist 2",
+          "missing": false
+        },
+        {
+          "id": "recArtist0000000000003",
+          "name": "Artist 3",
+          "missing": false
+        },
+        {
+          "id": "recArtist0000000000004",
+          "name": "Artist 4",
+          "missing": false
+        }
+      ]
+    },
+    "missing": false,
+    "importedAt": "2026-10-22T02:16:11.515600247Z",
+    "createdAt": "2026-10-21T10:46:43.0920016Z",
+    "updatedAt": "2026-10-22T01:46:27.6884496Z"
+  },
+  {
+    "imageHash": "0000000000000003",
+    "thumbHash": "00000000000000000000000000000003",
+    "dominantColor": "#f4f4f4",
+    "imageWidth": 600,
+    "imageHeight": 600,
+    "id": "recAlbum00000000000003",
+    "libraryId": 1,
+    "libraryPath": "/music",
+    "libraryName": "Music Library",
+    "name": "Album 3",
+    "albumArtistId": "recArtist0000000000005",
+    "albumArtist": "Artist 5",
+    "maxYear": 2018,
+    "minYear": 2018,
+    "date": "2018-12-14",
+    "maxOriginalYear": 0,
+    "minOriginalYear": 0,
+    "compilation": false,
+    "songCount": 1,
+    "duration": 1803.5,
+    "size": 300000000,
+    "discs": {
+      "1": ""
+    },
+    "orderAlbumName": "album 3",
+    "orderAlbumArtistName": "artist 5",
+    "explicitStatus": "",
+    "rgAlbumGain": -8.0,
+    "rgAlbumPeak": 1.0,
+    "externalInfoUpdatedAt": null,
+    "genre": "Alternativ und Indie",
+    "genres": [
+      {
+        "id": "recGenre00000000000003",
+        "name": "Alternativ und Indie"
+      }
+    ],
+    "tags": {
+      "genre": [
+        "Alternativ und Indie"
+      ]
+    },
+    "participants": {
+      "albumartist": [
+        {
+          "id": "recArtist0000000000005",
+          "name": "Artist 5",
+          "missing": false
+        }
+      ],
+      "artist": [
+        {
+          "id": "recArtist0000000000005",
+          "name": "Artist 5",
+          "missing": false
+        }
+      ]
+    },
+    "missing": false,
+    "importedAt": "2026-09-12T01:34:43.878012606Z",
+    "createdAt": "2026-08-30T22:19:29.667448695Z",
+    "updatedAt": "2026-09-12T01:34:05.836524Z"
+  },
+  {
+    "imageHash": "0000000000000004",
+    "thumbHash": "00000000000000000000000000000004",
+    "dominantColor": "#dcd7d0",
+    "imageWidth": 600,
+    "imageHeight": 600,
+    "id": "recAlbum00000000000004",
+    "libraryId": 1,
+    "libraryPath": "/music",
+    "libraryName": "Music Library",
+    "name": "Album 4",
+    "albumArtistId": "recArtist0000000000006",
+    "albumArtist": "Artist 6",
+    "maxYear": 2016,
+    "minYear": 2016,
+    "date": "2016-11-18",
+    "maxOriginalYear": 0,
+    "minOriginalYear": 0,
+    "compilation": false,
+    "songCount": 2,
+    "duration": 1804.5,
+    "size": 400000000,
+    "discs": {
+      "1": ""
+    },
+    "orderAlbumName": "album 4",
+    "orderAlbumArtistName": "artist 6",
+    "explicitStatus": "",
+    "rgAlbumGain": -8.0,
+    "rgAlbumPeak": 1.0,
+    "externalInfoUpdatedAt": null,
+    "genre": "Hip-Hop",
+    "genres": [
+      {
+        "id": "recGenre00000000000004",
+        "name": "Hip-Hop"
+      },
+      {
+        "id": "recGenre00000000000005",
+        "name": "Rap"
+      }
+    ],
+    "tags": {
+      "genre": [
+        "Hip-Hop",
+        "Rap"
+      ]
+    },
+    "participants": {
+      "albumartist": [
+        {
+          "id": "recArtist0000000000006",
+          "name": "Artist 6",
+          "missing": false
+        }
+      ],
+      "artist": [
+        {
+          "id": "recArtist0000000000006",
+          "name": "Artist 6",
+          "missing": false
+        }
+      ]
+    },
+    "missing": false,
+    "importedAt": "2026-09-29T01:47:01.73246268Z",
+    "createdAt": "2026-08-30T22:19:32.915216181Z",
+    "updatedAt": "2026-09-29T01:20:48.0611629Z"
+  },
+  {
+    "imageHash": "0000000000000005",
+    "thumbHash": "00000000000000000000000000000005",
+    "dominantColor": "#191611",
+    "imageWidth": 600,
+    "imageHeight": 600,
+    "id": "recAlbum00000000000005",
+    "libraryId": 1,
+    "libraryPath": "/music",
+    "libraryName": "Music Library",
+    "name": "Album 5",
+    "albumArtistId": "recArtist0000000000007",
+    "albumArtist": "Artist 7",
+    "maxYear": 2021,
+    "minYear": 2021,
+    "date": "2021-03-22",
+    "maxOriginalYear": 0,
+    "minOriginalYear": 0,
+    "compilation": false,
+    "songCount": 1,
+    "duration": 1805.5,
+    "size": 500000000,
+    "discs": {
+      "1": ""
+    },
+    "orderAlbumName": "album 5",
+    "orderAlbumArtistName": "artist 7",
+    "explicitStatus": "",
+    "rgAlbumGain": -8.0,
+    "rgAlbumPeak": 1.0,
+    "externalInfoUpdatedAt": null,
+    "genre": "Pop",
+    "genres": [
+      {
+        "id": "recGenre00000000000006",
+        "name": "Pop"
+      }
+    ],
+    "tags": {
+      "genre": [
+        "Pop"
+      ]
+    },
+    "participants": {
+      "albumartist": [
+        {
+          "id": "recArtist0000000000007",
+          "name": "Artist 7",
+          "missing": false
+        }
+      ],
+      "artist": [
+        {
+          "id": "recArtist0000000000007",
+          "name": "Artist 7",
+          "missing": false
+        }
+      ]
+    },
+    "missing": false,
+    "importedAt": "2026-09-26T01:21:52.345158481Z",
+    "createdAt": "2026-08-30T22:19:36.123187924Z",
+    "updatedAt": "2026-09-26T01:21:38.6988489Z"
+  }
+]

@@ -1,0 +1,45 @@
+# cargo-deny configuration (`just audit`). Starr is GPL-3.0-or-later: every
+# dependency licence must be compatible with it.
+
+[graph]
+all-features = true
+
+[advisories]
+# Each accepted advisory names why it does not affect Starr; revisit on every
+# dependency update. Mirrored in .cargo/audit.toml for `cargo audit`.
+ignore = [
+    { id = "RUSTSEC-2026-0459", reason = "bundled SQLite WAL read needs an attacker-written -wal file in /config; sqlx 0.9 pins libsqlite3-sys < 0.38, upgrade when sqlx allows" },
+    { id = "RUSTSEC-2026-0387", reason = "crypto-bigint timing in age's P-256/plugin recipients; Starr uses X25519 identities only, no fixed age release yet" },
+    { id = "RUSTSEC-2026-0374", reason = "basic-toml unmaintained; build-time only (age -> i18n-embed-fl proc-macro), no runtime input" },
+]
+
+[licenses]
+# Permissive licences (and GPL-3.0-or-later for Starr's own crates). An
+# `A OR B` expression passes when one side is listed.
+allow = [
+    "0BSD",
+    "Apache-2.0",
+    "Apache-2.0 WITH LLVM-exception",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSL-1.0",
+    "CC0-1.0",
+    "CDLA-Permissive-2.0",
+    "GPL-3.0-or-later",
+    "ISC",
+    "MIT",
+    "MIT-0",
+    "Unicode-3.0",
+    "Unlicense",
+    "Zlib",
+]
+confidence-threshold = 0.9
+
+[bans]
+multiple-versions = "allow"
+wildcards = "deny"
+allow-wildcard-paths = true
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"

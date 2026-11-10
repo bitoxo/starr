@@ -1,0 +1,31 @@
+[
+  {
+    "Name": "OK Computer",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "8a1b2c3d4e5f60718293a4b5c6d7e8f9",
+    "ProductionYear": 1997,
+    "ProviderIds": {
+      "MusicBrainzAlbum": "0b6b4ba0-d36f-47bd-b4ea-6a5b91842d29",
+      "MusicBrainzAlbumArtist": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "MusicBrainzReleaseGroup": "b1392450-e666-3926-a536-22c65f834433"
+    },
+    "IsFolder": true,
+    "Type": "MusicAlbum",
+    "ChildCount": 12,
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown",
+    "AlbumArtist": "Radiohead"
+  },
+  {
+    "Name": "Untagged Rip",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "9b2c3d4e5f60718293a4b5c6d7e8f90a",
+    "ProviderIds": {},
+    "IsFolder": true,
+    "Type": "MusicAlbum",
+    "ChildCount": 10,
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown",
+    "AlbumArtist": "Unknown Artist"
+  }
+]

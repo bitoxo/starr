@@ -1,0 +1,381 @@
+[
+  {
+    "status": "continuing",
+    "ended": false,
+    "artistName": "Coldplay",
+    "foreignArtistId": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+    "tadbId": 0,
+    "discogsId": 0,
+    "artistType": "Group",
+    "disambiguation": "",
+    "links": [
+      {
+        "url": "http://www.coldplay.com/",
+        "name": "coldplay"
+      },
+      {
+        "url": "https://musicmoz.org/Bands_and_Artists/C/Coldplay/",
+        "name": "musicmoz"
+      },
+      {
+        "url": "http://www.pleasureunit.com/coldplay/index.php",
+        "name": "pleasureunit"
+      },
+      {
+        "url": "https://www.discogs.com/artist/29735",
+        "name": "discogs"
+      },
+      {
+        "url": "https://myspace.com/coldplay",
+        "name": "myspace"
+      },
+      {
+        "url": "https://www.imdb.com/name/nm1095892/",
+        "name": "imdb"
+      },
+      {
+        "url": "https://twitter.com/coldplay",
+        "name": "twitter"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCfJOsk44wjzby9H64jDd4Nw",
+        "name": "youtube"
+      },
+      {
+        "url": "https://www.bbc.co.uk/music/artists/cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+        "name": "bbc"
+      },
+      {
+        "url": "https://www.facebook.com/coldplay",
+        "name": "facebook"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw",
+        "name": "youtube"
+      },
+      {
+        "url": "https://www.allmusic.com/artist/mn0000775877",
+        "name": "allmusic"
+      },
+      {
+        "url": "https://plus.google.com/+Coldplay",
+        "name": "google"
+      },
+      {
+        "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+        "name": "spotify"
+      },
+      {
+        "url": "http://coldplay.tumblr.com/",
+        "name": "tumblr"
+      },
+      {
+        "url": "https://www.last.fm/music/Coldplay",
+        "name": "last"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q45188",
+        "name": "wikidata"
+      },
+      {
+        "url": "https://secondhandsongs.com/artist/10590",
+        "name": "secondhandsongs"
+      },
+      {
+        "url": "http://viaf.org/viaf/157712849",
+        "name": "viaf"
+      },
+      {
+        "url": "https://rateyourmusic.com/artist/coldplay",
+        "name": "rateyourmusic"
+      },
+      {
+        "url": "http://www.purevolume.com/coldplay",
+        "name": "purevolume"
+      },
+      {
+        "url": "https://www.musik-sammler.de/artist/3209/",
+        "name": "musik-sammler"
+      },
+      {
+        "url": "http://muzikum.eu/en/122-3547/coldplay/lyrics.html",
+        "name": "muzikum"
+      },
+      {
+        "url": "https://genius.com/artists/Coldplay",
+        "name": "genius"
+      },
+      {
+        "url": "https://imvdb.com/n/coldplay",
+        "name": "imvdb"
+      },
+      {
+        "url": "https://www.bandsintown.com/a/99",
+        "name": "bandsintown"
+      },
+      {
+        "url": "https://openlibrary.org/authors/OL2741867A/",
+        "name": "openlibrary"
+      },
+      {
+        "url": "https://www.whosampled.com/Coldplay/",
+        "name": "whosampled"
+      },
+      {
+        "url": "https://www.worldcat.org/identities/lccn-no99089189/",
+        "name": "worldcat"
+      },
+      {
+        "url": "https://play.google.com/store/music/artist?id=Aroavh4k5ypej6qdhyoo52q7bpm",
+        "name": "google"
+      },
+      {
+        "url": "https://www.setlist.fm/setlists/coldplay-3d6bde3.html",
+        "name": "setlist"
+      },
+      {
+        "url": "https://www.instagram.com/coldplay/",
+        "name": "instagram"
+      },
+      {
+        "url": "https://soundcloud.com/coldplay",
+        "name": "soundcloud"
+      },
+      {
+        "url": "https://d-nb.info/gnd/6501726-2",
+        "name": "d-nb"
+      },
+      {
+        "url": "http://id.loc.gov/authorities/names/no99089189",
+        "name": "loc"
+      },
+      {
+        "url": "https://catalogue.bnf.fr/ark:/12148/cb140349761",
+        "name": "bnf"
+      },
+      {
+        "url": "https://www.deezer.com/artist/892",
+        "name": "deezer"
+      },
+      {
+        "url": "https://www.songkick.com/artists/197928",
+        "name": "songkick"
+      },
+      {
+        "url": "http://coldplay.livejournal.com/",
+        "name": "livejournal"
+      },
+      {
+        "url": "https://vk.ru/coldplay",
+        "name": "vk"
+      },
+      {
+        "url": "https://tidal.com/artist/8812",
+        "name": "tidal"
+      },
+      {
+        "url": "https://us.napster.com/artist/coldplay",
+        "name": "napster"
+      },
+      {
+        "url": "https://uk.7digital.com/artist/coldplay",
+        "name": "7digital"
+      },
+      {
+        "url": "https://us.7digital.com/artist/coldplay",
+        "name": "7digital"
+      },
+      {
+        "url": "https://www.junodownload.com/artists/Coldplay/releases/",
+        "name": "junodownload"
+      },
+      {
+        "url": "https://www.beatport.com/artist/coldplay/162668",
+        "name": "beatport"
+      },
+      {
+        "url": "https://www.livefans.jp/artists/2236",
+        "name": "livefans"
+      },
+      {
+        "url": "https://www.musixmatch.com/artist/Coldplay",
+        "name": "musixmatch"
+      },
+      {
+        "url": "https://wmg.jp/coldplay/discography/",
+        "name": "wmg"
+      },
+      {
+        "url": "https://music.apple.com/gb/artist/471744",
+        "name": "apple"
+      },
+      {
+        "url": "https://music.apple.com/gb/artist/471744",
+        "name": "apple"
+      },
+      {
+        "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+        "name": "qobuz"
+      },
+      {
+        "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+        "name": "qobuz"
+      },
+      {
+        "url": "https://mora.jp/artist/254708/",
+        "name": "mora"
+      },
+      {
+        "url": "https://www.hdtracks.com/#/artist/Coldplay",
+        "name": "hdtracks"
+      },
+      {
+        "url": "https://www.tiktok.com/@coldplay",
+        "name": "tiktok"
+      },
+      {
+        "url": "https://www.livenation.co.uk/artist-8720",
+        "name": "livenation"
+      },
+      {
+        "url": "https://www.muziekweb.nl/Link/M00000124920/POPULAR/",
+        "name": "muziekweb"
+      },
+      {
+        "url": "https://music.youtube.com/channel/UCIaFw5VBEK8qaW6nRpx_qnw",
+        "name": "youtube"
+      },
+      {
+        "url": "https://www.ticketmaster.com/artist/806431",
+        "name": "ticketmaster"
+      },
+      {
+        "url": "https://music.amazon.co.uk/artists/B000QKGN8W",
+        "name": "amazon"
+      },
+      {
+        "url": "https://www.spirit-of-rock.com/en/band/Coldplay",
+        "name": "spirit-of-rock"
+      },
+      {
+        "url": "https://www.threads.com/@coldplay",
+        "name": "threads"
+      },
+      {
+        "url": "https://www.idref.fr/086228749",
+        "name": "idref"
+      },
+      {
+        "url": "https://jaxsta.com/profile/4e482690-dc02-4c85-9fbf-28907c20b928",
+        "name": "jaxsta"
+      },
+      {
+        "url": "https://www.weibo.com/7502254158",
+        "name": "weibo"
+      },
+      {
+        "url": "https://music.amazon.com/artists/B000QKGN8W",
+        "name": "amazon"
+      },
+      {
+        "url": "https://music.yandex.com/artist/671",
+        "name": "yandex"
+      },
+      {
+        "url": "https://mora.jp/artist/1473572/",
+        "name": "mora"
+      },
+      {
+        "url": "https://mora.jp/artist/503134/",
+        "name": "mora"
+      },
+      {
+        "url": "https://mora.jp/artist/1468413/",
+        "name": "mora"
+      },
+      {
+        "url": "https://mora.jp/artist/1992749/",
+        "name": "mora"
+      },
+      {
+        "url": "https://open.qobuz.com/artist/40226",
+        "name": "qobuz"
+      },
+      {
+        "url": "https://open.qobuz.com/artist/40226",
+        "name": "qobuz"
+      },
+      {
+        "url": "https://audiomack.com/coldplay",
+        "name": "audiomack"
+      },
+      {
+        "url": "https://www.deezer.com/artist/316813311",
+        "name": "deezer"
+      }
+    ],
+    "nextAlbum": null,
+    "lastAlbum": null,
+    "images": [
+      {
+        "coverType": "banner",
+        "url": "/MediaCover/1/banner.jpg?lastWrite=639293250026322078",
+        "remoteUrl": "/config/MediaCover/1/banner.jpg",
+        "extension": ".jpg"
+      },
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/1/fanart.jpg?lastWrite=639293250025656285",
+        "remoteUrl": "/config/MediaCover/1/fanart.jpg",
+        "extension": ".jpg"
+      },
+      {
+        "coverType": "clearlogo",
+        "url": "/MediaCover/1/clearlogo.png?lastWrite=639293250026126690",
+        "remoteUrl": "/config/MediaCover/1/clearlogo.png",
+        "extension": ".png"
+      },
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/1/poster.jpg?lastWrite=639293250025913432",
+        "remoteUrl": "/config/MediaCover/1/poster.jpg",
+        "extension": ".jpg"
+      }
+    ],
+    "path": "/music/Coldplay",
+    "qualityProfileId": 4,
+    "metadataProfileId": 1,
+    "monitored": false,
+    "monitorNewItems": "none",
+    "rootFolderPath": "/music",
+    "genres": [
+      "Alternative Rock",
+      "Pop",
+      "Pop Rock",
+      "Rock",
+      "Post-Britpop",
+      "Britpop",
+      "Piano Rock",
+      "Indie Rock",
+      "Dream Pop",
+      "Art Pop"
+    ],
+    "cleanName": "coldplay",
+    "sortName": "coldplay",
+    "tags": [],
+    "added": "2026-11-03T17:50:01Z",
+    "ratings": {
+      "votes": 50,
+      "value": 8.2
+    },
+    "statistics": {
+      "albumCount": 10,
+      "trackFileCount": 0,
+      "trackCount": 0,
+      "totalTrackCount": 199,
+      "sizeOnDisk": 0,
+      "percentOfTracks": 0
+    },
+    "id": 1
+  }
+]

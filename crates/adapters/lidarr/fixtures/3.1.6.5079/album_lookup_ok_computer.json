@@ -1,0 +1,51 @@
+[
+  {
+    "title": "OK Computer",
+    "disambiguation": "",
+    "overview": "",
+    "artistId": 0,
+    "foreignAlbumId": "b1392450-e666-3926-a536-22c65f834433",
+    "monitored": false,
+    "anyReleaseOk": true,
+    "profileId": 0,
+    "duration": 0,
+    "albumType": "Album",
+    "secondaryTypes": [],
+    "mediumCount": 1,
+    "releaseDate": "1997-05-21T00:00:00Z",
+    "releases": [
+      {
+        "foreignReleaseId": "00000000-0000-4000-8000-000000000012",
+        "title": "OK Computer",
+        "trackCount": 12,
+        "monitored": false
+      }
+    ],
+    "genres": [],
+    "media": [],
+    "artist": {
+      "artistName": "Radiohead",
+      "foreignArtistId": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+      "nextAlbum": null,
+      "lastAlbum": null,
+      "status": "continuing",
+      "overview": "Radiohead are an English rock band formed in Abingdon, Oxfordshire, in 1985.",
+      "artistType": "Group",
+      "disambiguation": "",
+      "links": [],
+      "images": [],
+      "qualityProfileId": 0,
+      "metadataProfileId": 0,
+      "monitored": false,
+      "monitorNewItems": "all",
+      "genres": [
+        "Alternative Rock"
+      ],
+      "tags": [],
+      "added": "0001-01-01T00:00:00Z"
+    },
+    "images": [],
+    "links": [],
+    "remoteCover": "https://coverartarchive.org/release-group/b1392450-e666-3926-a536-22c65f834433/front.jpg"
+  }
+]

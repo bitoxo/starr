@@ -1,0 +1,172 @@
+[
+  {
+    "id": "recUser000000000000002",
+    "userName": "member1",
+    "name": "Member1",
+    "email": "",
+    "isAdmin": false,
+    "lastLoginAt": null,
+    "lastAccessAt": null,
+    "createdAt": "2026-11-04T13:34:38.965724343Z",
+    "updatedAt": "2026-11-04T13:34:39.195653506Z",
+    "scrobbleFilter": "",
+    "libraries": [
+      {
+        "id": 1,
+        "name": "Music Library",
+        "path": "/music",
+        "remotePath": "",
+        "lastScanAt": "0001-01-01T00:00:00Z",
+        "lastScanStartedAt": "0001-01-01T00:00:00Z",
+        "fullScanInProgress": false,
+        "updatedAt": "0001-01-01T00:00:00Z",
+        "createdAt": "0001-01-01T00:00:00Z",
+        "totalSongs": 0,
+        "totalAlbums": 0,
+        "totalArtists": 0,
+        "totalFolders": 0,
+        "totalFiles": 0,
+        "totalMissingFiles": 0,
+        "totalSize": 0,
+        "totalDuration": 0,
+        "defaultNewUsers": false
+      }
+    ]
+  },
+  {
+    "id": "recUser000000000000003",
+    "userName": "member2",
+    "name": "Member2",
+    "email": "",
+    "isAdmin": false,
+    "lastLoginAt": "2026-11-06T16:18:06.919338003Z",
+    "lastAccessAt": "2026-11-06T16:20:42.410510161Z",
+    "createdAt": "2026-08-30T19:58:55.743142537Z",
+    "updatedAt": "2026-08-30T19:58:55.742968343Z",
+    "scrobbleFilter": "",
+    "libraries": [
+      {
+        "id": 1,
+        "name": "Music Library",
+        "path": "/music",
+        "remotePath": "",
+        "lastScanAt": "0001-01-01T00:00:00Z",
+        "lastScanStartedAt": "0001-01-01T00:00:00Z",
+        "fullScanInProgress": false,
+        "updatedAt": "0001-01-01T00:00:00Z",
+        "createdAt": "0001-01-01T00:00:00Z",
+        "totalSongs": 0,
+        "totalAlbums": 0,
+        "totalArtists": 0,
+        "totalFolders": 0,
+        "totalFiles": 0,
+        "totalMissingFiles": 0,
+        "totalSize": 0,
+        "totalDuration": 0,
+        "defaultNewUsers": false
+      }
+    ]
+  },
+  {
+    "id": "recUser000000000000004",
+    "userName": "member3",
+    "name": "Member3",
+    "email": "",
+    "isAdmin": false,
+    "lastLoginAt": "2026-11-06T16:18:05.795823659Z",
+    "lastAccessAt": "2026-11-06T16:18:05.798387322Z",
+    "createdAt": "2026-08-30T19:33:37.229318718Z",
+    "updatedAt": "2026-08-30T19:33:37.229106804Z",
+    "scrobbleFilter": "",
+    "libraries": [
+      {
+        "id": 1,
+        "name": "Music Library",
+        "path": "/music",
+        "remotePath": "",
+        "lastScanAt": "0001-01-01T00:00:00Z",
+        "lastScanStartedAt": "0001-01-01T00:00:00Z",
+        "fullScanInProgress": false,
+        "updatedAt": "0001-01-01T00:00:00Z",
+        "createdAt": "0001-01-01T00:00:00Z",
+        "totalSongs": 0,
+        "totalAlbums": 0,
+        "totalArtists": 0,
+        "totalFolders": 0,
+        "totalFiles": 0,
+        "totalMissingFiles": 0,
+        "totalSize": 0,
+        "totalDuration": 0,
+        "defaultNewUsers": false
+      }
+    ]
+  },
+  {
+    "id": "recUser000000000000005",
+    "userName": "member4",
+    "name": "Member4",
+    "email": "",
+    "isAdmin": false,
+    "lastLoginAt": "2026-11-06T16:18:05.787677627Z",
+    "lastAccessAt": "2026-11-06T14:17:51.923148363Z",
+    "createdAt": "2026-09-30T14:24:43.754361385Z",
+    "updatedAt": "2026-09-30T14:24:43.75411647Z",
+    "scrobbleFilter": "",
+    "libraries": [
+      {
+        "id": 1,
+        "name": "Music Library",
+        "path": "/music",
+        "remotePath": "",
+        "lastScanAt": "0001-01-01T00:00:00Z",
+        "lastScanStartedAt": "0001-01-01T00:00:00Z",
+        "fullScanInProgress": false,
+        "updatedAt": "0001-01-01T00:00:00Z",
+        "createdAt": "0001-01-01T00:00:00Z",
+        "totalSongs": 0,
+        "totalAlbums": 0,
+        "totalArtists": 0,
+        "totalFolders": 0,
+        "totalFiles": 0,
+        "totalMissingFiles": 0,
+        "totalSize": 0,
+        "totalDuration": 0,
+        "defaultNewUsers": false
+      }
+    ]
+  },
+  {
+    "id": "recUser000000000000001",
+    "userName": "admin1",
+    "name": "Admin1",
+    "email": "",
+    "isAdmin": true,
+    "lastLoginAt": "2026-11-06T16:24:51.279034362Z",
+    "lastAccessAt": "2026-11-06T16:24:51.381694254Z",
+    "createdAt": "2026-03-22T20:11:48.668308985Z",
+    "updatedAt": "2026-03-22T20:11:48.668129371Z",
+    "scrobbleFilter": "",
+    "libraries": [
+      {
+        "id": 1,
+        "name": "Music Library",
+        "path": "/music",
+        "remotePath": "",
+        "lastScanAt": "0001-01-01T00:00:00Z",
+        "lastScanStartedAt": "0001-01-01T00:00:00Z",
+        "fullScanInProgress": false,
+        "updatedAt": "0001-01-01T00:00:00Z",
+        "createdAt": "0001-01-01T00:00:00Z",
+        "totalSongs": 0,
+        "totalAlbums": 0,
+        "totalArtists": 0,
+        "totalFolders": 0,
+        "totalFiles": 0,
+        "totalMissingFiles": 0,
+        "totalSize": 0,
+        "totalDuration": 0,
+        "defaultNewUsers": false
+      }
+    ]
+  }
+]

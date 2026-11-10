@@ -1,0 +1,60 @@
+[package]
+name = "starr-server"
+description = "Starr HTTP server binary: API, embedded web UI, runtime wiring."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "starr"
+path = "src/main.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+anyhow = "1.0.104"
+argon2 = "0.6.0"
+axum = "0.8.9"
+axum-extra = { version = "0.12.6", features = ["cookie"] }
+base64 = "0.23.1"
+chrono = { version = "0.4.45", default-features = false, features = ["clock", "serde", "std"] }
+clap = { version = "4.6.7", features = ["derive", "env"] }
+cookie = "0.18.2"
+hmac = "0.13.0"
+mime_guess = "2.0.5"
+qrcode = { version = "0.14.1", default-features = false, features = ["svg"] }
+rand = "0.10.3"
+rust-embed = "8.13.0"
+secrecy = { version = "0.10.3", features = ["serde"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+sha2 = "0.11.1"
+starr-adapter-musicbrainz = { path = "../adapters/musicbrainz" }
+starr-adapter-stashdb = { path = "../adapters/stashdb" }
+starr-adapter-tmdb = { path = "../adapters/tmdb" }
+starr-core = { path = "../starr-core" }
+starr-db = { path = "../starr-db" }
+starr-secrets = { path = "../starr-secrets" }
+starr-worker = { path = "../starr-worker" }
+uuid = "1"
+subtle = "2.6.1"
+thiserror = "2.0.21"
+tokio = { version = "1.54.1", features = ["full"] }
+tokio-util = "0.7.20"
+totp-rs = { version = "6.0.0", default-features = false, features = ["std", "otpauth", "zeroize"] }
+tower-http = { version = "0.7.1", features = ["trace", "compression-gzip"] }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter", "fmt"] }
+url = "2.5.8"
+utoipa = { version = "6.0.0", features = ["axum_extras", "chrono"] }
+utoipa-axum = "0.3.0"
+
+[dev-dependencies]
+http-body-util = "0.1.5"
+starr-adapter-kit = { path = "../starr-adapter-kit", features = ["contract"] }
+sqlx = { version = "0.9.0", default-features = false, features = ["runtime-tokio", "sqlite"] }
+tower = { version = "0.5.3", features = ["util"] }
+wiremock = "0.6.5"

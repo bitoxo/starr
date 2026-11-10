@@ -1,0 +1,112 @@
+{
+  "probe": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "probe_without_key": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "find_scene_unknown": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "probe_bad_key": {
+    "status": 401,
+    "headers": {
+      "Content-Length": "0"
+    }
+  },
+  "find_scene_d": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "find_scene_e": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "query_scenes_trending": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "query_scenes_date": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "query_scenes_created_at": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "query_scenes_performer_date": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "query_scenes_studio_date": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "find_performer": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "find_studio": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "search_scenes": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "search_performers": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "query_studios": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "image_without_key_300": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/jpeg",
+      "Cache-Control": "max-age=604800000"
+    }
+  },
+  "image_without_key_600": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/jpeg",
+      "Cache-Control": "max-age=604800000"
+    }
+  }
+}

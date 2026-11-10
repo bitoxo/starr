@@ -1,0 +1,17 @@
+{
+  "data": {
+    "version": {
+      "version": "v0.10.3"
+    },
+    "me": {
+      "roles": [
+        "READ",
+        "VOTE",
+        "EDIT"
+      ]
+    }
+  },
+  "extensions": {
+    "fixture": "Derived by hand from the stash-box GraphQL schema (graphql/schema/*.graphql), not recorded from any server. Placeholder data only."
+  }
+}

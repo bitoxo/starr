@@ -1,0 +1,10 @@
+{
+  "page": 1,
+  "results": [
+    {"adult": false, "backdrop_path": "/s3TBrRGB1iav7gFOCNx3H31MoES.jpg", "id": 27205, "title": "Inception", "original_title": "Inception", "overview": "Cobb, a skilled thief...", "poster_path": "/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg", "media_type": "movie", "original_language": "en", "genre_ids": [28, 878, 12], "popularity": 83.9, "release_date": "2010-07-15", "video": false, "vote_average": 8.369, "vote_count": 37118},
+    {"adult": false, "id": 525, "name": "Christopher Nolan", "original_name": "Christopher Nolan", "media_type": "person", "popularity": 12.4, "gender": 2, "known_for_department": "Directing", "profile_path": "/xuAIuYSmsUzKlUMBFGVZaWsY3DZ.jpg", "known_for": []},
+    {"adult": false, "backdrop_path": null, "id": 27205, "name": "Inception: The Series", "original_name": "Inception: The Series", "overview": "", "poster_path": null, "media_type": "tv", "original_language": "en", "genre_ids": [], "popularity": 0.6, "first_air_date": "", "vote_average": 0, "vote_count": 0, "origin_country": []}
+  ],
+  "total_pages": 1,
+  "total_results": 3
+}

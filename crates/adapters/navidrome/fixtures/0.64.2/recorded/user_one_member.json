@@ -1,0 +1,34 @@
+{
+  "id": "recUser000000000000002",
+  "userName": "member1",
+  "name": "Member1",
+  "email": "",
+  "isAdmin": false,
+  "lastLoginAt": null,
+  "lastAccessAt": null,
+  "createdAt": "2026-11-04T13:34:38.965724343Z",
+  "updatedAt": "2026-11-04T13:34:39.195653506Z",
+  "scrobbleFilter": "",
+  "libraries": [
+    {
+      "id": 1,
+      "name": "Music Library",
+      "path": "/music",
+      "remotePath": "",
+      "lastScanAt": "0001-01-01T00:00:00Z",
+      "lastScanStartedAt": "0001-01-01T00:00:00Z",
+      "fullScanInProgress": false,
+      "updatedAt": "0001-01-01T00:00:00Z",
+      "createdAt": "0001-01-01T00:00:00Z",
+      "totalSongs": 0,
+      "totalAlbums": 0,
+      "totalArtists": 0,
+      "totalFolders": 0,
+      "totalFiles": 0,
+      "totalMissingFiles": 0,
+      "totalSize": 0,
+      "totalDuration": 0,
+      "defaultNewUsers": false
+    }
+  ]
+}

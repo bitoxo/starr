@@ -1,0 +1,10 @@
+{
+  "page": 1,
+  "results": [
+    {"adult": false, "backdrop_path": "/s3TBrRGB1iav7gFOCNx3H31MoES.jpg", "id": 27205, "title": "Inception", "original_title": "Inception", "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets...", "poster_path": "/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg", "media_type": "movie", "original_language": "en", "genre_ids": [28, 878, 12], "popularity": 83.952, "release_date": "2010-07-15", "video": false, "vote_average": 8.369, "vote_count": 37118},
+    {"adult": false, "backdrop_path": "/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg", "id": 496243, "title": "Parasite", "original_title": "기생충", "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks...", "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg", "media_type": "movie", "original_language": "ko", "genre_ids": [35, 53, 18], "popularity": 61.3, "release_date": "2019-05-30", "video": false, "vote_average": 8.5, "vote_count": 19000},
+    {"adult": false, "backdrop_path": null, "id": 1184918, "title": "The Wild Robot", "original_title": "The Wild Robot", "overview": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island...", "poster_path": "/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg", "media_type": "movie", "original_language": "en", "genre_ids": [16, 878, 10751], "popularity": 2519.0, "release_date": "2024-09-12", "video": false, "vote_average": 8.5, "vote_count": 2900}
+  ],
+  "total_pages": 500,
+  "total_results": 10000
+}

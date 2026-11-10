@@ -1,0 +1,19 @@
+{
+  "adult": false,
+  "backdrop_path": "/hiKmpZMGZsrkA3cdce8a7Dpos1j.jpg",
+  "genres": [{"id": 35, "name": "Komödie"}, {"id": 53, "name": "Thriller"}, {"id": 18, "name": "Drama"}],
+  "id": 496243,
+  "imdb_id": "tt6751668",
+  "original_language": "ko",
+  "original_title": "기생충",
+  "overview": "",
+  "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+  "release_date": "2019-05-30",
+  "title": "기생충",
+  "vote_average": 8.5,
+  "vote_count": 19000,
+  "external_ids": {"imdb_id": "tt6751668"},
+  "videos": {"results": []},
+  "release_dates": {"results": []},
+  "watch/providers": {"results": {}}
+}

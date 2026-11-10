@@ -1,0 +1,551 @@
+{
+  "app": {
+    "wordmark": "starr",
+    "home": "Starr home",
+    "name": "Starr",
+    "pageTitle": "{{page}} · {{app}}",
+    "adminHome": "Starr admin home"
+  },
+  "actions": {
+    "close": "Close",
+    "goHome": "Go home",
+    "reload": "Reload",
+    "copy": "Copy",
+    "copied": "Copied",
+    "cancel": "Cancel",
+    "save": "Save",
+    "retry": "Try again",
+    "download": "Download",
+    "undo": "Undo"
+  },
+  "status": {
+    "loading": "Loading…",
+    "error": "Couldn't load this. Try again in a moment.",
+    "technicalDetails": "Technical details"
+  },
+  "nav": {
+    "member": "Main",
+    "admin": "Administration",
+    "discover": "Discover",
+    "requests": "Requests",
+    "profile": "Profile",
+    "myServices": "My services",
+    "members": "Members",
+    "invitations": "Invitations",
+    "services": "Services",
+    "runs": "Runs",
+    "skipToContent": "Skip to content",
+    "categories": "Categories",
+    "adminRequests": "Requests",
+    "accounts": "Accounts",
+    "private": "Private",
+    "search": "Search",
+    "inbox": "Inbox",
+    "inboxBadge_one": "{{count}} item needs you",
+    "inboxBadge_other": "{{count}} items need you",
+    "downloads": "Downloads",
+    "admins": "Admins",
+    "notifications": "Notifications",
+    "security": "Security",
+    "about": "About",
+    "groupRequests": "Requests",
+    "groupPeople": "People",
+    "groupMedia": "Media stack",
+    "groupSystem": "System",
+    "people": "People",
+    "more": "More",
+    "moreLabel": "More admin pages",
+    "privateRequests": "Your requests",
+    "privateFollowing": "Following",
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar",
+    "openSearch": "Search",
+    "privateBrowse": "Browse"
+  },
+  "account": {
+    "signedInAs": "Signed in as {{name}}",
+    "signOut": "Sign out",
+    "roleAdmin": "admin",
+    "roleMember": "member",
+    "switchToMember": "Switch to member view",
+    "memberViewOf": "Member view of {{name}}",
+    "backToAdmin": "Back to admin",
+    "privateShow": "Show Private",
+    "privateHide": "Hide Private",
+    "privateUnlocked": "Private open until {{time}}.",
+    "privateHintLocked": "For this session. Closes after 30 minutes without activity.",
+    "privateHintOpen": "Open until {{time}}. Closes after 30 minutes without activity.",
+    "shortcuts": "Keyboard shortcuts",
+    "shortcutsHint": "[ toggles the sidebar, / jumps to search"
+  },
+  "privacy": {
+    "request": "Private category · request #{{id}}",
+    "acquisition": "Private category · acquisition #{{id}}",
+    "title": "A title in a private category",
+    "member": "A member"
+  },
+  "privateGate": {
+    "label": "Private",
+    "openUntil": "open until",
+    "close": "Close",
+    "closeLabel": "Close private area",
+    "closed": "Private closed.",
+    "notice": {
+      "idle": "The private area closed after 30 minutes without activity.",
+      "elsewhere": "The private area was closed."
+    },
+    "showAgain": "Show again",
+    "dismiss": "Dismiss"
+  },
+  "errors": {
+    "notFoundTitle": "Nothing out here",
+    "notFoundDescription": "This page doesn't exist, or it moved.",
+    "unexpectedTitle": "Something went wrong",
+    "unexpectedDescription": "An unexpected error stopped this page. Reloading usually helps."
+  },
+  "categories": {
+    "movies": "Movies",
+    "series": "Series",
+    "music": "Music",
+    "adult": "NSFW"
+  },
+  "requestModes": {
+    "auto": "Auto",
+    "approval": "Approval"
+  },
+  "memberStatus": {
+    "active": "Active",
+    "suspended": "Suspended",
+    "retired": "Deletion pending",
+    "linkPending": "Password not set"
+  },
+  "apiErrors": {
+    "unavailable": "Something went wrong. Try again in a moment.",
+    "private": {
+      "not_found": "This isn't available."
+    },
+    "auth": {
+      "too_many_attempts": "Too many attempts. Wait 15 minutes and try again.",
+      "password_too_short": "Password is too short.",
+      "password_too_long": "Password is too long.",
+      "current_password_invalid": "Current password is wrong.",
+      "forbidden": "You don't have access to this.",
+      "unauthenticated": "Your session ended. Sign in again.",
+      "invalid_code": "That code didn't work. Codes change every 30 seconds and work once.",
+      "code_required": "Enter a code from your authenticator app.",
+      "login_expired": "The sign-in took too long. Start again.",
+      "elevation_required": "Confirm your admin password first.",
+      "totp_enrollment_required": "Set up two-step verification first.",
+      "no_linked_member": "Link a member profile first.",
+      "linked_member_inactive": "Your linked member profile is suspended.",
+      "member_password_invalid": "That isn't the member's password."
+    },
+    "validation": {
+      "follow_cap": "The weekly limit must be between 1 and 100.",
+      "username_invalid": "That username isn't allowed.",
+      "username_taken": "That username is taken.",
+      "email_invalid": "That email address doesn't look right.",
+      "email_taken": "Another member already uses that email address.",
+      "display_name_invalid": "Display name is too long.",
+      "expiry_invalid": "Pick 1 to 30 days.",
+      "confirmation_mismatch": "The username doesn't match.",
+      "relevance_language": "That language isn't in TMDB's list.",
+      "relevance_release_region": "Pick a release region from the list.",
+      "relevance_provider_region": "Pick a streaming region from the list.",
+      "relevance_provider": "Pick streaming services offered in the chosen region.",
+      "relevance_genre": "Pick genres of this category.",
+      "relevance_too_many": "That's too many entries.",
+      "quality_profile": "Pick a quality profile the source offers. Read the lists again if it is missing.",
+      "root_folder": "Pick a root folder the source offers. Read the lists again if it is missing.",
+      "minimum_availability": "Minimum availability applies to movies only.",
+      "title_ids": "Give between 1 and 50 title IDs.",
+      "page": "Pages start at 1.",
+      "search_query": "Search for at most 200 characters.",
+      "notification_kind": "Pick from the listed notifications.",
+      "notification_ids": "Mark at most 500 at once.",
+      "channel_name": "Give a name of up to 100 characters.",
+      "smtp_settings_required": "Fill in the email server.",
+      "smtp_host": "That server name doesn't look right.",
+      "smtp_port": "Use a port from 1 to 65535.",
+      "smtp_field": "One of the fields is too long or has odd characters.",
+      "from_address": "The sender address doesn't look right.",
+      "admin_address": "The admin address doesn't look right.",
+      "webhook_url": "Enter the full webhook URL, starting with http:// or https://.",
+      "discord_url": "Use the webhook URL from Discord (it contains /api/webhooks/).",
+      "smtp_login_incomplete": "Give username and password together, or neither for a server without login.",
+      "too_many": "Too many entries.",
+      "kind": "This kind of title isn't offered here."
+    },
+    "member": {
+      "not_found": "This member doesn't exist (anymore).",
+      "not_active": "Only active members can be suspended.",
+      "not_suspended": "Only suspended members can be reactivated.",
+      "retired": "This member is being deleted.",
+      "already_retired": "This member is already being deleted.",
+      "not_restorable": "The grace period is over; the member can't be restored.",
+      "already_linked": "This member is already linked to another admin."
+    },
+    "invitation": {
+      "not_found": "This invitation link isn't valid. Check that you copied all of it.",
+      "used": "This invitation was already used.",
+      "revoked": "This invitation was withdrawn. Ask for a new one.",
+      "expired": "This invitation expired. Ask for a new one.",
+      "not_pending": "Only open invitations can be revoked."
+    },
+    "password_token": {
+      "not_found": "This link isn't valid. It may have been replaced by a newer one.",
+      "used": "This link was already used. Ask for a new one.",
+      "expired": "This link expired. Ask for a new one.",
+      "account_inactive": "This account is suspended. Ask your admin."
+    },
+    "session": {
+      "not_found": "That session already ended.",
+      "current": "This is the session you are using. Sign out to end it."
+    },
+    "admin": {
+      "not_found": "This admin doesn't exist (anymore).",
+      "self": "You can't suspend or remove your own account.",
+      "last_active": "At least one active admin must remain.",
+      "not_active": "Only active admins can be suspended.",
+      "not_suspended": "Only suspended admins can be reactivated."
+    },
+    "totp": {
+      "already_enabled": "Two-step verification is already on.",
+      "no_enrollment": "Start the setup again.",
+      "not_enabled": "Two-step verification is off.",
+      "required": "This server requires two-step verification; it cannot be turned off here."
+    },
+    "categories": {
+      "not_found": "This category doesn't exist.",
+      "follow_cap_not_offered": "Only the private category's catalog has a weekly follow limit.",
+      "statement_required": "Confirm the operator statement to switch this category on.",
+      "no_request_flow": "Catalogs and sources for this category arrive in a later phase; it can only be watched in for now.",
+      "capability_missing": "This service can't take that role.",
+      "adapter_unsuited": "This service doesn't serve this category.",
+      "source_taken": "The category already has a source. Switch it instead.",
+      "role_taken": "The service already has this role here.",
+      "role_not_found": "That assignment no longer exists.",
+      "not_a_catalog": "Only a catalog can be the default.",
+      "no_source": "Set a source first.",
+      "not_a_consumer": "Only a service members watch in has libraries.",
+      "library_unknown": "That library isn't in the server's last listing. Scan it again.",
+      "library_overlap": "That library already belongs to another category on this server."
+    },
+    "catalog": {
+      "unavailable": "TMDB can't be reached right now. Check the TMDB service under Services.",
+      "credentials_invalid": "TMDB rejected the token. Re-enter it under Services.",
+      "not_a_catalog": "This service is not a catalog.",
+      "not_found": "TMDB doesn't know this."
+    },
+    "sources": {
+      "not_a_source": "This service is not a source."
+    },
+    "services": {
+      "not_found": "This service no longer exists.",
+      "secrets_unavailable": "The worker has not started yet, so secrets cannot be stored. Try again in a moment.",
+      "nothing_to_activate": "Nothing waits for your password right now.",
+      "already_starr_password": "This account already uses your Starr password."
+    },
+    "requests": {
+      "not_found": "This request no longer exists.",
+      "not_pending": "Nothing in this request waits for approval any more.",
+      "owner_mismatch": "This request belongs to someone else now. Reload and try again.",
+      "category_not_ready": "This category has no source with quality profile and root folder yet.",
+      "selection_invalid": "Select between 1 and 200 requests.",
+      "reason_invalid": "Give a reason of up to 500 characters.",
+      "already_requested": "You already asked for this.",
+      "already_available": "This is available already.",
+      "not_entitled": "Requests in this category are not switched on for you.",
+      "seasons_required": "Choose at least one season.",
+      "seasons_unexpected": "Movies have no seasons.",
+      "unknown_season": "This season is not listed for the series.",
+      "follow_movie": "Only series can be followed.",
+      "no_tvdb_id": "This series can't be requested yet: TMDB has no TVDB ID for it, which Sonarr needs.",
+      "albums_required": "Choose at least one album (at most 300).",
+      "albums_unexpected": "Only artists take a list of albums.",
+      "unknown_album": "This album isn't listed for the artist in MusicBrainz.",
+      "scenes_required": "Choose at least one scene (at most 20 at a time).",
+      "unknown_scene": "This scene isn't listed in the catalog.",
+      "undo_too_late": "Too late to undo: it went to the source already. Revoke the request instead."
+    },
+    "acquisitions": {
+      "not_found": "This acquisition no longer exists.",
+      "not_failed": "Only failed acquisitions can be retried."
+    },
+    "follows": {
+      "not_followable": "Only series and artists can be followed.",
+      "not_found": "You no longer follow this.",
+      "followed_again": "You follow it again already, from today."
+    },
+    "discover": {
+      "unavailable": "This category isn't open for you, or Discover isn't set up there yet.",
+      "unknown_list": "This list doesn't exist."
+    },
+    "notifications": {
+      "channel_taken": "A channel with this name exists, or the email server is already set up.",
+      "channel_not_found": "This channel no longer exists."
+    },
+    "libraries": {
+      "unsupported": "This service has no libraries.",
+      "not_found": "That library is no longer listed."
+    },
+    "accounts": {
+      "not_found": "That account is no longer in the server's list. Scan again.",
+      "privileged": "Administrator accounts are never linked; Starr leaves them alone.",
+      "ignored": "That account is ignored. Stop ignoring it first.",
+      "gone": "That account is gone from the server.",
+      "taken": "That account is already linked to another member.",
+      "linked": "That account is linked to a member. Choose no account for the member first.",
+      "provisioned": "Starr created this account; changing it comes with a later release.",
+      "unsupported": "This server has no accounts Starr can manage.",
+      "remote_id_required": "Choose the account to link.",
+      "plan_changed": "The plan changed since you looked at it. Check it again, then confirm.",
+      "plan_incomplete": "The plan rests on an incomplete scan; scan again first.",
+      "plan_stale": "The plan is older than an hour. Scan again, then confirm the fresh plan.",
+      "not_live": "Account writes for this server are not live.",
+      "totp_required": "Every active admin needs two-factor authentication before account writes can go live, resume or be approved."
+    },
+    "invitations": {
+      "accounts_duplicate_service": "Name at most one account per server.",
+      "accounts_not_entitled": "This invitation gives no category that server serves; the named account would be disabled. Add the category or leave the account out."
+    }
+  },
+  "backToAdmin": {
+    "title": "Back to admin",
+    "description": "Confirm it is you, {{name}}. Admin access needs your admin password.",
+    "descriptionTotp": "Confirm it is you, {{name}}. Admin access needs your admin password and a code from your authenticator app.",
+    "password": "Admin password",
+    "code": "Code or recovery code",
+    "submit": "Switch back"
+  },
+  "attribution": {
+    "justwatch": "Streaming data by JustWatch",
+    "tmdb": "Metadata and images by TMDB"
+  },
+  "requestProgress": "{{percent}} percent downloaded",
+  "downloadStage": {
+    "someLibrary": "the media server",
+    "someSource": "the source"
+  },
+  "notifications": {
+    "bell": "Notifications",
+    "bellUnread_one": "Notifications, {{count}} unread",
+    "bellUnread_other": "Notifications, {{count}} unread",
+    "title": "Notifications",
+    "markAllRead": "Mark all read",
+    "unread": "unread",
+    "loadFailed": "Notifications couldn't be loaded.",
+    "emptyTitle": "All quiet",
+    "emptyMember": "When a request is approved, declined or ready to watch or listen to, you hear it here.",
+    "emptyAdmin": "Waiting approvals, failed downloads, blocked imports and accounts that need you show up here.",
+    "reason": "Reason: {{reason}}",
+    "kind": {
+      "request_approved": "Approved, on its way",
+      "request_rejected": "Declined",
+      "request_revoked": "Revoked by an admin",
+      "request_partially_available": "Partly ready to watch",
+      "request_partially_available_music": "Partly ready to listen to",
+      "request_available": "Ready to watch",
+      "request_available_music": "Ready to listen to",
+      "request_failed": "Stuck, an admin has been told",
+      "approval_pending": "{{member}} asked for this",
+      "acquisition_failed": "Download failed",
+      "import_blocked": "Downloaded, but the import is blocked",
+      "follow_requested": "New season requested for you",
+      "follow_requested_music": "New album requested for you",
+      "follow_requested_adult": "New scene requested for you",
+      "follow_capped": "More new scenes than your weekly limit — request the rest yourself",
+      "account_activate": "Activate your account with your password",
+      "account_privileged": "{{member}}'s account has admin rights there now; Starr keeps its hands off",
+      "account_locked": "{{member}}'s account was locked after failed sign-ins"
+    },
+    "bellAttention_one": "Notifications, {{count}} thing needs you",
+    "bellAttention_other": "Notifications, {{count}} things need you",
+    "needYou_one": "{{count}} thing needs you",
+    "needYou_other": "{{count}} things need you",
+    "nothingNeedsYou": "Nothing needs you right now",
+    "openInbox": "Open inbox",
+    "current": {
+      "open": "Needs you",
+      "done": "Done"
+    },
+    "earlier": "Earlier",
+    "repeated_one": "+{{count}} more like it",
+    "repeated_other": "+{{count}} more like it",
+    "seeAll": "See all notifications",
+    "showOlder": "Show older",
+    "newTab": "(opens in a new tab)",
+    "olderFailed": "Older notifications couldn't be loaded. Try again."
+  },
+  "journey": {
+    "cardLabel": "Status of {{title}}",
+    "movie": "Movie",
+    "series": "Series",
+    "artist": "Artist",
+    "album": "Album",
+    "season": "Season {{number}}",
+    "now": "now",
+    "byFollow": "Requested by your follow of this series.",
+    "byFollow_music": "Requested by your follow of this artist.",
+    "step": {
+      "requested": "Requested",
+      "awaiting_approval": "Waiting for approval",
+      "approved_automatically": "Approved automatically",
+      "approved": "Approved",
+      "declined": "Declined",
+      "withdrawn": "Withdrawn",
+      "searching": "Searching",
+      "downloading": "Downloading",
+      "importing": "Importing",
+      "getting_it": "Getting it",
+      "getting_it_done": "Downloaded",
+      "arriving": "Almost ready",
+      "ready": "Ready",
+      "revoked": "Revoked",
+      "removed": "No longer in the library",
+      "held": "Held",
+      "cancelled": "Withdrawn"
+    },
+    "adminStep": {
+      "searching": "Submitted to {{source}}",
+      "arriving": "In {{source}}, waiting for {{library}}"
+    },
+    "explain": {
+      "awaiting_approval": "An admin will look at it soon.",
+      "approved": "Approved. Starr hands it on in a moment.",
+      "approved_automatically": "Approved automatically. Starr hands it on in a moment.",
+      "searching": "Looking for a good release. For new or rare titles this can take a while.",
+      "downloading": "Downloading, {{percent}}% done.",
+      "downloadingUnknown": "Downloading.",
+      "importing": "The download is done and is being moved into the library.",
+      "arriving": "It's downloaded. {{library}} usually picks it up within minutes.",
+      "ready": "Ready to watch in {{library}}.",
+      "ready_partly": "Some episodes are ready to watch in {{library}}, more follow.",
+      "ready_music": "Ready to listen to.",
+      "ready_partly_music": "Some tracks are ready to listen to, more follow.",
+      "ready_music_in": "Ready to listen to in {{library}}.",
+      "ready_partly_music_in": "Some tracks are ready to listen to in {{library}}, more follow.",
+      "declined": "An admin declined this request.",
+      "withdrawn": "You withdrew this request.",
+      "cancelled": "You cancelled this request.",
+      "revoked": "An admin revoked this request.",
+      "removed": "It was in the library and is gone now.",
+      "failed": "Something went wrong on the way."
+    },
+    "adminExplain": {
+      "awaiting_approval": "Waiting in Needs you.",
+      "approved": "Approved, waiting to be sent to {{source}}.",
+      "approved_automatically": "Approved automatically, waiting to be sent to {{source}}.",
+      "held": "Writes to {{source}} are paused. It goes out once they are resumed.",
+      "searching": "{{source}} is searching for a release.",
+      "downloading": "Downloading in {{source}}, {{percent}}% done.",
+      "downloadingUnknown": "Downloading in {{source}}.",
+      "importing": "{{source}} is importing the download.",
+      "importingStuck": "{{source}} cannot import the download.",
+      "downloadingWarning": "{{source}} reports a problem with the download.",
+      "arriving": "{{source}} has the file. {{library}} usually picks it up within minutes.",
+      "ready": "Available in {{library}}.",
+      "ready_partly": "Partly available in {{library}}.",
+      "ready_music": "Every track is in {{source}}.",
+      "ready_partly_music": "Some tracks are in {{source}}.",
+      "ready_music_in": "Every track is in {{library}}.",
+      "ready_partly_music_in": "Some tracks are in {{library}}.",
+      "declined": "Declined.",
+      "withdrawn": "Withdrawn by the member.",
+      "cancelled": "Cancelled; nothing more is sent to {{source}} for it.",
+      "revoked": "Revoked.",
+      "removed": "Gone from {{library}} and without a file in {{source}}: requestable again.",
+      "failed": "Submitting to {{source}} failed."
+    },
+    "note": {
+      "can_withdraw": "You can withdraw until it's approved.",
+      "admin_told": "The admin has been told.",
+      "stuck_at_import": "Stuck at import.",
+      "request_again": "No longer in the library — you can request it again."
+    },
+    "by": "by {{name}}",
+    "reason": "Reason: {{reason}}",
+    "openIn": "Open in {{name}}",
+    "status": {
+      "done": "done",
+      "current": "happening now",
+      "upcoming": "next",
+      "warning": "needs attention",
+      "failed": "failed",
+      "ended": "ended"
+    },
+    "scene": "Scene"
+  },
+  "elevation": {
+    "title": "Confirm it's you",
+    "description": "This is a sensitive change (media server accounts, admins, service connections or notification targets). Enter your admin password again.",
+    "descriptionTotp": "This is a sensitive change (media server accounts, admins, service connections or notification targets). Enter your admin password and a code from your authenticator app.",
+    "password": "Admin password",
+    "code": "Code",
+    "submit": "Confirm"
+  },
+  "format": {
+    "minutes": "{{minutes}} min",
+    "hours": "{{hours}} h",
+    "hoursMinutes": "{{hours}} h {{minutes}} min",
+    "seconds": "{{seconds}} s",
+    "milliseconds": "{{ms}} ms",
+    "minutesSeconds": "{{minutes}} min {{seconds}} s"
+  },
+  "state": {
+    "requested": "Requested",
+    "requestedByOthers": "Requested by someone",
+    "awaitingApproval": "Waiting for approval",
+    "approved": "Approved",
+    "queued": "Queued",
+    "held": "Held – {{source}} paused",
+    "heldWrites": "Held – writes paused",
+    "searching": "Searching",
+    "downloading": "Downloading",
+    "downloadingPercent": "Downloading {{percent}}",
+    "importing": "Importing",
+    "stuckAtImport": "Stuck at import",
+    "needsAttention": "Needs attention",
+    "arriving": "Arriving in {{library}}",
+    "arrivingSoon": "Almost ready",
+    "available": "Available",
+    "partlyAvailable": "Partly available",
+    "partly_seasons": "{{have}} of {{total}} seasons",
+    "partly_tracks": "{{have}} of {{total}} tracks",
+    "partly_albums": "{{have}} of {{total}} albums",
+    "declined": "Declined",
+    "withdrawn": "Withdrawn",
+    "revoked": "Revoked",
+    "failed": "Failed",
+    "removed": "No longer in the library"
+  },
+  "table": {
+    "count_one": "{{total}} entry",
+    "count_other": "{{total}} entries",
+    "countFiltered_one": "{{shown}} of {{total}} entry",
+    "countFiltered_other": "{{shown}} of {{total}} entries",
+    "empty": "Nothing here yet.",
+    "selected_one": "{{count}} selected",
+    "selected_other": "{{count}} selected"
+  },
+  "confirm": {
+    "typeToConfirm": "Type {{phrase}} to confirm"
+  },
+  "unsaved": {
+    "title": "Leave without saving?",
+    "description": "Your changes here are not saved yet. If you leave now, they are lost.",
+    "leave": "Leave"
+  },
+  "form": {
+    "required": "(required)"
+  },
+  "memberView": {
+    "label": "Member view",
+    "title": "Member view",
+    "description": "You see Starr as your member profile.",
+    "back": "Back to admin"
+  },
+  "shell": {
+    "loading": "Loading Starr…"
+  }
+}

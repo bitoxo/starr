@@ -1,0 +1,24 @@
+{
+  "data": {
+    "queryStudios": {
+      "count": 1,
+      "studios": [
+        {
+          "id": "57d10000-0000-4000-8000-0000000000aa",
+          "name": "Studio S",
+          "images": [
+            {
+              "id": "1a6e0000-0000-4000-8000-000000000005",
+              "url": "https://images.example.invalid/1a6e0000-0000-4000-8000-000000000005",
+              "width": 1280,
+              "height": 400
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "fixture": "Derived by hand from the stash-box GraphQL schema (graphql/schema/*.graphql), not recorded from any server. Placeholder data only."
+  }
+}

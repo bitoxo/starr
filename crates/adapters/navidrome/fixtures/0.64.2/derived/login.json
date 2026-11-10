@@ -1,0 +1,11 @@
+{
+  "id": "6aB3kQ9zXw1Lm4Np7Rs2Tu",
+  "name": "Starr",
+  "username": "starr",
+  "isAdmin": true,
+  "lastFMApiKey": "",
+  "avatar": "",
+  "subsonicSalt": "a1b2c3",
+  "subsonicToken": "0123456789abcdef0123456789abcdef",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.derived-fixture-token-1"
+}

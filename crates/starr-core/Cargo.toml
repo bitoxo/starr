@@ -1,0 +1,21 @@
+[package]
+name = "starr-core"
+description = "Starr domain types and module contracts (adapters, jobs). No IO."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+chrono = { version = "0.4.45", default-features = false, features = ["std"] }
+secrecy = "0.10"
+serde = { version = "1.0.229", features = ["derive"] }
+thiserror = "2.0.21"
+uuid = "1.29.0"
+
+[dev-dependencies]
+serde_json = "1.0.154"

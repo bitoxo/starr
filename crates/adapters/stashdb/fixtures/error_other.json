@@ -1,0 +1,11 @@
+{
+  "data": null,
+  "errors": [
+    {
+      "message": "Scene A failed"
+    }
+  ],
+  "extensions": {
+    "fixture": "Derived by hand from the stash-box GraphQL schema (graphql/schema/*.graphql), not recorded from any server. Placeholder data only."
+  }
+}

@@ -1,0 +1,7 @@
+[
+  {"iso_639_1": "en", "english_name": "English", "name": "English"},
+  {"iso_639_1": "de", "english_name": "German", "name": "Deutsch"},
+  {"iso_639_1": "ko", "english_name": "Korean", "name": "한국어/조선말"},
+  {"iso_639_1": "xx", "english_name": "No Language", "name": "No Language"},
+  {"iso_639_1": "cn", "english_name": "Cantonese", "name": "广州话 / 廣州話"}
+]

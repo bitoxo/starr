@@ -1,0 +1,81 @@
+[
+  {
+    "Name": "Episode 1",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "101",
+    "IndexNumber": 1,
+    "ParentIndexNumber": 1,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "51",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 2",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "102",
+    "IndexNumber": 2,
+    "ParentIndexNumber": 1,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "51",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 1",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "103",
+    "IndexNumber": 1,
+    "ParentIndexNumber": 2,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "51",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 2",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "104",
+    "IndexNumber": 2,
+    "ParentIndexNumber": 2,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "51",
+    "LocationType": "Virtual",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 1",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "105",
+    "IndexNumber": 1,
+    "IndexNumberEnd": 2,
+    "ParentIndexNumber": 1,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "61",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 3",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "106",
+    "IndexNumber": 3,
+    "ParentIndexNumber": 1,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "61",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  }
+]

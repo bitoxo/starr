@@ -1,0 +1,93 @@
+{
+  "id": "b1392450-e666-3926-a536-22c65f834433",
+  "title": "OK Computer",
+  "first-release-date": "1997-05-21",
+  "artist-credit": [
+    {
+      "name": "Radiohead",
+      "joinphrase": " & ",
+      "artist": {
+        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+        "name": "Radiohead",
+        "sort-name": "Radiohead",
+        "disambiguation": ""
+      }
+    },
+    {
+      "name": "Friends",
+      "joinphrase": "",
+      "artist": {
+        "id": "0c751690-c784-4a4f-b1e4-c1de27d47581",
+        "name": "The Friends",
+        "sort-name": "Friends, The",
+        "disambiguation": ""
+      }
+    }
+  ],
+  "disambiguation": null,
+  "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+  "primary-type": "Album",
+  "secondary-type-ids": [],
+  "secondary-types": [],
+  "releases": [
+    {
+      "id": "6f3c1b4e-9a2d-4c1f-8e7b-1a2b3c4d5e6f",
+      "title": "OK Computer",
+      "status": "Bootleg",
+      "date": "1997-01",
+      "country": "XE"
+    },
+    {
+      "id": "0b6b4ba0-d36f-47bd-b4ea-6a5b91842d29",
+      "title": "OK Computer",
+      "status": "Official",
+      "date": "1997-05-21",
+      "country": "GB"
+    },
+    {
+      "id": "e3c5b1a2-7d4f-4b8e-9c1a-0f2e3d4c5b6a",
+      "title": "OK Computer",
+      "status": "Official",
+      "date": "2009-03-24",
+      "country": "US"
+    }
+  ],
+  "genres": [
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000001",
+      "name": "rock",
+      "count": 9,
+      "disambiguation": ""
+    },
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000002",
+      "name": "alternative rock",
+      "count": 21,
+      "disambiguation": ""
+    },
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000003",
+      "name": "art rock",
+      "count": 21,
+      "disambiguation": ""
+    },
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000004",
+      "name": "electronic",
+      "count": 2,
+      "disambiguation": ""
+    },
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000005",
+      "name": "experimental",
+      "count": 1,
+      "disambiguation": ""
+    },
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000006",
+      "name": "britpop",
+      "count": 1,
+      "disambiguation": ""
+    }
+  ]
+}

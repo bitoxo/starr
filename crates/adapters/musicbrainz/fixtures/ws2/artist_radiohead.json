@@ -1,0 +1,49 @@
+{
+  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+  "name": "Radiohead",
+  "sort-name": "Radiohead",
+  "disambiguation": "",
+  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+  "type": "Group",
+  "life-span": {
+    "end": null,
+    "ended": false,
+    "begin": "1991"
+  },
+  "country": "GB",
+  "area": {
+    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+    "name": "United Kingdom",
+    "sort-name": "United Kingdom",
+    "disambiguation": "",
+    "iso-3166-1-codes": [
+      "GB"
+    ]
+  },
+  "begin-area": null,
+  "end-area": null,
+  "ipis": [],
+  "isnis": [
+    "0000000115475162"
+  ],
+  "genres": [
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000002",
+      "name": "alternative rock",
+      "count": 30,
+      "disambiguation": ""
+    },
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000003",
+      "name": "art rock",
+      "count": 25,
+      "disambiguation": ""
+    },
+    {
+      "id": "f8f2e6a0-0000-4000-8000-000000000004",
+      "name": "electronic",
+      "count": 10,
+      "disambiguation": ""
+    }
+  ]
+}

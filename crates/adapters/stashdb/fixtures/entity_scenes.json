@@ -1,0 +1,99 @@
+{
+  "data": {
+    "queryScenes": {
+      "count": 3,
+      "scenes": [
+        {
+          "id": "5ce0e000-0000-4000-8000-00000000000a",
+          "title": "Scene A",
+          "release_date": "2026-10-30",
+          "duration": 1800,
+          "studio": {
+            "id": "57d10000-0000-4000-8000-0000000000aa",
+            "name": "Studio S"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0000-0000-4000-8000-0000000000aa",
+                "name": "Performer P"
+              },
+              "as": null
+            },
+            {
+              "performer": {
+                "id": "9e7f0000-0000-4000-8000-0000000000bb",
+                "name": "Performer Q"
+              },
+              "as": null
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e0000-0000-4000-8000-000000000001",
+              "url": "https://images.example.invalid/1a6e0000-0000-4000-8000-000000000001",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "id": "1a6e0000-0000-4000-8000-000000000002",
+              "url": "https://images.example.invalid/1a6e0000-0000-4000-8000-000000000002",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "id": "5ce0e000-0000-4000-8000-00000000000b",
+          "title": "Scene B",
+          "release_date": "2026-09",
+          "duration": 1800,
+          "studio": {
+            "id": "57d10000-0000-4000-8000-0000000000aa",
+            "name": "Studio S"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0000-0000-4000-8000-0000000000aa",
+                "name": "Performer P"
+              },
+              "as": null
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e0000-0000-4000-8000-000000000003",
+              "url": "https://images.example.invalid/1a6e0000-0000-4000-8000-000000000003",
+              "width": 1280,
+              "height": 720
+            }
+          ]
+        },
+        {
+          "id": "5ce0e000-0000-4000-8000-00000000000c",
+          "title": "Scene C",
+          "release_date": null,
+          "duration": null,
+          "studio": {
+            "id": "57d10000-0000-4000-8000-0000000000aa",
+            "name": "Studio S"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0000-0000-4000-8000-0000000000aa",
+                "name": "Performer P"
+              },
+              "as": null
+            }
+          ],
+          "images": []
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "fixture": "Derived by hand from the stash-box GraphQL schema (graphql/schema/*.graphql), not recorded from any server. Placeholder data only."
+  }
+}

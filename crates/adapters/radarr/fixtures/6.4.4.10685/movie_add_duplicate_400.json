@@ -1,0 +1,11 @@
+[
+  {
+    "propertyName": "TmdbId",
+    "errorMessage": "This movie has already been added",
+    "attemptedValue": 603,
+    "severity": "error",
+    "errorCode": "MovieExistsValidator",
+    "formattedMessageArguments": [],
+    "formattedMessagePlaceholderValues": { "PropertyName": "Tmdb Id", "PropertyValue": 603 }
+  }
+]

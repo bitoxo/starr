@@ -1,0 +1,61 @@
+[
+  {
+    "foreignId": "5ce0b000-0000-4000-8000-00000000000b",
+    "movie": {
+      "title": "Scene B",
+      "code": "",
+      "originalLanguage": {
+        "id": 1,
+        "name": "English"
+      },
+      "sortTitle": "scene b",
+      "alternateTitles": [],
+      "sizeOnDisk": 0,
+      "status": "released",
+      "overview": "",
+      "releaseDate": "2026-10-01T00:00:00Z",
+      "images": [],
+      "website": "",
+      "year": 2026,
+      "studioTitle": "Studio S",
+      "studioForeignId": "57d10000-0000-4000-8000-0000000000bb",
+      "qualityProfileId": 0,
+      "hasFile": false,
+      "movieFileId": 0,
+      "monitored": true,
+      "isAvailable": true,
+      "runtime": 30,
+      "cleanTitle": "sceneb",
+      "imdbId": "",
+      "tmdbId": 0,
+      "tpdbId": "",
+      "foreignId": "5ce0b000-0000-4000-8000-00000000000b",
+      "stashId": "5ce0b000-0000-4000-8000-00000000000b",
+      "titleSlug": "5ce0b000-0000-4000-8000-00000000000b",
+      "genres": [],
+      "tags": [],
+      "ratings": {},
+      "credits": [
+        {
+          "job": "",
+          "movieMetadataId": 0,
+          "performerForeignId": "9e7f0000-0000-4000-8000-0000000000aa",
+          "character": "",
+          "order": 0,
+          "type": "cast",
+          "performer": {
+            "name": "Performer P",
+            "foreignId": "9e7f0000-0000-4000-8000-0000000000aa",
+            "gender": "female",
+            "images": []
+          },
+          "id": 0
+        }
+      ],
+      "itemType": "scene",
+      "remotePoster": "",
+      "folder": "Scene B"
+    },
+    "id": 1
+  }
+]

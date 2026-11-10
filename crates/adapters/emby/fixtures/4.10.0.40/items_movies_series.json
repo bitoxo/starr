@@ -1,0 +1,58 @@
+[
+  {
+    "Name": "The Matrix",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "40",
+    "ProductionYear": 1999,
+    "ProviderIds": {
+      "Tmdb": "603",
+      "Imdb": "tt0133093"
+    },
+    "IsFolder": false,
+    "Type": "Movie",
+    "LocationType": "FileSystem",
+    "MediaType": "Video",
+    "RunTimeTicks": 81720000000,
+    "Container": "mkv"
+  },
+  {
+    "Name": "Breaking Bad",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "51",
+    "ProductionYear": 2008,
+    "ProviderIds": {
+      "Tvdb": "81189",
+      "Tmdb": "1396",
+      "IMDB": "tt0903747"
+    },
+    "IsFolder": true,
+    "Type": "Series",
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown",
+    "Status": "Ended"
+  },
+  {
+    "Name": "Unmatched Film",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "60",
+    "ProductionYear": 2020,
+    "IsFolder": false,
+    "Type": "Movie",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Severance",
+    "ServerId": "8c1f0e2d3b4a59687f6e5d4c3b2a1908",
+    "Id": "61",
+    "ProductionYear": 2022,
+    "ProviderIds": {
+      "Tvdb": "371980",
+      "Tmdb": "95396"
+    },
+    "IsFolder": true,
+    "Type": "Series",
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown"
+  }
+]

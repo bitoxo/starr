@@ -1,0 +1,13 @@
+# Example deployment, same pattern as Sonarr/Radarr/Jellyfin.
+services:
+  starr:
+    image: ghcr.io/bitoxo/starr:latest
+    container_name: starr
+    user: "1000:1000"          # match the owner of ./config on the host
+    environment:
+      - STARR_PUBLIC_URL=http://192.168.1.10:7979   # the address people open
+    volumes:
+      - ./config:/config
+    ports:
+      - "7979:7979"
+    restart: unless-stopped

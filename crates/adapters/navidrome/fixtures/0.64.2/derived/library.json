@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Music Library",
+    "path": "/music",
+    "remotePath": "",
+    "lastScanAt": "2026-11-02T21:14:03.118Z",
+    "lastScanStartedAt": "2026-11-02T21:12:40.522Z",
+    "fullScanInProgress": false,
+    "updatedAt": "2026-11-02T21:14:03.118Z",
+    "createdAt": "2026-09-30T08:01:12.004Z",
+    "totalSongs": 41,
+    "totalAlbums": 4,
+    "totalArtists": 3,
+    "totalFolders": 7,
+    "totalFiles": 45,
+    "totalMissingFiles": 12,
+    "totalSize": 1288490188,
+    "totalDuration": 9981.4,
+    "defaultNewUsers": true
+  },
+  {
+    "id": 2,
+    "name": "Audiobooks",
+    "path": "/audiobooks",
+    "remotePath": "",
+    "lastScanAt": "2026-11-02T21:15:00.000Z",
+    "lastScanStartedAt": "2026-11-02T21:14:58.000Z",
+    "fullScanInProgress": false,
+    "updatedAt": "2026-11-02T21:15:00.000Z",
+    "createdAt": "2026-10-05T10:00:00.000Z",
+    "totalSongs": 0,
+    "totalAlbums": 0,
+    "totalArtists": 0,
+    "totalFolders": 1,
+    "totalFiles": 0,
+    "totalMissingFiles": 0,
+    "totalSize": 0,
+    "totalDuration": 0,
+    "defaultNewUsers": false
+  }
+]

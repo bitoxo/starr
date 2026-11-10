@@ -1,0 +1,9 @@
+[
+  {
+    "propertyName": "ForeignId",
+    "errorMessage": "This item has already been added",
+    "attemptedValue": "5ce0b000-0000-4000-8000-00000000000b",
+    "severity": "error",
+    "errorCode": "MovieExistsValidator"
+  }
+]

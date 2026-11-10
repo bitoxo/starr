@@ -1,0 +1,114 @@
+{
+  "movie_by_stashid_unmonitored": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "movie_by_stashid_with_file": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "movie_by_stashid_monitored_no_file": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "movie_by_stashid_unknown": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "system_status": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "qualityprofile": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "rootfolder": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "lookup_scene_known": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "lookup_scene_unknown": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "queue_details_unmonitored": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "queue_details_with_file": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "queue_details_monitored_no_file": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "queue_details_all": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "movie_all": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "performer_all": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  },
+  "studio_all": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "X-Application-Version": "3.6.5.1886"
+    }
+  }
+}

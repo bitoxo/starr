@@ -1,0 +1,255 @@
+{
+  "adult": false,
+  "backdrop_path": "/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
+  "created_by": [
+    {
+      "id": 9813,
+      "credit_id": "5256c8c219c2956ff604858a",
+      "name": "David Benioff",
+      "original_name": "David Benioff",
+      "gender": 2,
+      "profile_path": "/bOlW20bTYFxGUv9N9RIKGIhv9HL.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2011-04-17",
+  "genres": [
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    }
+  ],
+  "homepage": "https://www.hbo.com/game-of-thrones",
+  "id": 1399,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-05-19",
+  "name": "Game of Thrones",
+  "number_of_episodes": 73,
+  "number_of_seasons": 8,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Game of Thrones",
+  "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war.",
+  "popularity": 369.594,
+  "poster_path": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+  "seasons": [
+    {
+      "air_date": "2011-04-17",
+      "episode_count": 10,
+      "id": 3624,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/wgfKiqzuMrFIkU1M68DDDY8kGC1.jpg",
+      "season_number": 1,
+      "vote_average": 8.3
+    },
+    {
+      "air_date": "2010-12-05",
+      "episode_count": 296,
+      "id": 3627,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/aos6lC1MItUfQqmVDzgC7jxuQRi.jpg",
+      "season_number": 0,
+      "vote_average": 0.0
+    },
+    {
+      "air_date": null,
+      "episode_count": 0,
+      "id": 999999,
+      "name": "Season 9",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 9,
+      "vote_average": 0.0
+    },
+    {
+      "air_date": "2012-04-01",
+      "episode_count": 10,
+      "id": 3625,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/9xfNkPwDOqyeUvfNhs1XlWA0esP.jpg",
+      "season_number": 2,
+      "vote_average": 8.2
+    }
+  ],
+  "status": "Ended",
+  "type": "Scripted",
+  "vote_average": 8.456,
+  "vote_count": 25000,
+  "external_ids": {
+    "imdb_id": "tt0944947",
+    "freebase_mid": "/m/0524b41",
+    "freebase_id": "/en/game_of_thrones",
+    "tvdb_id": 121361,
+    "tvrage_id": 24493,
+    "wikidata_id": "Q23572",
+    "facebook_id": "GameOfThrones",
+    "instagram_id": "gameofthrones",
+    "twitter_id": "GameOfThrones"
+  },
+  "videos": {
+    "results": [
+      {
+        "iso_639_1": "en",
+        "iso_3166_1": "US",
+        "name": "Season 8 Trailer",
+        "key": "rlR4PJn8b8I",
+        "site": "YouTube",
+        "size": 1080,
+        "type": "Trailer",
+        "official": true,
+        "published_at": "2019-03-05T00:00:00.000Z",
+        "id": "t1"
+      }
+    ]
+  },
+  "content_ratings": {
+    "results": [
+      {
+        "descriptors": [],
+        "iso_3166_1": "US",
+        "rating": "TV-MA"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "DE",
+        "rating": ""
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "DE",
+        "rating": "16"
+      },
+      {
+        "descriptors": [],
+        "iso_3166_1": "DE",
+        "rating": "18"
+      }
+    ]
+  },
+  "watch/providers": {
+    "results": {
+      "CH": {
+        "link": "https://www.themoviedb.org/tv/1399-game-of-thrones/watch?locale=CH",
+        "flatrate": [
+          {
+            "logo_path": "/x.jpg",
+            "provider_id": 1899,
+            "provider_name": "Max",
+            "display_priority": 5
+          }
+        ],
+        "ads": [
+          {
+            "logo_path": "/y.jpg",
+            "provider_id": 300,
+            "provider_name": "Pluto TV",
+            "display_priority": 50
+          }
+        ]
+      }
+    }
+  },
+  "networks": [
+    {
+      "id": 49,
+      "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+      "name": "HBO",
+      "origin_country": "US"
+    }
+  ],
+  "production_companies": [
+    {
+      "id": 76043,
+      "logo_path": null,
+      "name": "Revolution Sun Studios",
+      "origin_country": "US"
+    }
+  ],
+  "next_episode_to_air": null,
+  "aggregate_credits": {
+    "cast": [
+      {
+        "id": 22970,
+        "name": "Peter Dinklage",
+        "profile_path": "/9CAd7wr8QZyIN0E7nm8v1B6WkGn.jpg",
+        "roles": [
+          {
+            "credit_id": "x",
+            "character": "Tyrion Lannister",
+            "episode_count": 67
+          }
+        ],
+        "total_episode_count": 67,
+        "order": 0
+      },
+      {
+        "id": 1223786,
+        "name": "Emilia Clarke",
+        "profile_path": "/86jeYFV40KctQMDQIWhJ5oviNGj.jpg",
+        "roles": [
+          {
+            "credit_id": "y",
+            "character": "Daenerys Targaryen",
+            "episode_count": 62
+          }
+        ],
+        "total_episode_count": 62,
+        "order": 1
+      }
+    ],
+    "crew": [
+      {
+        "id": 9813,
+        "name": "David Benioff",
+        "department": "Writing",
+        "jobs": [
+          {
+            "credit_id": "z",
+            "job": "Writer",
+            "episode_count": 51
+          }
+        ]
+      },
+      {
+        "id": 228068,
+        "name": "D. B. Weiss",
+        "department": "Writing",
+        "jobs": [
+          {
+            "credit_id": "w",
+            "job": "Writer",
+            "episode_count": 51
+          }
+        ]
+      },
+      {
+        "id": 9813,
+        "name": "David Benioff",
+        "department": "Production",
+        "jobs": [
+          {
+            "credit_id": "v",
+            "job": "Executive Producer",
+            "episode_count": 73
+          }
+        ]
+      }
+    ]
+  }
+}

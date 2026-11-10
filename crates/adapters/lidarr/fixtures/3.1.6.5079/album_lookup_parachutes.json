@@ -1,0 +1,1472 @@
+[
+  {
+    "title": "Parachutes",
+    "disambiguation": "",
+    "overview": "",
+    "artistId": 0,
+    "foreignAlbumId": "1dc4c347-a1db-32aa-b14f-bc9cc507b843",
+    "monitored": false,
+    "anyReleaseOk": true,
+    "profileId": 0,
+    "duration": 4505995,
+    "albumType": "Album",
+    "secondaryTypes": [],
+    "ratings": {
+      "votes": 41,
+      "value": 8.0
+    },
+    "releaseDate": "2000-07-10T00:00:00Z",
+    "releases": [
+      {
+        "id": 206,
+        "albumId": 10,
+        "foreignReleaseId": "b09f0325-db23-3b6c-ba89-2a4b7ac8665f",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 3135329,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Japan"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 207,
+        "albumId": 10,
+        "foreignReleaseId": "c120169a-3b0f-4951-85aa-94ba64678bcb",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2494000,
+        "trackCount": 11,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "20th anniversary reissue, translucent yellow",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 208,
+        "albumId": 10,
+        "foreignReleaseId": "a0b658a8-cf14-3c8b-9e32-d9880085b88d",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Canada"
+        ],
+        "label": [
+          "EMI Music Canada"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 209,
+        "albumId": 10,
+        "foreignReleaseId": "f0e565bf-347d-4a25-a5c5-ea6ef6c8064b",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2759997,
+        "trackCount": 11,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 210,
+        "albumId": 10,
+        "foreignReleaseId": "a1e80de5-52e6-49ea-ada7-8174fe7149ff",
+        "title": "Parachutes",
+        "status": "Bootleg",
+        "duration": 4505995,
+        "trackCount": 17,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "Unknown",
+            "mediumFormat": "Unknown"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [],
+        "format": "Unknown",
+        "monitored": true
+      },
+      {
+        "id": 211,
+        "albumId": 10,
+        "foreignReleaseId": "27f55c43-679d-4f19-86cf-d4f66d2c8ee6",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Canada"
+        ],
+        "label": [
+          "EMI Music Canada",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 212,
+        "albumId": 10,
+        "foreignReleaseId": "19e8d887-b101-4161-a8b7-477642b4b13f",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 3296664,
+        "trackCount": 13,
+        "mediumCount": 2,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          },
+          {
+            "mediumNumber": 2,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "France"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "2xCD",
+        "monitored": false
+      },
+      {
+        "id": 213,
+        "albumId": 10,
+        "foreignReleaseId": "578ad2a3-e307-43ed-b342-fa40335b1dee",
+        "title": "Parachutes",
+        "status": "Promotion",
+        "duration": 782000,
+        "trackCount": 3,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "France"
+        ],
+        "label": [
+          "EMI Music France"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 214,
+        "albumId": 10,
+        "foreignReleaseId": "bbeaf2e6-256b-4479-a57f-df61e464891b",
+        "title": "Parachutes",
+        "status": "Promotion",
+        "duration": 2397000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "France"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 215,
+        "albumId": 10,
+        "foreignReleaseId": "b901ec51-fddb-4a13-9d40-28bfccbfb298",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Australia"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 216,
+        "albumId": 10,
+        "foreignReleaseId": "97374eb4-ecc2-48f3-b71e-01fb8c8683f9",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2509491,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Capitol Records",
+          "Nettwerk America"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 217,
+        "albumId": 10,
+        "foreignReleaseId": "8a23e270-7e21-4c10-a949-290a879830d7",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Australia"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 218,
+        "albumId": 10,
+        "foreignReleaseId": "7b469cee-a5d5-4902-83f3-41407137510a",
+        "title": "Parachutes",
+        "status": "Promotion",
+        "duration": 2519000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United Kingdom"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 219,
+        "albumId": 10,
+        "foreignReleaseId": "8e2a9a3f-1738-3829-9eac-7b490d194870",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Capitol Records",
+          "Nettwerk America"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 220,
+        "albumId": 10,
+        "foreignReleaseId": "16a32e03-6d97-43a4-a19e-80e79567854a",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2492345,
+        "trackCount": 11,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 221,
+        "albumId": 10,
+        "foreignReleaseId": "4526c98e-0452-4044-9c39-9e7f395f902b",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2395345,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Cassette"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Ukraine"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Cassette",
+        "monitored": false
+      },
+      {
+        "id": 222,
+        "albumId": 10,
+        "foreignReleaseId": "8fb50f96-279e-4d44-92aa-d49ea56f5c08",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 3135329,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Japan"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 223,
+        "albumId": 10,
+        "foreignReleaseId": "c1b0fac7-e1db-485a-8367-5472b561f02b",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2504000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "24 bit/192kHz",
+        "country": [],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 224,
+        "albumId": 10,
+        "foreignReleaseId": "12bcef19-a186-4f3a-b8e5-0b7676f04c4c",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2504000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "24 bit/192kHz",
+        "country": [
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "Colombia",
+          "Denmark",
+          "Finland",
+          "France",
+          "Germany",
+          "Ireland",
+          "Italy",
+          "Japan",
+          "Luxembourg",
+          "Mexico",
+          "Netherlands",
+          "New Zealand",
+          "Norway",
+          "Portugal",
+          "Spain",
+          "Sweden",
+          "Switzerland",
+          "United Kingdom"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 225,
+        "albumId": 10,
+        "foreignReleaseId": "c1c48ede-5a55-419e-b193-886e96563da5",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2504000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 226,
+        "albumId": 10,
+        "foreignReleaseId": "2bb2f751-6d15-4b7c-b450-9c719bbb985f",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2509491,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Nettwerk America",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 227,
+        "albumId": 10,
+        "foreignReleaseId": "435fc965-9121-461e-b8da-d9b505c9dc9b",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508223,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "France",
+          "Germany",
+          "United Kingdom"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 228,
+        "albumId": 10,
+        "foreignReleaseId": "03271bb1-a396-4038-a068-b7d5945c2c37",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508223,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "EMI UDEN",
+        "country": [
+          "United Kingdom",
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 229,
+        "albumId": 10,
+        "foreignReleaseId": "400a3878-4f2d-4904-b4d6-29c0d9c1a552",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508223,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "Manufactured by EMI UK",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 230,
+        "albumId": 10,
+        "foreignReleaseId": "397e7850-013d-4626-a5b0-de1ead8c50c2",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2492345,
+        "trackCount": 11,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Capitol Records"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 231,
+        "albumId": 10,
+        "foreignReleaseId": "936b68be-e78e-4003-885e-75f4c01cd2da",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "South Africa"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 232,
+        "albumId": 10,
+        "foreignReleaseId": "f40b4ec5-398e-49b3-83db-7f6b7b371446",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2502345,
+        "trackCount": 11,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "reissue",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 233,
+        "albumId": 10,
+        "foreignReleaseId": "cabaf81f-cd0c-4050-916e-dcc8dc0c3650",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2506345,
+        "trackCount": 11,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "reissue, 180g",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 234,
+        "albumId": 10,
+        "foreignReleaseId": "5c85ce1d-f0b4-4973-9d18-6235b68e1eb7",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508223,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 235,
+        "albumId": 10,
+        "foreignReleaseId": "c8bedc3e-58f6-4102-a1bd-e6cda6274757",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "South Africa"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 236,
+        "albumId": 10,
+        "foreignReleaseId": "df581c93-3a8c-4d52-a69b-502fe5bb2ea1",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 4031000,
+        "trackCount": 15,
+        "mediumCount": 2,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          },
+          {
+            "mediumNumber": 2,
+            "mediumName": "Trouble: Norwegian Live EP",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "o-card",
+        "country": [
+          "Norway"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "2xCD",
+        "monitored": false
+      },
+      {
+        "id": 237,
+        "albumId": 10,
+        "foreignReleaseId": "801dd7d6-d1e3-4a73-bc8e-e5cabcb7c2d4",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2507000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "optimal media GmbH",
+        "country": [
+          "United Kingdom",
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 238,
+        "albumId": 10,
+        "foreignReleaseId": "019728a1-aa9a-47ec-b4eb-8615eb116424",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508491,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "Atlantic reissue",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Atlantic",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 239,
+        "albumId": 10,
+        "foreignReleaseId": "0ec052ee-8c50-48f3-8682-501778dfc823",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2506931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "glass mastered at EMI MFG., BMG club edition",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "BMG Direct Marketing, Inc.",
+          "Capitol Records"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 240,
+        "albumId": 10,
+        "foreignReleaseId": "e2f53c76-7ae3-4605-b92d-eb3e15a686c3",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 0,
+        "trackCount": 14,
+        "mediumCount": 2,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          },
+          {
+            "mediumNumber": 2,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Australia"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "2xCD",
+        "monitored": false
+      },
+      {
+        "id": 241,
+        "albumId": 10,
+        "foreignReleaseId": "4d8db6a8-8a7e-4357-a1a1-48a80d5503bc",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2508223,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "repress; EMI UDEN; brown CD",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 242,
+        "albumId": 10,
+        "foreignReleaseId": "0bc2f28d-d6b2-4242-a06a-9ee4fe5e4c49",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2506491,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "Columbia House",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Capitol Records"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 243,
+        "albumId": 10,
+        "foreignReleaseId": "21e015f7-920e-467d-ba16-dd345f29babb",
+        "title": "Parachutes",
+        "status": "Official",
+        "duration": 2521931,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Mexico"
+        ],
+        "label": [
+          "EMI Music Mexico, S.A. de C.V."
+        ],
+        "format": "CD",
+        "monitored": false
+      }
+    ],
+    "genres": [
+      "Alternative Rock",
+      "Rock",
+      "Pop Rock",
+      "Post-Britpop",
+      "Dream Pop",
+      "Piano Rock",
+      "Jazz",
+      "Indie Rock",
+      "Ambient"
+    ],
+    "mediumCount": 1,
+    "media": [
+      {
+        "mediumNumber": 1,
+        "mediumName": "Unknown",
+        "mediumFormat": "Unknown"
+      }
+    ],
+    "artist": {
+      "status": "continuing",
+      "ended": false,
+      "artistName": "Coldplay",
+      "foreignArtistId": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+      "tadbId": 0,
+      "discogsId": 0,
+      "artistType": "Group",
+      "disambiguation": "",
+      "links": [
+        {
+          "url": "http://www.coldplay.com/",
+          "name": "coldplay"
+        },
+        {
+          "url": "https://musicmoz.org/Bands_and_Artists/C/Coldplay/",
+          "name": "musicmoz"
+        },
+        {
+          "url": "http://www.pleasureunit.com/coldplay/index.php",
+          "name": "pleasureunit"
+        },
+        {
+          "url": "https://www.discogs.com/artist/29735",
+          "name": "discogs"
+        },
+        {
+          "url": "https://myspace.com/coldplay",
+          "name": "myspace"
+        },
+        {
+          "url": "https://www.imdb.com/name/nm1095892/",
+          "name": "imdb"
+        },
+        {
+          "url": "https://twitter.com/coldplay",
+          "name": "twitter"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCfJOsk44wjzby9H64jDd4Nw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.bbc.co.uk/music/artists/cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+          "name": "bbc"
+        },
+        {
+          "url": "https://www.facebook.com/coldplay",
+          "name": "facebook"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.allmusic.com/artist/mn0000775877",
+          "name": "allmusic"
+        },
+        {
+          "url": "https://plus.google.com/+Coldplay",
+          "name": "google"
+        },
+        {
+          "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+          "name": "spotify"
+        },
+        {
+          "url": "http://coldplay.tumblr.com/",
+          "name": "tumblr"
+        },
+        {
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "last"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q45188",
+          "name": "wikidata"
+        },
+        {
+          "url": "https://secondhandsongs.com/artist/10590",
+          "name": "secondhandsongs"
+        },
+        {
+          "url": "http://viaf.org/viaf/157712849",
+          "name": "viaf"
+        },
+        {
+          "url": "https://rateyourmusic.com/artist/coldplay",
+          "name": "rateyourmusic"
+        },
+        {
+          "url": "http://www.purevolume.com/coldplay",
+          "name": "purevolume"
+        },
+        {
+          "url": "https://www.musik-sammler.de/artist/3209/",
+          "name": "musik-sammler"
+        },
+        {
+          "url": "http://muzikum.eu/en/122-3547/coldplay/lyrics.html",
+          "name": "muzikum"
+        },
+        {
+          "url": "https://genius.com/artists/Coldplay",
+          "name": "genius"
+        },
+        {
+          "url": "https://imvdb.com/n/coldplay",
+          "name": "imvdb"
+        },
+        {
+          "url": "https://www.bandsintown.com/a/99",
+          "name": "bandsintown"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL2741867A/",
+          "name": "openlibrary"
+        },
+        {
+          "url": "https://www.whosampled.com/Coldplay/",
+          "name": "whosampled"
+        },
+        {
+          "url": "https://www.worldcat.org/identities/lccn-no99089189/",
+          "name": "worldcat"
+        },
+        {
+          "url": "https://play.google.com/store/music/artist?id=Aroavh4k5ypej6qdhyoo52q7bpm",
+          "name": "google"
+        },
+        {
+          "url": "https://www.setlist.fm/setlists/coldplay-3d6bde3.html",
+          "name": "setlist"
+        },
+        {
+          "url": "https://www.instagram.com/coldplay/",
+          "name": "instagram"
+        },
+        {
+          "url": "https://soundcloud.com/coldplay",
+          "name": "soundcloud"
+        },
+        {
+          "url": "https://d-nb.info/gnd/6501726-2",
+          "name": "d-nb"
+        },
+        {
+          "url": "http://id.loc.gov/authorities/names/no99089189",
+          "name": "loc"
+        },
+        {
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb140349761",
+          "name": "bnf"
+        },
+        {
+          "url": "https://www.deezer.com/artist/892",
+          "name": "deezer"
+        },
+        {
+          "url": "https://www.songkick.com/artists/197928",
+          "name": "songkick"
+        },
+        {
+          "url": "http://coldplay.livejournal.com/",
+          "name": "livejournal"
+        },
+        {
+          "url": "https://vk.ru/coldplay",
+          "name": "vk"
+        },
+        {
+          "url": "https://tidal.com/artist/8812",
+          "name": "tidal"
+        },
+        {
+          "url": "https://us.napster.com/artist/coldplay",
+          "name": "napster"
+        },
+        {
+          "url": "https://uk.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://us.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://www.junodownload.com/artists/Coldplay/releases/",
+          "name": "junodownload"
+        },
+        {
+          "url": "https://www.beatport.com/artist/coldplay/162668",
+          "name": "beatport"
+        },
+        {
+          "url": "https://www.livefans.jp/artists/2236",
+          "name": "livefans"
+        },
+        {
+          "url": "https://www.musixmatch.com/artist/Coldplay",
+          "name": "musixmatch"
+        },
+        {
+          "url": "https://wmg.jp/coldplay/discography/",
+          "name": "wmg"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://mora.jp/artist/254708/",
+          "name": "mora"
+        },
+        {
+          "url": "https://www.hdtracks.com/#/artist/Coldplay",
+          "name": "hdtracks"
+        },
+        {
+          "url": "https://www.tiktok.com/@coldplay",
+          "name": "tiktok"
+        },
+        {
+          "url": "https://www.livenation.co.uk/artist-8720",
+          "name": "livenation"
+        },
+        {
+          "url": "https://www.muziekweb.nl/Link/M00000124920/POPULAR/",
+          "name": "muziekweb"
+        },
+        {
+          "url": "https://music.youtube.com/channel/UCIaFw5VBEK8qaW6nRpx_qnw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.ticketmaster.com/artist/806431",
+          "name": "ticketmaster"
+        },
+        {
+          "url": "https://music.amazon.co.uk/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://www.spirit-of-rock.com/en/band/Coldplay",
+          "name": "spirit-of-rock"
+        },
+        {
+          "url": "https://www.threads.com/@coldplay",
+          "name": "threads"
+        },
+        {
+          "url": "https://www.idref.fr/086228749",
+          "name": "idref"
+        },
+        {
+          "url": "https://jaxsta.com/profile/4e482690-dc02-4c85-9fbf-28907c20b928",
+          "name": "jaxsta"
+        },
+        {
+          "url": "https://www.weibo.com/7502254158",
+          "name": "weibo"
+        },
+        {
+          "url": "https://music.amazon.com/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://music.yandex.com/artist/671",
+          "name": "yandex"
+        },
+        {
+          "url": "https://mora.jp/artist/1473572/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/503134/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1468413/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1992749/",
+          "name": "mora"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://audiomack.com/coldplay",
+          "name": "audiomack"
+        },
+        {
+          "url": "https://www.deezer.com/artist/316813311",
+          "name": "deezer"
+        }
+      ],
+      "nextAlbum": null,
+      "lastAlbum": null,
+      "images": [],
+      "path": "/music/Coldplay",
+      "qualityProfileId": 4,
+      "metadataProfileId": 1,
+      "monitored": false,
+      "monitorNewItems": "none",
+      "genres": [
+        "Alternative Rock",
+        "Pop",
+        "Pop Rock",
+        "Rock",
+        "Post-Britpop",
+        "Britpop",
+        "Piano Rock",
+        "Indie Rock",
+        "Dream Pop",
+        "Art Pop"
+      ],
+      "cleanName": "coldplay",
+      "sortName": "coldplay",
+      "tags": [],
+      "added": "2026-11-03T17:50:01Z",
+      "ratings": {
+        "votes": 50,
+        "value": 8.2
+      },
+      "id": 1
+    },
+    "images": [
+      {
+        "coverType": "cover",
+        "url": "/MediaCover/Albums/10/cover.jpg?lastWrite=639293250023851265",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/03271bb1-a396-4038-a068-b7d5945c2c37/32061600279-1200.jpg",
+        "extension": ".jpg"
+      },
+      {
+        "coverType": "disc",
+        "url": "/MediaCover/Albums/10/disc.jpg",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/03271bb1-a396-4038-a068-b7d5945c2c37/32061602374-1200.jpg",
+        "extension": ".jpg"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.discogs.com/master/3334",
+        "name": "discogs"
+      },
+      {
+        "url": "https://www.allmusic.com/album/mw0000101998",
+        "name": "allmusic"
+      },
+      {
+        "url": "https://rateyourmusic.com/release/album/coldplay/parachutes/",
+        "name": "rateyourmusic"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q131977",
+        "name": "wikidata"
+      },
+      {
+        "url": "http://musicmoz.org/Bands_and_Artists/C/Coldplay/Discography/Parachutes/",
+        "name": "musicmoz"
+      },
+      {
+        "url": "https://genius.com/albums/Coldplay/Parachutes",
+        "name": "genius"
+      },
+      {
+        "url": "https://www.offiziellecharts.de/charts/album-details-3405",
+        "name": "offiziellecharts"
+      },
+      {
+        "url": "https://www.last.fm/music/Coldplay/Parachutes",
+        "name": "last"
+      }
+    ],
+    "remoteCover": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/03271bb1-a396-4038-a068-b7d5945c2c37/32061600279-1200.jpg"
+  }
+]

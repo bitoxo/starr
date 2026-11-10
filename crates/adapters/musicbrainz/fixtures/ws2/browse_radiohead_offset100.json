@@ -1,0 +1,25 @@
+{
+  "release-group-count": 103,
+  "release-group-offset": 100,
+  "release-groups": [
+    {
+      "id": "c4d5e6f7-0a1b-4c2d-8e3f-4a5b6c7d8e9f",
+      "title": "A Moon Shaped Pool",
+      "first-release-date": "2016-05-08",
+      "primary-type": "Album",
+      "secondary-types": []
+    },
+    {
+      "id": "d1e2f3a4-b5c6-4d7e-8f9a-0b1c2d3e4f5a",
+      "title": "Daydreaming",
+      "first-release-date": "2016-05-06",
+      "primary-type": "Single",
+      "secondary-types": []
+    },
+    {
+      "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+      "title": "Undated EP",
+      "primary-type": "EP"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "releases": [
+      {
+        "artist_credit_name": "Röyksopp",
+        "artist_mbids": [
+          "1c70a3fc-fa3c-4be1-8b55-c3192db8a884"
+        ],
+        "release_date": "2026-10-20",
+        "release_group_mbid": "4f1c579a-8a9c-4f96-92ae-befcdf3e0d32",
+        "release_group_primary_type": "Album",
+        "release_mbid": "1f1db316-8361-4a40-9633-550b259642f5",
+        "release_name": "Profound Mysteries IV"
+      },
+      {
+        "artist_credit_name": "Santi & Tuğçe",
+        "artist_mbids": [
+          "4690076b-1446-43f4-8a84-cfec56dc3601"
+        ],
+        "caa_id": 37026686379,
+        "caa_release_mbid": "9432fb06-bd84-4f2e-9386-b2f14e0de54d",
+        "release_date": "2026-11-20",
+        "release_group_mbid": "30ac1ded-c254-46ac-a41f-7453dada6ae7",
+        "release_group_primary_type": "EP",
+        "release_group_secondary_type": null,
+        "release_mbid": "9432fb06-bd84-4f2e-9386-b2f14e0de54d",
+        "release_name": "The Marvelous Real",
+        "release_tags": null
+      },
+      {
+        "artist_credit_name": "Santi & Tuğçe",
+        "artist_mbids": [
+          "4690076b-1446-43f4-8a84-cfec56dc3601"
+        ],
+        "release_date": "2026-11-20",
+        "release_group_mbid": "30ac1ded-c254-46ac-a41f-7453dada6ae7",
+        "release_group_primary_type": "EP",
+        "release_mbid": "aa32fb06-bd84-4f2e-9386-b2f14e0de54d",
+        "release_name": "The Marvelous Real (digital)"
+      },
+      {
+        "artist_credit_name": "Some Band",
+        "artist_mbids": [],
+        "release_date": "2026-11-01",
+        "release_group_mbid": "8d2c1b0a-9f8e-4d7c-b6a5-4f3e2d1c0b9a",
+        "release_group_primary_type": "Single",
+        "release_mbid": "7c1b0a9f-8e7d-4c6b-a5f4-e3d2c1b0a9f8",
+        "release_name": "A Single"
+      },
+      {
+        "artist_credit_name": "Some Band",
+        "artist_mbids": [],
+        "release_date": "2026-10-28",
+        "release_group_mbid": "6b5a4f3e-2d1c-4b0a-9f8e-7d6c5b4a3f2e",
+        "release_group_primary_type": "Album",
+        "release_group_secondary_type": "Live",
+        "release_mbid": "5a4f3e2d-1c0b-4a9f-8e7d-6c5b4a3f2e1d",
+        "release_name": "Live Somewhere"
+      }
+    ]
+  }
+}

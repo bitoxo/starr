@@ -1,0 +1,6 @@
+{"results": [
+  {"display_priorities": {"CH": 2, "DE": 0, "US": 1}, "display_priority": 0, "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg", "provider_name": "Netflix", "provider_id": 8},
+  {"display_priorities": {"CH": 0, "DE": 3}, "display_priority": 3, "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg", "provider_name": "Disney Plus", "provider_id": 337},
+  {"display_priorities": {"US": 4}, "display_priority": 4, "logo_path": "/emthp39XA2YScoYL1p0sdbAH2WA.jpg", "provider_name": "Amazon Prime Video", "provider_id": 9},
+  {"display_priorities": {"CH": 1}, "display_priority": 9, "logo_path": "", "provider_name": "blue TV", "provider_id": 1823}
+]}

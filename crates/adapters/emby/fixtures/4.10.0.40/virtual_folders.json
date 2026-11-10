@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Movies",
+    "Locations": [
+      "/media/movies"
+    ],
+    "CollectionType": "movies",
+    "LibraryOptions": {
+      "EnableArchiveMediaFiles": false
+    },
+    "ItemId": "3",
+    "Guid": "0c41907140d802bb58430fed7e2cd79e",
+    "Id": "3",
+    "PrimaryImageItemId": "3",
+    "RefreshProgress": 0,
+    "RefreshStatus": "Idle"
+  },
+  {
+    "Name": "TV",
+    "Locations": [
+      "/media/tv"
+    ],
+    "CollectionType": "tvshows",
+    "LibraryOptions": {},
+    "ItemId": "6",
+    "Guid": "a2b3c4d5e6f708192a3b4c5d6e7f8091",
+    "Id": "6",
+    "RefreshStatus": "Idle"
+  },
+  {
+    "Name": "Audiobooks",
+    "Locations": [
+      "/media/books"
+    ],
+    "CollectionType": "audiobooks",
+    "LibraryOptions": {},
+    "ItemId": "9",
+    "Guid": "b3c4d5e6f708192a3b4c5d6e7f8091a2",
+    "Id": "9",
+    "RefreshStatus": "Idle"
+  }
+]

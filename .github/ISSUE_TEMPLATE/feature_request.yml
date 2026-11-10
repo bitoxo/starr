@@ -1,0 +1,56 @@
+name: Feature request
+description: Something Starr should do that it doesn't do yet.
+labels: ["triage", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Problems beat solutions: describe what gets in your way, and leave room for how Starr could solve it.
+        Check the [roadmap issues](https://github.com/bitoxo/starr/issues?q=is%3Aissue+label%3Aroadmap) first: if your idea is there, a 👍 on it counts more than a new issue.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation and what gets in the way.
+      placeholder: My parents watch on an Apple TV with Infuse, and when I invite them...
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who is this for?
+      options:
+        - Members (the people you share with)
+        - Admins (you)
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: stack
+    attributes:
+      label: Your stack
+      description: Which services and versions does this involve?
+      placeholder: Jellyfin 10.11, Sonarr 4.0, Lidarr 3.1, Starr 0.4.1
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would good look like?
+      description: How would you know Starr solved it?
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What do you use for this today?
+      description: Another tool, a script, doing it by hand?
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched existing issues. Starr doesn't download, index or stream, and its login stays its own (no SSO, see the FAQ in the README).
+          required: true

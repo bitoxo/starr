@@ -1,0 +1,13 @@
+{
+  "subsonic-response": {
+    "status": "failed",
+    "version": "1.16.1",
+    "type": "navidrome",
+    "serverVersion": "0.64.2 (3f1c2b7)",
+    "openSubsonic": true,
+    "error": {
+      "code": 10,
+      "message": "required parameter 'u' is missing"
+    }
+  }
+}

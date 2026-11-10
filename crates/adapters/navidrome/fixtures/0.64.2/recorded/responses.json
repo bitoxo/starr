@@ -1,0 +1,76 @@
+{
+  "rest_ping_no_creds": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "auth_login": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Ratelimit-Limit": "5"
+    }
+  },
+  "user_all": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "5",
+      "X-Nd-Authorization": "<renewed token>"
+    },
+    "renewsTokenHeader": true
+  },
+  "user_one_member": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Nd-Authorization": "<renewed token>"
+    },
+    "renewsTokenHeader": true
+  },
+  "user_one_member_library": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Nd-Authorization": "<renewed token>"
+    },
+    "renewsTokenHeader": true
+  },
+  "library_all": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "1",
+      "X-Nd-Authorization": "<renewed token>"
+    },
+    "renewsTokenHeader": true
+  },
+  "album_page_lib1": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "5517",
+      "X-Nd-Authorization": "<renewed token>"
+    },
+    "renewsTokenHeader": true
+  },
+  "album_page_nofilter": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "5517",
+      "X-Nd-Authorization": "<renewed token>"
+    },
+    "renewsTokenHeader": true
+  },
+  "album_page_lib999": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Total-Count": "0",
+      "X-Nd-Authorization": "<renewed token>"
+    },
+    "renewsTokenHeader": true
+  }
+}

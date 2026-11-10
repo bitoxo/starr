@@ -1,0 +1,27 @@
+[package]
+name = "starr-adapter-navidrome"
+description = "Navidrome adapter for Starr (ADR 0009)."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+chrono = { version = "0.4.45", default-features = false, features = ["std"] }
+secrecy = "0.10"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+starr-adapter-kit = { path = "../../starr-adapter-kit" }
+starr-core = { path = "../../starr-core" }
+tracing = "0.1"
+uuid = "1.29.0"
+
+[dev-dependencies]
+starr-adapter-kit = { path = "../../starr-adapter-kit", features = ["contract"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+url = "2.5.8"
+wiremock = "0.6.5"

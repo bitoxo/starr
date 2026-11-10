@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Music Library",
+    "path": "/music",
+    "remotePath": "",
+    "lastScanAt": "2026-11-06T16:18:04.661885162Z",
+    "lastScanStartedAt": "0001-01-01T00:00:00Z",
+    "fullScanInProgress": false,
+    "updatedAt": "2026-11-06T14:16:26.709380385Z",
+    "createdAt": "2026-03-21T20:46:51Z",
+    "totalSongs": 7025,
+    "totalAlbums": 5517,
+    "totalArtists": 3047,
+    "totalFolders": 5652,
+    "totalFiles": 12682,
+    "totalMissingFiles": 0,
+    "totalSize": 286219712950,
+    "totalDuration": 3072384.6921977997,
+    "defaultNewUsers": true
+  }
+]

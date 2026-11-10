@@ -1,0 +1,125 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -D warnings
+
+jobs:
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      # The debug target of the whole workspace plus the cache save filled
+      # the runner's disk ("No space left on device" in the cache post
+      # step); drop preinstalled SDKs Starr never uses.
+      - name: Free disk space
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets --locked -- -D warnings
+      - run: cargo test --workspace --locked
+      # starr-server's integration tests build the binary; hand it to the
+      # rollback check instead of compiling again (a separate
+      # `cargo build -p starr-server` resolves other features and rebuilds
+      # every dependency).
+      - uses: actions/upload-artifact@v4
+        with:
+          name: starr-debug
+          path: target/debug/starr
+          if-no-files-found: error
+          retention-days: 1
+
+  # ADR 0008: the previous release image must still serve login on a database
+  # migrated by this build.
+  rollback-compat:
+    needs: rust
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: starr-debug
+          path: ${{ runner.temp }}/starr
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Previous release serves login on the new schema
+        run: |
+          chmod +x "$RUNNER_TEMP/starr/starr"
+          STARR_BIN="$RUNNER_TEMP/starr/starr" scripts/rollback-check.sh
+
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: web/package.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - working-directory: web
+        run: pnpm install --frozen-lockfile
+      - name: API types are up to date
+        run: |
+          mkdir -p target
+          cargo run -q -p starr-server -- openapi > target/openapi.json
+          cd web && pnpm gen-api && pnpm exec prettier --write src/api/schema.d.ts
+          git diff --exit-code -- src/api/schema.d.ts
+      - working-directory: web
+        run: pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build
+
+  # Advisories and licences (`just audit`); accepted advisories are listed
+  # with reasons in deny.toml and .cargo/audit.toml.
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: web/package.json
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: cargo-deny,cargo-audit
+      - run: cargo deny check
+      - run: cargo audit --deny warnings
+      - working-directory: web
+        run: pnpm audit --prod
+
+  migrations-immutable:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Committed migrations must not change
+        run: |
+          changed=$(git diff --name-only --diff-filter=MDR origin/${{ github.base_ref }}...HEAD -- crates/starr-db/migrations/ || true)
+          if [ -n "$changed" ]; then echo "Modified existing migrations:"; echo "$changed"; exit 1; fi

@@ -1,0 +1,12 @@
+allow-unwrap-in-tests = true
+allow-expect-in-tests = true
+
+# ADR 0009 / lesson 11: adapters get their HTTP client from starr-adapter-kit
+# (per-instance rate limit, redaction, error mapping). The kit's single
+# construction site carries an explicit `#[allow]`.
+disallowed-methods = [
+    { path = "reqwest::Client::new", reason = "use starr_adapter_kit::ServiceClient (ADR 0009)" },
+    { path = "reqwest::Client::builder", reason = "use starr_adapter_kit::ServiceClient (ADR 0009)" },
+    { path = "reqwest::ClientBuilder::new", reason = "use starr_adapter_kit::ServiceClient (ADR 0009)" },
+    { path = "reqwest::get", reason = "use starr_adapter_kit::ServiceClient (ADR 0009)" },
+]

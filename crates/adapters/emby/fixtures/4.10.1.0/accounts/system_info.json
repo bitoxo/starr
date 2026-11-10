@@ -1,0 +1,35 @@
+{
+  "SystemUpdateLevel": "Release",
+  "OperatingSystemDisplayName": "Unix",
+  "HasPendingRestart": true,
+  "IsShuttingDown": false,
+  "HasImageEnhancers": false,
+  "OperatingSystem": "Linux",
+  "SupportsLibraryMonitor": true,
+  "SupportsLocalPortConfiguration": true,
+  "SupportsWakeServer": false,
+  "WebSocketPortNumber": 8096,
+  "CompletedInstallations": [],
+  "CanSelfRestart": true,
+  "CanSelfUpdate": false,
+  "CanLaunchWebBrowser": false,
+  "HttpServerPortNumber": 8096,
+  "SupportsHttps": false,
+  "HttpsPortNumber": 8920,
+  "HasUpdateAvailable": true,
+  "SupportsAutoRunAtStartup": false,
+  "HardwareAccelerationRequiresPremiere": true,
+  "WakeOnLanInfo": [
+    {
+      "MacAddress": "5E0CD3452EC8",
+      "BroadcastAddress": "172.17.255.255",
+      "Port": 9
+    }
+  ],
+  "IsInMaintenanceMode": false,
+  "LocalAddresses": [],
+  "RemoteAddresses": [],
+  "ServerName": "33fce959938b",
+  "Version": "4.10.1.0",
+  "Id": "5550eb47988f477dbf18fda617d1457e"
+}

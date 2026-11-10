@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "path": "/data/private",
+    "accessible": true,
+    "freeSpace": 800000000000,
+    "unmappedFolders": []
+  },
+  {
+    "id": 2,
+    "path": "/offline",
+    "accessible": false,
+    "unmappedFolders": []
+  }
+]

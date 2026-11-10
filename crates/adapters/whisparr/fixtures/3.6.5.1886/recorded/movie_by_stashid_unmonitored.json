@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Scene A",
+    "originalLanguage": {
+      "id": 1,
+      "name": "English"
+    },
+    "sortTitle": "scene a",
+    "alternateTitles": [],
+    "sizeOnDisk": 0,
+    "status": "released",
+    "overview": "Placeholder overview of Scene A.",
+    "releaseDate": "2025-02-15T00:00:00Z",
+    "images": [
+      {
+        "coverType": "screenshot",
+        "url": "/MediaCover/29/screenshot.jpg",
+        "remoteUrl": "https://images.example.invalid/1a6e0001-0000-4000-8000-000000000001.jpg"
+      }
+    ],
+    "website": "https://studio-s.example.invalid/scenes/scene-a",
+    "year": 2025,
+    "studioTitle": "Studio S",
+    "studioForeignId": "57d10001-0000-4000-8000-000000000001",
+    "path": "/data/private/Studio S/Scene A",
+    "qualityProfileId": 4,
+    "hasFile": false,
+    "movieFileId": 0,
+    "monitored": false,
+    "isAvailable": true,
+    "folderName": "/data/private/Studio S/Scene A",
+    "runtime": 26,
+    "cleanTitle": "scenea",
+    "tmdbId": 0,
+    "foreignId": "5ce00001-0000-4000-8000-000000000001",
+    "stashId": "5ce00001-0000-4000-8000-000000000001",
+    "titleSlug": "5ce00001-0000-4000-8000-000000000001",
+    "rootFolderPath": "/data/private",
+    "genres": [
+      "Tag 1",
+      "Tag 2"
+    ],
+    "tags": [],
+    "added": "2026-01-01T00:00:00Z",
+    "ratings": {},
+    "searchCredits": [],
+    "performerForeignIds": [
+      "9e7f0001-0000-4000-8000-000000000001",
+      "9e7f0002-0000-4000-8000-000000000002"
+    ],
+    "performerNames": [
+      "Performer P",
+      "Performer Q"
+    ],
+    "itemType": "scene",
+    "statistics": {
+      "movieFileCount": 0,
+      "sizeOnDisk": 0,
+      "releaseGroups": []
+    },
+    "id": 29
+  }
+]

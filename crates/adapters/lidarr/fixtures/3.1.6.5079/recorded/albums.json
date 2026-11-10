@@ -1,0 +1,2452 @@
+[
+  {
+    "title": "Mylo Xyloto",
+    "disambiguation": "",
+    "overview": "",
+    "artistId": 1,
+    "foreignAlbumId": "61b7b6cd-86a6-4728-9478-b58c93bca8fd",
+    "monitored": false,
+    "anyReleaseOk": true,
+    "profileId": 4,
+    "duration": 5298516,
+    "albumType": "Album",
+    "secondaryTypes": [],
+    "ratings": {
+      "votes": 27,
+      "value": 7.1
+    },
+    "releaseDate": "2011-10-19T00:00:00Z",
+    "releases": [
+      {
+        "id": 1,
+        "albumId": 1,
+        "foreignReleaseId": "0f26e8f3-b85c-457e-8893-5cd1edaa19a2",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2645078,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 2,
+        "albumId": 1,
+        "foreignReleaseId": "7f17282e-d49a-4b92-abf6-b2ca75803f82",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 3365000,
+        "trackCount": 17,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Japan"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 3,
+        "albumId": 1,
+        "foreignReleaseId": "7e6bd665-69bd-451a-b632-81c9b8e999fe",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Australia"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 4,
+        "albumId": 1,
+        "foreignReleaseId": "08ffff44-2226-4f39-9fb7-559bf30d1729",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Canada"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 5,
+        "albumId": 1,
+        "foreignReleaseId": "c96948f8-d7e6-4d03-9a05-76329e6a5463",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2645000,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 6,
+        "albumId": 1,
+        "foreignReleaseId": "eac3b471-65b8-40ae-86b0-3a2a7b04381d",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 3371621,
+        "trackCount": 17,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Japan"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 7,
+        "albumId": 1,
+        "foreignReleaseId": "db7e594a-e5f7-4486-bcd1-2b13e30a2688",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "DIDX",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Capitol Records"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 8,
+        "albumId": 1,
+        "foreignReleaseId": "bb97eac1-5aaf-4b74-9f23-ce1a07000e71",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "South Africa"
+        ],
+        "label": [
+          "Polydor"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 9,
+        "albumId": 1,
+        "foreignReleaseId": "c9c79b7f-0892-44d7-8ed7-b2a013dc666f",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2653000,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United Kingdom"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 10,
+        "albumId": 1,
+        "foreignReleaseId": "6d038903-35b0-470b-86dd-7992a1ceaea4",
+        "title": "Mylo Xyloto (List. Instrumentals)",
+        "status": "Promotion",
+        "duration": 0,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD-R"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United Kingdom"
+        ],
+        "label": [
+          "EMI",
+          "Sync"
+        ],
+        "format": "CD-R",
+        "monitored": false
+      },
+      {
+        "id": 11,
+        "albumId": 1,
+        "foreignReleaseId": "d252420f-c13f-46d5-bba8-0ee646d457dc",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2645000,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 12,
+        "albumId": 1,
+        "foreignReleaseId": "d959317a-987b-4432-ab74-9018737cc25f",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2653000,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Capitol Records"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 13,
+        "albumId": 1,
+        "foreignReleaseId": "3e082b0f-a78b-4327-b24c-af84d7050747",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2650000,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 14,
+        "albumId": 1,
+        "foreignReleaseId": "63888cdc-eca4-4871-a6ce-e1d4b24c4afb",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Australia"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 15,
+        "albumId": 1,
+        "foreignReleaseId": "0e703226-aa8f-4d05-a856-ab61f9253723",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 5298516,
+        "trackCount": 28,
+        "mediumCount": 2,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          },
+          {
+            "mediumNumber": 2,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [
+          "Parlophone",
+          "Parlophone",
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "CD, 12\" Vinyl",
+        "monitored": true
+      },
+      {
+        "id": 16,
+        "albumId": 1,
+        "foreignReleaseId": "b8b42856-7027-4be9-92a3-d5b33514908e",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "Atlantic re-issue",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Atlantic",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 17,
+        "albumId": 1,
+        "foreignReleaseId": "c684c1e1-3129-4201-ba57-3c308e073926",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "reissue; Arvato",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 18,
+        "albumId": 1,
+        "foreignReleaseId": "8150971b-e254-4e57-9cd9-8300b2727df5",
+        "title": "Mylo Xyloto",
+        "status": "Official",
+        "duration": 2652516,
+        "trackCount": 14,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "original; TAKT",
+        "country": [
+          "Austria",
+          "Belgium",
+          "France",
+          "Germany",
+          "Italy",
+          "Netherlands",
+          "Spain",
+          "Switzerland",
+          "United Kingdom"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      }
+    ],
+    "genres": [
+      "Pop Rock",
+      "Alternative Rock",
+      "Rock",
+      "Dream Pop",
+      "Pop",
+      "Electronic",
+      "Alternative Dance"
+    ],
+    "mediumCount": 2,
+    "media": [
+      {
+        "mediumNumber": 1,
+        "mediumName": "",
+        "mediumFormat": "CD"
+      },
+      {
+        "mediumNumber": 2,
+        "mediumName": "",
+        "mediumFormat": "12\" Vinyl"
+      }
+    ],
+    "artist": {
+      "status": "continuing",
+      "ended": false,
+      "artistName": "Coldplay",
+      "foreignArtistId": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+      "tadbId": 0,
+      "discogsId": 0,
+      "artistType": "Group",
+      "disambiguation": "",
+      "links": [
+        {
+          "url": "http://www.coldplay.com/",
+          "name": "coldplay"
+        },
+        {
+          "url": "https://musicmoz.org/Bands_and_Artists/C/Coldplay/",
+          "name": "musicmoz"
+        },
+        {
+          "url": "http://www.pleasureunit.com/coldplay/index.php",
+          "name": "pleasureunit"
+        },
+        {
+          "url": "https://www.discogs.com/artist/29735",
+          "name": "discogs"
+        },
+        {
+          "url": "https://myspace.com/coldplay",
+          "name": "myspace"
+        },
+        {
+          "url": "https://www.imdb.com/name/nm1095892/",
+          "name": "imdb"
+        },
+        {
+          "url": "https://twitter.com/coldplay",
+          "name": "twitter"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCfJOsk44wjzby9H64jDd4Nw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.bbc.co.uk/music/artists/cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+          "name": "bbc"
+        },
+        {
+          "url": "https://www.facebook.com/coldplay",
+          "name": "facebook"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.allmusic.com/artist/mn0000775877",
+          "name": "allmusic"
+        },
+        {
+          "url": "https://plus.google.com/+Coldplay",
+          "name": "google"
+        },
+        {
+          "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+          "name": "spotify"
+        },
+        {
+          "url": "http://coldplay.tumblr.com/",
+          "name": "tumblr"
+        },
+        {
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "last"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q45188",
+          "name": "wikidata"
+        },
+        {
+          "url": "https://secondhandsongs.com/artist/10590",
+          "name": "secondhandsongs"
+        },
+        {
+          "url": "http://viaf.org/viaf/157712849",
+          "name": "viaf"
+        },
+        {
+          "url": "https://rateyourmusic.com/artist/coldplay",
+          "name": "rateyourmusic"
+        },
+        {
+          "url": "http://www.purevolume.com/coldplay",
+          "name": "purevolume"
+        },
+        {
+          "url": "https://www.musik-sammler.de/artist/3209/",
+          "name": "musik-sammler"
+        },
+        {
+          "url": "http://muzikum.eu/en/122-3547/coldplay/lyrics.html",
+          "name": "muzikum"
+        },
+        {
+          "url": "https://genius.com/artists/Coldplay",
+          "name": "genius"
+        },
+        {
+          "url": "https://imvdb.com/n/coldplay",
+          "name": "imvdb"
+        },
+        {
+          "url": "https://www.bandsintown.com/a/99",
+          "name": "bandsintown"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL2741867A/",
+          "name": "openlibrary"
+        },
+        {
+          "url": "https://www.whosampled.com/Coldplay/",
+          "name": "whosampled"
+        },
+        {
+          "url": "https://www.worldcat.org/identities/lccn-no99089189/",
+          "name": "worldcat"
+        },
+        {
+          "url": "https://play.google.com/store/music/artist?id=Aroavh4k5ypej6qdhyoo52q7bpm",
+          "name": "google"
+        },
+        {
+          "url": "https://www.setlist.fm/setlists/coldplay-3d6bde3.html",
+          "name": "setlist"
+        },
+        {
+          "url": "https://www.instagram.com/coldplay/",
+          "name": "instagram"
+        },
+        {
+          "url": "https://soundcloud.com/coldplay",
+          "name": "soundcloud"
+        },
+        {
+          "url": "https://d-nb.info/gnd/6501726-2",
+          "name": "d-nb"
+        },
+        {
+          "url": "http://id.loc.gov/authorities/names/no99089189",
+          "name": "loc"
+        },
+        {
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb140349761",
+          "name": "bnf"
+        },
+        {
+          "url": "https://www.deezer.com/artist/892",
+          "name": "deezer"
+        },
+        {
+          "url": "https://www.songkick.com/artists/197928",
+          "name": "songkick"
+        },
+        {
+          "url": "http://coldplay.livejournal.com/",
+          "name": "livejournal"
+        },
+        {
+          "url": "https://vk.ru/coldplay",
+          "name": "vk"
+        },
+        {
+          "url": "https://tidal.com/artist/8812",
+          "name": "tidal"
+        },
+        {
+          "url": "https://us.napster.com/artist/coldplay",
+          "name": "napster"
+        },
+        {
+          "url": "https://uk.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://us.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://www.junodownload.com/artists/Coldplay/releases/",
+          "name": "junodownload"
+        },
+        {
+          "url": "https://www.beatport.com/artist/coldplay/162668",
+          "name": "beatport"
+        },
+        {
+          "url": "https://www.livefans.jp/artists/2236",
+          "name": "livefans"
+        },
+        {
+          "url": "https://www.musixmatch.com/artist/Coldplay",
+          "name": "musixmatch"
+        },
+        {
+          "url": "https://wmg.jp/coldplay/discography/",
+          "name": "wmg"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://mora.jp/artist/254708/",
+          "name": "mora"
+        },
+        {
+          "url": "https://www.hdtracks.com/#/artist/Coldplay",
+          "name": "hdtracks"
+        },
+        {
+          "url": "https://www.tiktok.com/@coldplay",
+          "name": "tiktok"
+        },
+        {
+          "url": "https://www.livenation.co.uk/artist-8720",
+          "name": "livenation"
+        },
+        {
+          "url": "https://www.muziekweb.nl/Link/M00000124920/POPULAR/",
+          "name": "muziekweb"
+        },
+        {
+          "url": "https://music.youtube.com/channel/UCIaFw5VBEK8qaW6nRpx_qnw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.ticketmaster.com/artist/806431",
+          "name": "ticketmaster"
+        },
+        {
+          "url": "https://music.amazon.co.uk/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://www.spirit-of-rock.com/en/band/Coldplay",
+          "name": "spirit-of-rock"
+        },
+        {
+          "url": "https://www.threads.com/@coldplay",
+          "name": "threads"
+        },
+        {
+          "url": "https://www.idref.fr/086228749",
+          "name": "idref"
+        },
+        {
+          "url": "https://jaxsta.com/profile/4e482690-dc02-4c85-9fbf-28907c20b928",
+          "name": "jaxsta"
+        },
+        {
+          "url": "https://www.weibo.com/7502254158",
+          "name": "weibo"
+        },
+        {
+          "url": "https://music.amazon.com/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://music.yandex.com/artist/671",
+          "name": "yandex"
+        },
+        {
+          "url": "https://mora.jp/artist/1473572/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/503134/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1468413/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1992749/",
+          "name": "mora"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://audiomack.com/coldplay",
+          "name": "audiomack"
+        },
+        {
+          "url": "https://www.deezer.com/artist/316813311",
+          "name": "deezer"
+        }
+      ],
+      "nextAlbum": null,
+      "lastAlbum": null,
+      "images": [],
+      "path": "/music/Coldplay",
+      "qualityProfileId": 4,
+      "metadataProfileId": 1,
+      "monitored": false,
+      "monitorNewItems": "none",
+      "genres": [
+        "Alternative Rock",
+        "Pop",
+        "Pop Rock",
+        "Rock",
+        "Post-Britpop",
+        "Britpop",
+        "Piano Rock",
+        "Indie Rock",
+        "Dream Pop",
+        "Art Pop"
+      ],
+      "cleanName": "coldplay",
+      "sortName": "coldplay",
+      "tags": [],
+      "added": "2026-11-03T17:50:01Z",
+      "ratings": {
+        "votes": 50,
+        "value": 8.2
+      },
+      "id": 1
+    },
+    "images": [
+      {
+        "coverType": "cover",
+        "url": "/MediaCover/Albums/1/cover.jpg?lastWrite=639293250011779234",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/8150971b-e254-4e57-9cd9-8300b2727df5/2833397499-1200.jpg",
+        "extension": ".jpg"
+      },
+      {
+        "coverType": "disc",
+        "url": "/MediaCover/Albums/1/disc.jpg",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/8150971b-e254-4e57-9cd9-8300b2727df5/15518625090-1200.jpg",
+        "extension": ".jpg"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.discogs.com/master/377924",
+        "name": "discogs"
+      },
+      {
+        "url": "https://www.bbc.co.uk/music/reviews/98x2",
+        "name": "bbc"
+      },
+      {
+        "url": "https://www.allmusic.com/album/mw0002206149",
+        "name": "allmusic"
+      },
+      {
+        "url": "https://rateyourmusic.com/release/album/coldplay/mylo_xyloto/",
+        "name": "rateyourmusic"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q679632",
+        "name": "wikidata"
+      },
+      {
+        "url": "https://www.last.fm/music/Coldplay/Mylo+Xyloto",
+        "name": "last"
+      }
+    ],
+    "statistics": {
+      "trackFileCount": 0,
+      "trackCount": 0,
+      "totalTrackCount": 28,
+      "sizeOnDisk": 0,
+      "percentOfTracks": 0
+    },
+    "id": 1
+  },
+  {
+    "title": "Ghost Stories",
+    "disambiguation": "",
+    "overview": "",
+    "artistId": 1,
+    "foreignAlbumId": "9c5aa9d2-068b-4626-b352-ae6f4f4e0b15",
+    "monitored": false,
+    "anyReleaseOk": true,
+    "profileId": 4,
+    "duration": 4763000,
+    "albumType": "Album",
+    "secondaryTypes": [],
+    "ratings": {
+      "votes": 20,
+      "value": 7.8
+    },
+    "releaseDate": "2014-05-16T00:00:00Z",
+    "releases": [
+      {
+        "id": 19,
+        "albumId": 2,
+        "foreignReleaseId": "7d659b9d-a82e-4274-88e2-b4cfbd34d0d8",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2980000,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "Target exclusive",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Atlantic",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 20,
+        "albumId": 2,
+        "foreignReleaseId": "7c5280b0-6787-4e9c-9cd7-77c4e0dcd395",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562050,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Netherlands"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 21,
+        "albumId": 2,
+        "foreignReleaseId": "742b487f-e513-4f8a-8607-97a3b08d83dc",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562050,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 22,
+        "albumId": 2,
+        "foreignReleaseId": "49dab146-5393-4686-bb79-efbb1fa43648",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562050,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Atlantic",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 23,
+        "albumId": 2,
+        "foreignReleaseId": "d9e02adb-bb5c-4c6b-a547-ca261e8a1e70",
+        "title": "Ghost Stories",
+        "status": "Promotion",
+        "duration": 2984000,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD-R"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Japan"
+        ],
+        "label": [
+          "Parlophone",
+          "Warner Music Japan"
+        ],
+        "format": "CD-R",
+        "monitored": false
+      },
+      {
+        "id": 24,
+        "albumId": 2,
+        "foreignReleaseId": "b70895eb-ed81-4d5b-be43-9e05c37b36a5",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562050,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Australia"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 25,
+        "albumId": 2,
+        "foreignReleaseId": "9ab98d33-75a3-4026-84e9-05e53184060a",
+        "title": "Ghost Stories (instrumentals)",
+        "status": "Bootleg",
+        "duration": 2096000,
+        "trackCount": 8,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 26,
+        "albumId": 2,
+        "foreignReleaseId": "3d0c283d-516c-484c-8b68-79a40b1e41c2",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 3025000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Japan"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 27,
+        "albumId": 2,
+        "foreignReleaseId": "a438ac85-ed48-41a9-9fa6-39de8ab85aa4",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562050,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 28,
+        "albumId": 2,
+        "foreignReleaseId": "3790e417-87f1-452a-8ea7-dfcc0d2f713f",
+        "title": "Ghost Stories",
+        "status": "Bootleg",
+        "duration": 4763000,
+        "trackCount": 15,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Russia"
+        ],
+        "label": [
+          "Parlophone",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": true
+      },
+      {
+        "id": 29,
+        "albumId": 2,
+        "foreignReleaseId": "6e5d9006-2584-48f6-8782-a5656fc62556",
+        "title": "Ghost Stories",
+        "status": "Pseudo-Release",
+        "duration": 2405000,
+        "trackCount": 10,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "Split Track - no silence",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 30,
+        "albumId": 2,
+        "foreignReleaseId": "20b69b6b-b281-4922-90ed-4fee6299f090",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562050,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "slipcase version",
+        "country": [
+          "United States"
+        ],
+        "label": [
+          "Atlantic",
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 31,
+        "albumId": 2,
+        "foreignReleaseId": "786998cd-29aa-4751-8b9f-c9855001ccaa",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562050,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "South Africa"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 32,
+        "albumId": 2,
+        "foreignReleaseId": "c0b87194-9708-44a6-a1f9-af853406a368",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2562065,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 33,
+        "albumId": 2,
+        "foreignReleaseId": "0ca8778f-4d45-44e7-8a62-f3934d1df70a",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2557000,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 34,
+        "albumId": 2,
+        "foreignReleaseId": "083305cf-1772-4db5-b10a-fb363c7e600b",
+        "title": "Ghost Stories",
+        "status": "Official",
+        "duration": 2415000,
+        "trackCount": 9,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      }
+    ],
+    "genres": [
+      "Alternative Rock",
+      "Rock",
+      "Downtempo",
+      "Ambient",
+      "Pop Rock",
+      "Ambient Pop",
+      "Dream Pop",
+      "Pop",
+      "Electronic",
+      "Alternative Pop",
+      "Art Pop"
+    ],
+    "mediumCount": 1,
+    "media": [
+      {
+        "mediumNumber": 1,
+        "mediumName": "",
+        "mediumFormat": "CD"
+      }
+    ],
+    "artist": {
+      "status": "continuing",
+      "ended": false,
+      "artistName": "Coldplay",
+      "foreignArtistId": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+      "tadbId": 0,
+      "discogsId": 0,
+      "artistType": "Group",
+      "disambiguation": "",
+      "links": [
+        {
+          "url": "http://www.coldplay.com/",
+          "name": "coldplay"
+        },
+        {
+          "url": "https://musicmoz.org/Bands_and_Artists/C/Coldplay/",
+          "name": "musicmoz"
+        },
+        {
+          "url": "http://www.pleasureunit.com/coldplay/index.php",
+          "name": "pleasureunit"
+        },
+        {
+          "url": "https://www.discogs.com/artist/29735",
+          "name": "discogs"
+        },
+        {
+          "url": "https://myspace.com/coldplay",
+          "name": "myspace"
+        },
+        {
+          "url": "https://www.imdb.com/name/nm1095892/",
+          "name": "imdb"
+        },
+        {
+          "url": "https://twitter.com/coldplay",
+          "name": "twitter"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCfJOsk44wjzby9H64jDd4Nw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.bbc.co.uk/music/artists/cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+          "name": "bbc"
+        },
+        {
+          "url": "https://www.facebook.com/coldplay",
+          "name": "facebook"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.allmusic.com/artist/mn0000775877",
+          "name": "allmusic"
+        },
+        {
+          "url": "https://plus.google.com/+Coldplay",
+          "name": "google"
+        },
+        {
+          "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+          "name": "spotify"
+        },
+        {
+          "url": "http://coldplay.tumblr.com/",
+          "name": "tumblr"
+        },
+        {
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "last"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q45188",
+          "name": "wikidata"
+        },
+        {
+          "url": "https://secondhandsongs.com/artist/10590",
+          "name": "secondhandsongs"
+        },
+        {
+          "url": "http://viaf.org/viaf/157712849",
+          "name": "viaf"
+        },
+        {
+          "url": "https://rateyourmusic.com/artist/coldplay",
+          "name": "rateyourmusic"
+        },
+        {
+          "url": "http://www.purevolume.com/coldplay",
+          "name": "purevolume"
+        },
+        {
+          "url": "https://www.musik-sammler.de/artist/3209/",
+          "name": "musik-sammler"
+        },
+        {
+          "url": "http://muzikum.eu/en/122-3547/coldplay/lyrics.html",
+          "name": "muzikum"
+        },
+        {
+          "url": "https://genius.com/artists/Coldplay",
+          "name": "genius"
+        },
+        {
+          "url": "https://imvdb.com/n/coldplay",
+          "name": "imvdb"
+        },
+        {
+          "url": "https://www.bandsintown.com/a/99",
+          "name": "bandsintown"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL2741867A/",
+          "name": "openlibrary"
+        },
+        {
+          "url": "https://www.whosampled.com/Coldplay/",
+          "name": "whosampled"
+        },
+        {
+          "url": "https://www.worldcat.org/identities/lccn-no99089189/",
+          "name": "worldcat"
+        },
+        {
+          "url": "https://play.google.com/store/music/artist?id=Aroavh4k5ypej6qdhyoo52q7bpm",
+          "name": "google"
+        },
+        {
+          "url": "https://www.setlist.fm/setlists/coldplay-3d6bde3.html",
+          "name": "setlist"
+        },
+        {
+          "url": "https://www.instagram.com/coldplay/",
+          "name": "instagram"
+        },
+        {
+          "url": "https://soundcloud.com/coldplay",
+          "name": "soundcloud"
+        },
+        {
+          "url": "https://d-nb.info/gnd/6501726-2",
+          "name": "d-nb"
+        },
+        {
+          "url": "http://id.loc.gov/authorities/names/no99089189",
+          "name": "loc"
+        },
+        {
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb140349761",
+          "name": "bnf"
+        },
+        {
+          "url": "https://www.deezer.com/artist/892",
+          "name": "deezer"
+        },
+        {
+          "url": "https://www.songkick.com/artists/197928",
+          "name": "songkick"
+        },
+        {
+          "url": "http://coldplay.livejournal.com/",
+          "name": "livejournal"
+        },
+        {
+          "url": "https://vk.ru/coldplay",
+          "name": "vk"
+        },
+        {
+          "url": "https://tidal.com/artist/8812",
+          "name": "tidal"
+        },
+        {
+          "url": "https://us.napster.com/artist/coldplay",
+          "name": "napster"
+        },
+        {
+          "url": "https://uk.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://us.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://www.junodownload.com/artists/Coldplay/releases/",
+          "name": "junodownload"
+        },
+        {
+          "url": "https://www.beatport.com/artist/coldplay/162668",
+          "name": "beatport"
+        },
+        {
+          "url": "https://www.livefans.jp/artists/2236",
+          "name": "livefans"
+        },
+        {
+          "url": "https://www.musixmatch.com/artist/Coldplay",
+          "name": "musixmatch"
+        },
+        {
+          "url": "https://wmg.jp/coldplay/discography/",
+          "name": "wmg"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://mora.jp/artist/254708/",
+          "name": "mora"
+        },
+        {
+          "url": "https://www.hdtracks.com/#/artist/Coldplay",
+          "name": "hdtracks"
+        },
+        {
+          "url": "https://www.tiktok.com/@coldplay",
+          "name": "tiktok"
+        },
+        {
+          "url": "https://www.livenation.co.uk/artist-8720",
+          "name": "livenation"
+        },
+        {
+          "url": "https://www.muziekweb.nl/Link/M00000124920/POPULAR/",
+          "name": "muziekweb"
+        },
+        {
+          "url": "https://music.youtube.com/channel/UCIaFw5VBEK8qaW6nRpx_qnw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.ticketmaster.com/artist/806431",
+          "name": "ticketmaster"
+        },
+        {
+          "url": "https://music.amazon.co.uk/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://www.spirit-of-rock.com/en/band/Coldplay",
+          "name": "spirit-of-rock"
+        },
+        {
+          "url": "https://www.threads.com/@coldplay",
+          "name": "threads"
+        },
+        {
+          "url": "https://www.idref.fr/086228749",
+          "name": "idref"
+        },
+        {
+          "url": "https://jaxsta.com/profile/4e482690-dc02-4c85-9fbf-28907c20b928",
+          "name": "jaxsta"
+        },
+        {
+          "url": "https://www.weibo.com/7502254158",
+          "name": "weibo"
+        },
+        {
+          "url": "https://music.amazon.com/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://music.yandex.com/artist/671",
+          "name": "yandex"
+        },
+        {
+          "url": "https://mora.jp/artist/1473572/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/503134/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1468413/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1992749/",
+          "name": "mora"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://audiomack.com/coldplay",
+          "name": "audiomack"
+        },
+        {
+          "url": "https://www.deezer.com/artist/316813311",
+          "name": "deezer"
+        }
+      ],
+      "nextAlbum": null,
+      "lastAlbum": null,
+      "images": [],
+      "path": "/music/Coldplay",
+      "qualityProfileId": 4,
+      "metadataProfileId": 1,
+      "monitored": false,
+      "monitorNewItems": "none",
+      "genres": [
+        "Alternative Rock",
+        "Pop",
+        "Pop Rock",
+        "Rock",
+        "Post-Britpop",
+        "Britpop",
+        "Piano Rock",
+        "Indie Rock",
+        "Dream Pop",
+        "Art Pop"
+      ],
+      "cleanName": "coldplay",
+      "sortName": "coldplay",
+      "tags": [],
+      "added": "2026-11-03T17:50:01Z",
+      "ratings": {
+        "votes": 50,
+        "value": 8.2
+      },
+      "id": 1
+    },
+    "images": [
+      {
+        "coverType": "cover",
+        "url": "/MediaCover/Albums/2/cover.jpg?lastWrite=639293250013003938",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/a438ac85-ed48-41a9-9fa6-39de8ab85aa4/7586505619-1200.jpg",
+        "extension": ".jpg"
+      },
+      {
+        "coverType": "disc",
+        "url": "/MediaCover/Albums/2/disc.jpg",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/742b487f-e513-4f8a-8607-97a3b08d83dc/7590534700-1200.jpg",
+        "extension": ".jpg"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.allmusic.com/album/mw0002630894",
+        "name": "allmusic"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q15885808",
+        "name": "wikidata"
+      },
+      {
+        "url": "https://rateyourmusic.com/release/album/coldplay/ghost_stories/",
+        "name": "rateyourmusic"
+      },
+      {
+        "url": "https://www.discogs.com/master/688112",
+        "name": "discogs"
+      },
+      {
+        "url": "https://www.last.fm/music/Coldplay/Ghost+Stories",
+        "name": "last"
+      }
+    ],
+    "statistics": {
+      "trackFileCount": 0,
+      "trackCount": 0,
+      "totalTrackCount": 15,
+      "sizeOnDisk": 0,
+      "percentOfTracks": 0
+    },
+    "id": 2
+  },
+  {
+    "title": "Music of the Spheres",
+    "disambiguation": "",
+    "overview": "",
+    "artistId": 1,
+    "foreignAlbumId": "c169f440-90bf-4a0b-aa6a-c83072bd7eed",
+    "monitored": false,
+    "anyReleaseOk": true,
+    "profileId": 4,
+    "duration": 3678704,
+    "albumType": "Album",
+    "secondaryTypes": [],
+    "ratings": {
+      "votes": 11,
+      "value": 6.5
+    },
+    "releaseDate": "2021-10-15T00:00:00Z",
+    "releases": [
+      {
+        "id": 51,
+        "albumId": 4,
+        "foreignReleaseId": "b2de889c-6940-49ac-84be-3c0ea8733621",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2510637,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Brazil"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 52,
+        "albumId": 4,
+        "foreignReleaseId": "78478991-6484-47ef-811e-d9305df36aa1",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2510606,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 53,
+        "albumId": 4,
+        "foreignReleaseId": "16e7a789-bcd8-4555-8a4b-e07121a90938",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2510637,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Australia"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 54,
+        "albumId": 4,
+        "foreignReleaseId": "b0a0e1f9-0e5c-492d-85e4-a08ae4b03e6a",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2510637,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "12\" Vinyl"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "12\" Vinyl",
+        "monitored": false
+      },
+      {
+        "id": 55,
+        "albumId": 4,
+        "foreignReleaseId": "7bb20bde-29d0-45d6-a7bb-a2494164e057",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 3678704,
+        "trackCount": 17,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "digital deluxe edition",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": true
+      },
+      {
+        "id": 56,
+        "albumId": 4,
+        "foreignReleaseId": "b02b4782-76f9-4d6b-983a-b24cfec63ba3",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2506000,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 57,
+        "albumId": 4,
+        "foreignReleaseId": "5f947c8c-c101-4675-a52c-52c100ebcbc7",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2510637,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "Limited Edition Infinity Station CD",
+        "country": [
+          "United States",
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 58,
+        "albumId": 4,
+        "foreignReleaseId": "033db61a-cb66-43d9-ac9b-98a7bebc89ba",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2518931,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "animated cover art; 24-Bit/44.1 kHz",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      },
+      {
+        "id": 59,
+        "albumId": 4,
+        "foreignReleaseId": "733bd25d-66e3-4801-99f2-98e2ff790161",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2510637,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "CD"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "Germany",
+          "United States",
+          "Europe"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "CD",
+        "monitored": false
+      },
+      {
+        "id": 60,
+        "albumId": 4,
+        "foreignReleaseId": "346bbd75-3079-47d8-b7b9-0d3f9971754e",
+        "title": "Music of the Spheres",
+        "status": "Official",
+        "duration": 2517028,
+        "trackCount": 12,
+        "mediumCount": 1,
+        "media": [
+          {
+            "mediumNumber": 1,
+            "mediumName": "",
+            "mediumFormat": "Digital Media"
+          }
+        ],
+        "disambiguation": "",
+        "country": [
+          "[Worldwide]"
+        ],
+        "label": [
+          "Parlophone"
+        ],
+        "format": "Digital Media",
+        "monitored": false
+      }
+    ],
+    "genres": [
+      "Pop",
+      "Pop Rock",
+      "Electronic",
+      "Jazz",
+      "Rock",
+      "Synth-Pop"
+    ],
+    "mediumCount": 1,
+    "media": [
+      {
+        "mediumNumber": 1,
+        "mediumName": "",
+        "mediumFormat": "Digital Media"
+      }
+    ],
+    "artist": {
+      "status": "continuing",
+      "ended": false,
+      "artistName": "Coldplay",
+      "foreignArtistId": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+      "tadbId": 0,
+      "discogsId": 0,
+      "artistType": "Group",
+      "disambiguation": "",
+      "links": [
+        {
+          "url": "http://www.coldplay.com/",
+          "name": "coldplay"
+        },
+        {
+          "url": "https://musicmoz.org/Bands_and_Artists/C/Coldplay/",
+          "name": "musicmoz"
+        },
+        {
+          "url": "http://www.pleasureunit.com/coldplay/index.php",
+          "name": "pleasureunit"
+        },
+        {
+          "url": "https://www.discogs.com/artist/29735",
+          "name": "discogs"
+        },
+        {
+          "url": "https://myspace.com/coldplay",
+          "name": "myspace"
+        },
+        {
+          "url": "https://www.imdb.com/name/nm1095892/",
+          "name": "imdb"
+        },
+        {
+          "url": "https://twitter.com/coldplay",
+          "name": "twitter"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCfJOsk44wjzby9H64jDd4Nw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.bbc.co.uk/music/artists/cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+          "name": "bbc"
+        },
+        {
+          "url": "https://www.facebook.com/coldplay",
+          "name": "facebook"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.allmusic.com/artist/mn0000775877",
+          "name": "allmusic"
+        },
+        {
+          "url": "https://plus.google.com/+Coldplay",
+          "name": "google"
+        },
+        {
+          "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
+          "name": "spotify"
+        },
+        {
+          "url": "http://coldplay.tumblr.com/",
+          "name": "tumblr"
+        },
+        {
+          "url": "https://www.last.fm/music/Coldplay",
+          "name": "last"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q45188",
+          "name": "wikidata"
+        },
+        {
+          "url": "https://secondhandsongs.com/artist/10590",
+          "name": "secondhandsongs"
+        },
+        {
+          "url": "http://viaf.org/viaf/157712849",
+          "name": "viaf"
+        },
+        {
+          "url": "https://rateyourmusic.com/artist/coldplay",
+          "name": "rateyourmusic"
+        },
+        {
+          "url": "http://www.purevolume.com/coldplay",
+          "name": "purevolume"
+        },
+        {
+          "url": "https://www.musik-sammler.de/artist/3209/",
+          "name": "musik-sammler"
+        },
+        {
+          "url": "http://muzikum.eu/en/122-3547/coldplay/lyrics.html",
+          "name": "muzikum"
+        },
+        {
+          "url": "https://genius.com/artists/Coldplay",
+          "name": "genius"
+        },
+        {
+          "url": "https://imvdb.com/n/coldplay",
+          "name": "imvdb"
+        },
+        {
+          "url": "https://www.bandsintown.com/a/99",
+          "name": "bandsintown"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL2741867A/",
+          "name": "openlibrary"
+        },
+        {
+          "url": "https://www.whosampled.com/Coldplay/",
+          "name": "whosampled"
+        },
+        {
+          "url": "https://www.worldcat.org/identities/lccn-no99089189/",
+          "name": "worldcat"
+        },
+        {
+          "url": "https://play.google.com/store/music/artist?id=Aroavh4k5ypej6qdhyoo52q7bpm",
+          "name": "google"
+        },
+        {
+          "url": "https://www.setlist.fm/setlists/coldplay-3d6bde3.html",
+          "name": "setlist"
+        },
+        {
+          "url": "https://www.instagram.com/coldplay/",
+          "name": "instagram"
+        },
+        {
+          "url": "https://soundcloud.com/coldplay",
+          "name": "soundcloud"
+        },
+        {
+          "url": "https://d-nb.info/gnd/6501726-2",
+          "name": "d-nb"
+        },
+        {
+          "url": "http://id.loc.gov/authorities/names/no99089189",
+          "name": "loc"
+        },
+        {
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb140349761",
+          "name": "bnf"
+        },
+        {
+          "url": "https://www.deezer.com/artist/892",
+          "name": "deezer"
+        },
+        {
+          "url": "https://www.songkick.com/artists/197928",
+          "name": "songkick"
+        },
+        {
+          "url": "http://coldplay.livejournal.com/",
+          "name": "livejournal"
+        },
+        {
+          "url": "https://vk.ru/coldplay",
+          "name": "vk"
+        },
+        {
+          "url": "https://tidal.com/artist/8812",
+          "name": "tidal"
+        },
+        {
+          "url": "https://us.napster.com/artist/coldplay",
+          "name": "napster"
+        },
+        {
+          "url": "https://uk.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://us.7digital.com/artist/coldplay",
+          "name": "7digital"
+        },
+        {
+          "url": "https://www.junodownload.com/artists/Coldplay/releases/",
+          "name": "junodownload"
+        },
+        {
+          "url": "https://www.beatport.com/artist/coldplay/162668",
+          "name": "beatport"
+        },
+        {
+          "url": "https://www.livefans.jp/artists/2236",
+          "name": "livefans"
+        },
+        {
+          "url": "https://www.musixmatch.com/artist/Coldplay",
+          "name": "musixmatch"
+        },
+        {
+          "url": "https://wmg.jp/coldplay/discography/",
+          "name": "wmg"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://music.apple.com/gb/artist/471744",
+          "name": "apple"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://mora.jp/artist/254708/",
+          "name": "mora"
+        },
+        {
+          "url": "https://www.hdtracks.com/#/artist/Coldplay",
+          "name": "hdtracks"
+        },
+        {
+          "url": "https://www.tiktok.com/@coldplay",
+          "name": "tiktok"
+        },
+        {
+          "url": "https://www.livenation.co.uk/artist-8720",
+          "name": "livenation"
+        },
+        {
+          "url": "https://www.muziekweb.nl/Link/M00000124920/POPULAR/",
+          "name": "muziekweb"
+        },
+        {
+          "url": "https://music.youtube.com/channel/UCIaFw5VBEK8qaW6nRpx_qnw",
+          "name": "youtube"
+        },
+        {
+          "url": "https://www.ticketmaster.com/artist/806431",
+          "name": "ticketmaster"
+        },
+        {
+          "url": "https://music.amazon.co.uk/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://www.spirit-of-rock.com/en/band/Coldplay",
+          "name": "spirit-of-rock"
+        },
+        {
+          "url": "https://www.threads.com/@coldplay",
+          "name": "threads"
+        },
+        {
+          "url": "https://www.idref.fr/086228749",
+          "name": "idref"
+        },
+        {
+          "url": "https://jaxsta.com/profile/4e482690-dc02-4c85-9fbf-28907c20b928",
+          "name": "jaxsta"
+        },
+        {
+          "url": "https://www.weibo.com/7502254158",
+          "name": "weibo"
+        },
+        {
+          "url": "https://music.amazon.com/artists/B000QKGN8W",
+          "name": "amazon"
+        },
+        {
+          "url": "https://music.yandex.com/artist/671",
+          "name": "yandex"
+        },
+        {
+          "url": "https://mora.jp/artist/1473572/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/503134/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1468413/",
+          "name": "mora"
+        },
+        {
+          "url": "https://mora.jp/artist/1992749/",
+          "name": "mora"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://open.qobuz.com/artist/40226",
+          "name": "qobuz"
+        },
+        {
+          "url": "https://audiomack.com/coldplay",
+          "name": "audiomack"
+        },
+        {
+          "url": "https://www.deezer.com/artist/316813311",
+          "name": "deezer"
+        }
+      ],
+      "nextAlbum": null,
+      "lastAlbum": null,
+      "images": [],
+      "path": "/music/Coldplay",
+      "qualityProfileId": 4,
+      "metadataProfileId": 1,
+      "monitored": false,
+      "monitorNewItems": "none",
+      "genres": [
+        "Alternative Rock",
+        "Pop",
+        "Pop Rock",
+        "Rock",
+        "Post-Britpop",
+        "Britpop",
+        "Piano Rock",
+        "Indie Rock",
+        "Dream Pop",
+        "Art Pop"
+      ],
+      "cleanName": "coldplay",
+      "sortName": "coldplay",
+      "tags": [],
+      "added": "2026-11-03T17:50:01Z",
+      "ratings": {
+        "votes": 50,
+        "value": 8.2
+      },
+      "id": 1
+    },
+    "images": [
+      {
+        "coverType": "cover",
+        "url": "/MediaCover/Albums/4/cover.jpg?lastWrite=639293250015065681",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/346bbd75-3079-47d8-b7b9-0d3f9971754e/34163799243-1200.jpg",
+        "extension": ".jpg"
+      },
+      {
+        "coverType": "disc",
+        "url": "/MediaCover/Albums/4/disc.jpg",
+        "remoteUrl": "https://images.lidarr.audio/cache/https://coverartarchive.org/release/733bd25d-66e3-4801-99f2-98e2ff790161/30686869365-1200.jpg",
+        "extension": ".jpg"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.wikidata.org/wiki/Q107597380",
+        "name": "wikidata"
+      },
+      {
+        "url": "https://www.allmusic.com/album/mw0003559619",
+        "name": "allmusic"
+      },
+      {
+        "url": "https://www.discogs.com/master/2337988",
+        "name": "discogs"
+      },
+      {
+        "url": "https://rateyourmusic.com/release/album/coldplay/music-of-the-spheres/",
+        "name": "rateyourmusic"
+      },
+      {
+        "url": "https://www.offiziellecharts.de/charts/album-details-483965",
+        "name": "offiziellecharts"
+      },
+      {
+        "url": "https://www.last.fm/music/Coldplay/Music+of+the+Spheres",
+        "name": "last"
+      }
+    ],
+    "statistics": {
+      "trackFileCount": 0,
+      "trackCount": 0,
+      "totalTrackCount": 17,
+      "sizeOnDisk": 0,
+      "percentOfTracks": 0
+    },
+    "id": 4
+  }
+]

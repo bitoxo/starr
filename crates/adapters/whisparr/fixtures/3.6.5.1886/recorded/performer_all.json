@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Performer Q",
+    "foreignId": "9e7f0002-0000-4000-8000-000000000002",
+    "monitored": false,
+    "moviesMonitored": false,
+    "id": 1
+  },
+  {
+    "name": "Performer R",
+    "foreignId": "9e7f0003-0000-4000-8000-000000000003",
+    "monitored": false,
+    "moviesMonitored": false,
+    "id": 2
+  },
+  {
+    "name": "Performer P",
+    "foreignId": "9e7f0001-0000-4000-8000-000000000001",
+    "monitored": false,
+    "moviesMonitored": false,
+    "id": 33
+  }
+]

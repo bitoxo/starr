@@ -1,0 +1,16 @@
+[package]
+name = "starr-secrets"
+description = "Sealing of stored secrets with age (X25519), ADR 0003."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+publish.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+age = "0.12.1"
+secrecy = "0.10"
+thiserror = "2"

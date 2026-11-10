@@ -1,0 +1,4 @@
+{
+  "message": "constraint failed\nUNIQUE constraint failed: Series.TvdbId",
+  "description": "code = Constraint (19), message = System.Data.SQLite.SQLiteException (0x800027AF): constraint failed\nUNIQUE constraint failed: Series.TvdbId"
+}

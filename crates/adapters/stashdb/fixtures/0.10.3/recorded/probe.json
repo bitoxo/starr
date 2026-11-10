@@ -1,0 +1,12 @@
+{
+  "data": {
+    "version": {
+      "version": "v0.10.3"
+    },
+    "me": {
+      "roles": [
+        "READ"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# cargo-audit configuration (`just audit`). The same accepted advisories as
+# deny.toml, where each has its reason; keep both lists in sync.
+[advisories]
+ignore = [
+    "RUSTSEC-2026-0459", # bundled SQLite WAL read; needs attacker-written files, waits for sqlx
+    "RUSTSEC-2026-0387", # crypto-bigint timing; age P-256 code path Starr never uses
+    "RUSTSEC-2026-0374", # basic-toml unmaintained; build-time proc-macro only
+]
+informational_warnings = ["unmaintained", "unsound"]

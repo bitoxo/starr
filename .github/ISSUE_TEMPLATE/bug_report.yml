@@ -1,0 +1,67 @@
+name: Bug report
+description: Starr does something wrong, or something different from what the docs say.
+labels: ["triage", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Security problems go through a [private report](https://github.com/bitoxo/starr/blob/main/SECURITY.md), not here.
+        Remove API keys, passwords, tokens and personal data from anything you paste.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. As a member, open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Starr version
+      description: The image tag you run, or the version under Admin → Settings → About.
+      placeholder: 0.4.1
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: How do you run Starr?
+      options:
+        - Docker, single container
+        - Docker, web and worker split
+        - Other (describe below)
+    validations:
+      required: true
+  - type: textarea
+    id: services
+    attributes:
+      label: Services involved
+      description: Which services and versions? Reverse proxy, if any.
+      placeholder: Radarr 6.4, Jellyfin 10.11, Caddy in front
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: The relevant part of `docker logs starr`, and the run report from Admin → Runs if a job failed. Starr doesn't log secrets, but check before you paste.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots, browser, what you already tried.
+    validations:
+      required: false

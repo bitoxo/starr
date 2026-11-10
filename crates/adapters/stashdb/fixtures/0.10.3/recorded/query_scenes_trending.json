@@ -1,0 +1,108 @@
+{
+  "data": {
+    "queryScenes": {
+      "count": 188875,
+      "scenes": [
+        {
+          "id": "5ce00004-0000-4000-8000-000000000004",
+          "title": "Scene F",
+          "release_date": "2025-05-15",
+          "duration": 1740,
+          "studio": {
+            "id": "57d10002-0000-4000-8000-000000000002",
+            "name": "Studio T"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0005-0000-4000-8000-000000000005",
+                "name": "Performer T"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0006-0000-4000-8000-000000000006",
+                "name": "Performer U"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e0009-0000-4000-8000-000000000009",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "id": "5ce00005-0000-4000-8000-000000000005",
+          "title": "Scene G",
+          "release_date": "2025-06-15",
+          "duration": 1800,
+          "studio": {
+            "id": "57d10003-0000-4000-8000-000000000003",
+            "name": "Studio U"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0007-0000-4000-8000-000000000007",
+                "name": "Performer V"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0008-0000-4000-8000-000000000008",
+                "name": "Performer W"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f0009-0000-4000-8000-000000000009",
+                "name": "Performer X"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e000a-0000-4000-8000-00000000000a",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "id": "5ce00006-0000-4000-8000-000000000006",
+          "title": "Scene H",
+          "release_date": "2025-07-15",
+          "duration": 1860,
+          "studio": {
+            "id": "57d10004-0000-4000-8000-000000000004",
+            "name": "Studio V"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f000a-0000-4000-8000-00000000000a",
+                "name": "Performer Y"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f000b-0000-4000-8000-00000000000b",
+                "name": "Performer Z"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e000b-0000-4000-8000-00000000000b",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

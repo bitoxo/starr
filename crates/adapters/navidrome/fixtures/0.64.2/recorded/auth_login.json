@@ -1,0 +1,9 @@
+{
+  "id": "recUser000000000000001",
+  "isAdmin": true,
+  "name": "Admin1",
+  "subsonicSalt": "<redacted>",
+  "subsonicToken": "<redacted>",
+  "token": "<redacted>",
+  "username": "admin1"
+}

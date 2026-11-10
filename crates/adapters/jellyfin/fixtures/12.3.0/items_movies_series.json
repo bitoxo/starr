@@ -1,0 +1,71 @@
+[
+  {
+    "Name": "The Matrix",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "0f1e2d3c4b5a69788796a5b4c3d2e1f0",
+    "ProductionYear": 1999,
+    "ProviderIds": {
+      "Tmdb": "603",
+      "Imdb": "tt0133093"
+    },
+    "IsFolder": false,
+    "Type": "Movie",
+    "LocationType": "FileSystem",
+    "MediaType": "Video",
+    "RunTimeTicks": 81720000000,
+    "Container": "mkv"
+  },
+  {
+    "Name": "Breaking Bad",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "1a2b3c4d5e6f708192a3b4c5d6e7f809",
+    "ProductionYear": 2008,
+    "ProviderIds": {
+      "Tvdb": "81189",
+      "Tmdb": "1396",
+      "Imdb": "tt0903747"
+    },
+    "IsFolder": true,
+    "Type": "Series",
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown",
+    "Status": "Ended"
+  },
+  {
+    "Name": "Home Recording",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "2b3c4d5e6f708192a3b4c5d6e7f8091a",
+    "ProviderIds": {},
+    "IsFolder": false,
+    "Type": "Movie",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Dune: Part Two",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "3c4d5e6f708192a3b4c5d6e7f8091a2b",
+    "ProductionYear": 2024,
+    "ProviderIds": {
+      "tmdb": "693134",
+      "IMDB": "tt15239678",
+      "TmdbCollection": "726871"
+    },
+    "IsFolder": false,
+    "Type": "Movie",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Fresh Show",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "4d5e6f708192a3b4c5d6e7f8091a2b3c",
+    "ProductionYear": 2026,
+    "ProviderIds": {},
+    "IsFolder": true,
+    "Type": "Series",
+    "LocationType": "FileSystem",
+    "MediaType": "Unknown",
+    "Status": "Continuing"
+  }
+]

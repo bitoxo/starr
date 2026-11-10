@@ -1,0 +1,36 @@
+# Rust
+/target/
+
+# Frontend
+/web/node_modules/
+/web/dist/
+
+# Local runtime data (dev)
+/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Local demo environment for UI work (spec 0008 Q23 C, ADR 0015): never committed
+/scripts/demo/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Claude Code (personal)
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Maintainer-local working files (kept in a private companion repo)
+/.claude/
+/CLAUDE.md
+/docs/specs/
+/docs/adr/

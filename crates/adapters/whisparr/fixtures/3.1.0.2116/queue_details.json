@@ -1,0 +1,91 @@
+[
+  {
+    "movieId": 11,
+    "languages": [
+      {
+        "id": 1,
+        "name": "English"
+      }
+    ],
+    "quality": {
+      "quality": {
+        "id": 7,
+        "name": "WEBDL-1080p",
+        "source": "webdl",
+        "resolution": 1080,
+        "modifier": "none"
+      },
+      "revision": {
+        "version": 1,
+        "real": 0,
+        "isRepack": false
+      }
+    },
+    "customFormats": [],
+    "customFormatScore": 0,
+    "size": 1500000000.0,
+    "title": "Studio.S.Scene.A.1080p",
+    "estimatedCompletionTime": "2026-11-04T12:30:00Z",
+    "added": "2026-11-04T11:00:00Z",
+    "status": "downloading",
+    "trackedDownloadStatus": "ok",
+    "trackedDownloadState": "downloading",
+    "statusMessages": [],
+    "downloadId": "placeholder-download-1",
+    "protocol": "torrent",
+    "downloadClient": "Download Client",
+    "downloadClientHasPostImportCategory": false,
+    "indexer": "Indexer",
+    "outputPath": "/downloads/incomplete/Studio.S.Scene.A.1080p",
+    "sizeleft": 500000000.0,
+    "timeleft": "00:30:00",
+    "id": 1770812400
+  },
+  {
+    "movieId": 11,
+    "languages": [
+      {
+        "id": 1,
+        "name": "English"
+      }
+    ],
+    "quality": {
+      "quality": {
+        "id": 3,
+        "name": "WEBDL-720p",
+        "source": "webdl",
+        "resolution": 720,
+        "modifier": "none"
+      },
+      "revision": {
+        "version": 1,
+        "real": 0,
+        "isRepack": false
+      }
+    },
+    "customFormats": [],
+    "customFormatScore": 0,
+    "size": 800000000.0,
+    "title": "Studio.S.Scene.A.720p",
+    "added": "2026-11-03T11:00:00Z",
+    "status": "completed",
+    "trackedDownloadStatus": "warning",
+    "trackedDownloadState": "importBlocked",
+    "statusMessages": [
+      {
+        "title": "Studio.S.Scene.A.720p",
+        "messages": [
+          "Not an upgrade for existing file(s)"
+        ]
+      }
+    ],
+    "downloadId": "placeholder-download-2",
+    "protocol": "torrent",
+    "downloadClient": "Download Client",
+    "downloadClientHasPostImportCategory": false,
+    "outputPath": "/downloads/complete/Studio.S.Scene.A.720p",
+    "sizeleft": 0.0,
+    "timeleft": "00:00:00",
+    "id": 1770812401
+  }
+]

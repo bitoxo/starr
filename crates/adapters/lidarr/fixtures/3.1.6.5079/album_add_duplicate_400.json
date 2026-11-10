@@ -1,0 +1,9 @@
+[
+  {
+    "propertyName": "ForeignAlbumId",
+    "errorMessage": "This album has already been added.",
+    "attemptedValue": "61b7b6cd-86a6-4728-9478-b58c93bca8fd",
+    "severity": "error",
+    "errorCode": "AlbumExistsValidator"
+  }
+]

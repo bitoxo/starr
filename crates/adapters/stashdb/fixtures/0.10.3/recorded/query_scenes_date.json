@@ -1,0 +1,96 @@
+{
+  "data": {
+    "queryScenes": {
+      "count": 1121679,
+      "scenes": [
+        {
+          "id": "5ce00007-0000-4000-8000-000000000007",
+          "title": "Scene I",
+          "release_date": "2026-12-08",
+          "duration": 1920,
+          "studio": {
+            "id": "57d10005-0000-4000-8000-000000000005",
+            "name": "Studio W"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f000c-0000-4000-8000-00000000000c",
+                "name": "Performer AA"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f000d-0000-4000-8000-00000000000d",
+                "name": "Performer AB"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e000c-0000-4000-8000-00000000000c",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "id": "5ce00008-0000-4000-8000-000000000008",
+          "title": "Scene J",
+          "release_date": "2025-09-15",
+          "duration": 1980,
+          "studio": {
+            "id": "57d10006-0000-4000-8000-000000000006",
+            "name": "Studio X"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f000e-0000-4000-8000-00000000000e",
+                "name": "Performer AC"
+              }
+            },
+            {
+              "performer": {
+                "id": "9e7f000f-0000-4000-8000-00000000000f",
+                "name": "Performer AD"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e000d-0000-4000-8000-00000000000d",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "id": "5ce00009-0000-4000-8000-000000000009",
+          "title": "Scene K",
+          "release_date": "2025-10-15",
+          "duration": 2040,
+          "studio": {
+            "id": "57d10007-0000-4000-8000-000000000007",
+            "name": "Studio Y"
+          },
+          "performers": [
+            {
+              "performer": {
+                "id": "9e7f0010-0000-4000-8000-000000000010",
+                "name": "Performer AE"
+              }
+            }
+          ],
+          "images": [
+            {
+              "id": "1a6e000e-0000-4000-8000-00000000000e",
+              "width": 1920,
+              "height": 1080
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

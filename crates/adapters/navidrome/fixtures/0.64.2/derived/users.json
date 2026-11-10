@@ -1,0 +1,61 @@
+[
+  {
+    "id": "6aB3kQ9zXw1Lm4Np7Rs2Tu",
+    "userName": "starr",
+    "name": "Starr",
+    "email": "",
+    "isAdmin": true,
+    "lastLoginAt": "2026-11-03T08:00:00.000Z",
+    "lastAccessAt": "2026-11-03T08:00:00.000Z",
+    "createdAt": "2026-09-30T08:05:00.000Z",
+    "updatedAt": "2026-09-30T08:05:00.000Z",
+    "libraries": [
+      { "id": 1, "name": "Music Library", "path": "/music", "remotePath": "", "defaultNewUsers": true },
+      { "id": 2, "name": "Audiobooks", "path": "/audiobooks", "remotePath": "", "defaultNewUsers": false }
+    ]
+  },
+  {
+    "id": "0Fq7Hc2Vd8Jk5Lp3Mn9Rb1",
+    "userName": "morgan",
+    "name": "Morgan",
+    "email": "morgan@example.org",
+    "isAdmin": true,
+    "lastLoginAt": "2026-11-02T19:41:10.511Z",
+    "lastAccessAt": "2026-11-02T20:02:44.010Z",
+    "createdAt": "2026-09-30T08:01:12.004Z",
+    "updatedAt": "2026-09-30T08:01:12.004Z",
+    "libraries": [
+      { "id": 1, "name": "Music Library", "path": "/music", "remotePath": "", "defaultNewUsers": true },
+      { "id": 2, "name": "Audiobooks", "path": "/audiobooks", "remotePath": "", "defaultNewUsers": false }
+    ]
+  },
+  {
+    "id": "3Tz5Wq8Ey1Ru4Io7Pa2Sd6",
+    "userName": "Alex",
+    "name": "Alex",
+    "email": "",
+    "isAdmin": false,
+    "lastLoginAt": "2026-10-28T17:12:00.000Z",
+    "lastAccessAt": "2026-11-01T09:30:00.000Z",
+    "createdAt": "2026-10-01T12:00:00.000Z",
+    "updatedAt": "2026-10-01T12:00:00.000Z",
+    "libraries": [
+      { "id": 1, "name": "Music Library", "path": "/music", "remotePath": "", "defaultNewUsers": true }
+    ]
+  },
+  {
+    "id": "9Kd2Lf5Gh8Jz1Xc4Vb7Nm3",
+    "userName": "sam",
+    "name": "Sam",
+    "email": "sam@example.org",
+    "isAdmin": false,
+    "lastLoginAt": null,
+    "lastAccessAt": null,
+    "createdAt": "2026-10-04T18:30:00.000Z",
+    "updatedAt": "2026-10-04T18:30:00.000Z",
+    "libraries": [
+      { "id": 1, "name": "Music Library", "path": "/music", "remotePath": "", "defaultNewUsers": true },
+      { "id": 2, "name": "Audiobooks", "path": "/audiobooks", "remotePath": "", "defaultNewUsers": false }
+    ]
+  }
+]

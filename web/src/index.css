@@ -1,0 +1,387 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* Fonts are bundled (no font host at runtime). Axes: Bricolage wght+wdth+opsz,
+   Instrument Sans wght+wdth, Geist Mono wght. */
+@import '@fontsource-variable/bricolage-grotesque/standard.css';
+@import '@fontsource-variable/instrument-sans/wdth.css';
+@import '@fontsource-variable/geist-mono/index.css';
+
+/* Design tokens: "Nachtaufnahme", source of truth is docs/design/README.md.
+   The default Tailwind palette is removed so only these tokens can be used. */
+@theme {
+  --color-*: initial;
+
+  --color-night-0: #0b0f15;
+  --color-night-1: #121821;
+  --color-night-2: #1a2230;
+  --color-line: #263042;
+  --color-text: #e9edf2;
+  --color-text-2: #9aa6b8;
+  --color-text-3: #7e8ba1;
+  --color-polaris: #f3c46b;
+  --color-polaris-ink: #1d1505;
+
+  --color-cat-movies: #e8935a;
+  --color-cat-series: #5fb8c9;
+  --color-cat-music: #e07aa6;
+  --color-cat-adult: #d95b55;
+  --color-cat-podcasts: #a99cf2;
+
+  --color-ok: #5cc08a;
+  --color-info: #6aa8ea;
+  --color-warn: #e3a54a;
+  --color-bad: #e5645b;
+
+  /* The spacing unit is 4 CSS px, not Tailwind's 0.25 rem: the root is 15 px (the body size),
+     so a rem-based unit would put the grid on 3.75 px and make `min-h-11`/`size-11` 41 px.
+     With px, the 4 px grid holds and `*-11` is the 44 px touch target (design README). */
+  --spacing: 4px;
+
+  --font-display: 'Bricolage Grotesque Variable', sans-serif;
+  --font-sans: 'Instrument Sans Variable', sans-serif;
+  --font-mono: 'Geist Mono Variable', monospace;
+
+  /* Type scale (px): 12 · 13 · 15 · 18 · 21 · 28 · 40 · 52 */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.45;
+  --text-sm: 0.8125rem;
+  --text-sm--line-height: 1.5;
+  --text-base: 0.9375rem;
+  --text-base--line-height: 1.55;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.45;
+  --text-xl: 1.3125rem;
+  --text-xl--line-height: 1.3;
+  --text-2xl: 1.75rem;
+  --text-2xl--line-height: 1.15;
+  --text-3xl: 2.5rem;
+  --text-3xl--line-height: 1.05;
+  --text-4xl: 3.25rem;
+  --text-4xl--line-height: 1;
+
+  /* Radii: controls, covers/cards, panels. Pills use rounded-full. */
+  --radius-control: 6px;
+  --radius-card: 10px;
+  --radius-panel: 16px;
+
+  /* Easing (design README A2); `ease-out` and `ease-in-out` replace Tailwind's defaults. */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-playful: cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+
+    /* Motion durations (design README A2), used as `duration-(--dur-2)`. Reduced motion is
+       handled per use with `motion-safe:` (CSS) and `useReducedMotion()` (script). */
+    --dur-1: 120ms;
+    --dur-2: 200ms;
+    --dur-3: 320ms;
+    --dur-4: 480ms;
+    --dur-ambient: 1200ms;
+    --dur-hero: 7s;
+    --dur-hero-fade: 600ms;
+  }
+
+  html,
+  body {
+    background-color: var(--color-night-0);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: var(--text-base--line-height);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-line);
+    /* The ring's colour is set before focus arrives: otherwise `transition-colors` animates it
+       from currentColor, and every focused control flashes a grey or white ring (ADM-33). */
+    outline-color: var(--color-polaris);
+  }
+
+  ::selection {
+    background-color: color-mix(in oklab, var(--color-polaris) 35%, transparent);
+  }
+
+  /* Polaris marks focus everywhere. */
+  :focus-visible {
+    outline: 2px solid var(--color-polaris);
+    outline-offset: 2px;
+  }
+
+  /* Below 1024 px the top bar and the tab bar stick: focus and in-page jumps never end up
+     underneath them (WCAG 2.4.11). */
+  @media (width < 64rem) {
+    html {
+      /* Top bar, member-view strip and gate strip can stack (56 + 44 + 44 px). */
+      scroll-padding-top: 152px;
+      scroll-padding-bottom: 5rem;
+    }
+  }
+}
+
+/* Display face: Bricolage, narrowed and tightly tracked. */
+@utility type-display {
+  font-family: var(--font-display);
+  font-stretch: 84%;
+  letter-spacing: -0.02em;
+}
+
+/* Wordmark: Bricolage 800, wdth 78, tracking -0.035em. */
+@utility wordmark {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-stretch: 78%;
+  letter-spacing: -0.035em;
+}
+
+/* Meta and data: Geist Mono with tabular numbers. */
+@utility type-data {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Chip: tinted background (16 %), text 82 % toward white, colour from --chip. */
+@utility chip {
+  background-color: color-mix(in oklab, var(--chip) 16%, transparent);
+  color: color-mix(in oklab, var(--chip) 18%, white);
+}
+
+/* Colour from the cover and the hero (design README A1, A4). These are the only gradients:
+   an image's edge mask and its text scrim, both properties of the image, never of chrome. */
+@layer components {
+  /* Ambient layer: the current backdrop, blurred, saturated and dimmed. The hard cap: after
+     brightness(0.5) no pixel is lighter than #808080; at 18 % over night-0 that is at most
+     rgb(32 35 40), where text-3 (the dimmest text token) still reads at 4.56:1 (text 13.4:1,
+     text-2 6.4:1). Raising the opacity breaks that guarantee. */
+  .ambient-image {
+    position: absolute;
+    inset: -10%;
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    filter: blur(70px) saturate(1.3) brightness(0.5);
+    opacity: 0;
+    transition: opacity var(--dur-ambient) var(--ease-in-out);
+  }
+  .ambient-image[data-on] {
+    opacity: 0.18;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ambient-image {
+      transition: none;
+    }
+  }
+
+  /* The login page's poster wall (spec 0008 slice 11): beside the form, never under text; it
+     fades into the ground at its inner edge (image blend) and is dimmed by a fixed cap. */
+  .login-art {
+    mask-image: linear-gradient(to right, transparent, #000 35%);
+    mask-repeat: no-repeat;
+    opacity: 0.5;
+  }
+
+  /* The hero's backdrop fades into the ground at its lower edge. */
+  .hero-mask {
+    mask-image: linear-gradient(to bottom, #000 62%, transparent);
+    /* A repeating mask would start over in a fractional last pixel row. */
+    mask-repeat: no-repeat;
+  }
+
+  /* Scrim under the hero copy (lower left), strong enough for 4.5:1 on any pixel behind the
+     copy column; measured per slice on the demo images. */
+  .hero-scrim {
+    background:
+      linear-gradient(
+        90deg,
+        color-mix(in oklab, var(--color-night-0) 94%, transparent) 0%,
+        color-mix(in oklab, var(--color-night-0) 85%, transparent) 45%,
+        color-mix(in oklab, var(--color-night-0) 55%, transparent) 65%,
+        transparent 85%
+      ),
+      linear-gradient(
+        0deg,
+        color-mix(in oklab, var(--color-night-0) 70%, transparent) 0%,
+        transparent 45%
+      );
+  }
+
+  /* A ranked lane's numeral (spec 0008 Q6 A): outlined in text-2, no fill, beside its cover.
+     Decorative (aria-hidden); the rank is in the cover's accessible name. */
+  .rank-number {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--color-text-2);
+    letter-spacing: -0.06em;
+    font-stretch: 75%;
+  }
+
+  /* Flat tint (design README A1): a genre tile's surface takes one colour from its cover,
+     clamped in `lib/tint.ts`; without one (`--tint` unset) the plain night-1 surface. */
+  .tint-surface {
+    background-color: var(--color-night-1);
+  }
+  .tint-surface[style*='--tint'] {
+    background-color: color-mix(in oklch, var(--tint) 22%, var(--color-night-1));
+  }
+
+  /* Preview card "Morph" (spec 0008 A3, amendment 2026-11-07). Its backdrop fades into the
+     card's flat tint at its lower edge (image blend, no divider); albums show their cover
+     blurred instead of a backdrop. Behind the card the cover glows softly: colour from the
+     title, behind the title (A1), no text on it; the opacity is a hard cap. */
+  .preview-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mask-image: linear-gradient(#000 50%, transparent);
+    mask-repeat: no-repeat;
+  }
+  .preview-media[data-square] img {
+    filter: blur(22px) saturate(1.2);
+    transform: scale(1.4);
+    opacity: 0.85;
+  }
+  .preview-glow {
+    position: absolute;
+    inset: -56px -64px -70px;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.5;
+    mask-image: radial-gradient(closest-side, #000 45%, transparent);
+  }
+  .preview-glow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(42px) saturate(1.25);
+  }
+
+  /* The dwell of the current hero slide as a 3 px bar; its end advances the carousel. */
+  .hero-progress {
+    transform-origin: left;
+    animation: hero-progress var(--dur-hero) linear forwards;
+  }
+}
+
+/* The detail overlay (design README A7, A2). Entrance: the dialog fades and rises (--dur-4),
+   the cover settles with --ease-playful, the header's text blocks stagger by 40 ms (at most
+   8); exits are faster (0.7×). With reduced motion nothing moves. */
+@layer components {
+  /* The album surface takes the flat cover tint (A1): clamped in lib/tint.ts, mixed 22 %. */
+  .detail-tint {
+    background-color: color-mix(in oklch, var(--tint) 22%, var(--color-night-1));
+  }
+
+  /* The backdrop fades into the surface at its lower edge (image blend, A1). */
+  .detail-backdrop {
+    mask-image: linear-gradient(to bottom, #000 45%, transparent);
+    mask-repeat: no-repeat;
+  }
+  /* Image scrim under the header text that overlaps the backdrop's lower part: with the mask
+     it keeps text-2 at ≥ 4.5:1 on any pixel (measured on the demo images). */
+  .detail-backdrop::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      var(--color-night-1) 0%,
+      color-mix(in oklab, var(--color-night-1) 75%, transparent) 30%,
+      transparent 65%
+    );
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .detail-overlay[data-state='open'] {
+      animation: detail-fade-in var(--dur-3) var(--ease-out) both;
+    }
+    .detail-overlay[data-state='closed'] {
+      animation: detail-fade-out calc(var(--dur-3) * 0.7) var(--ease-in-out) both;
+    }
+    .detail-dialog[data-state='open'] {
+      animation: detail-rise var(--dur-4) var(--ease-out) both;
+    }
+    .detail-dialog[data-state='closed'] {
+      animation: detail-fade-out calc(var(--dur-4) * 0.7) var(--ease-in-out) both;
+    }
+    .detail-settle {
+      animation: detail-settle var(--dur-4) var(--ease-playful) both;
+    }
+    .detail-stagger > * {
+      animation: detail-rise-small var(--dur-4) var(--ease-out) both;
+    }
+    .detail-stagger > :nth-child(2) {
+      animation-delay: 40ms;
+    }
+    .detail-stagger > :nth-child(3) {
+      animation-delay: 80ms;
+    }
+    .detail-stagger > :nth-child(4) {
+      animation-delay: 120ms;
+    }
+    .detail-stagger > :nth-child(5) {
+      animation-delay: 160ms;
+    }
+    .detail-stagger > :nth-child(6) {
+      animation-delay: 200ms;
+    }
+    .detail-stagger > :nth-child(7) {
+      animation-delay: 240ms;
+    }
+    .detail-stagger > :nth-child(n + 8) {
+      animation-delay: 280ms;
+    }
+    /* The scene page (spec 0008 Q8 A) enters like the overlay: its image settles, its text
+       blocks stagger, and the side column (request card, "More from") rises as one block. */
+    .scene-side {
+      animation: detail-rise var(--dur-4) var(--ease-out) 80ms both;
+    }
+  }
+}
+
+@keyframes detail-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes detail-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes detail-rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+}
+
+@keyframes detail-rise-small {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@keyframes detail-settle {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.94);
+  }
+}
+
+@keyframes hero-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}

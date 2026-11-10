@@ -1,0 +1,45 @@
+# Hardened setup: web and worker as separate containers.
+# Same image, same /config volume (a local disk, not a network share).
+# Only the worker can read secret.key (opens service API keys). The web
+# container owns web.key (TOTP secrets, TMDB read token); the worker reads it
+# read-only to check TMDB. See the README, "Hardened setup".
+#
+# Create the directories first, owned by the user below:
+#   mkdir -p config worker-key web-key && chown 1000:1000 config worker-key web-key
+services:
+  starr-web:
+    image: ghcr.io/bitoxo/starr:latest
+    container_name: starr-web
+    command: ["web"]
+    user: "1000:1000"
+    environment:
+      - STARR_PUBLIC_URL=https://starr.example.com
+      - STARR_BEHIND_PROXY=true    # TLS reverse proxy in front, see the README
+      - STARR_WEB_KEY_FILE=/web-key/web.key
+    volumes:
+      - ./config:/config
+      - ./web-key:/web-key
+    # Only the proxy on this host reaches Starr. A proxy in the same Docker
+    # network needs no published port at all (point it at starr-web:7979).
+    ports:
+      - "127.0.0.1:7979:7979"
+    restart: unless-stopped
+
+  starr-worker:
+    image: ghcr.io/bitoxo/starr:latest
+    container_name: starr-worker
+    command: ["worker"]
+    user: "1000:1000"
+    environment:
+      - STARR_PUBLIC_URL=https://starr.example.com   # for links in emails and webhooks
+      - STARR_SECRET_KEY_FILE=/worker-key/secret.key
+      - STARR_WEB_KEY_FILE=/web-key/web.key
+    volumes:
+      - ./config:/config
+      - ./worker-key:/worker-key
+      - ./web-key:/web-key:ro
+    # The worker opens no port, so the image's HTTP health check does not
+    # apply; if it exits, the restart policy brings it back.
+    healthcheck:
+      disable: true
+    restart: unless-stopped

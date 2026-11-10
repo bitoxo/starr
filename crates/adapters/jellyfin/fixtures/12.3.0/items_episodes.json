@@ -1,0 +1,81 @@
+[
+  {
+    "Name": "Episode 1",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "e0000000000000000000000000000001",
+    "IndexNumber": 1,
+    "ParentIndexNumber": 1,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "1a2b3c4d5e6f708192a3b4c5d6e7f809",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 2",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "e0000000000000000000000000000002",
+    "IndexNumber": 2,
+    "ParentIndexNumber": 1,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "1a2b3c4d5e6f708192a3b4c5d6e7f809",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 3",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "e0000000000000000000000000000003",
+    "IndexNumber": 3,
+    "IndexNumberEnd": 4,
+    "ParentIndexNumber": 1,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "1a2b3c4d5e6f708192a3b4c5d6e7f809",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 1",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "e0000000000000000000000000000004",
+    "IndexNumber": 1,
+    "ParentIndexNumber": 2,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "1a2b3c4d5e6f708192a3b4c5d6e7f809",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 2",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "e0000000000000000000000000000005",
+    "IndexNumber": 2,
+    "ParentIndexNumber": 2,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "1a2b3c4d5e6f708192a3b4c5d6e7f809",
+    "LocationType": "Virtual",
+    "MediaType": "Video"
+  },
+  {
+    "Name": "Episode 1",
+    "ServerId": "5f2b8c0e1a3d4b6f9e7c2a1d0b3e4f5a",
+    "Id": "e0000000000000000000000000000006",
+    "IndexNumber": 1,
+    "ParentIndexNumber": 0,
+    "IsFolder": false,
+    "Type": "Episode",
+    "SeriesName": "Breaking Bad",
+    "SeriesId": "1a2b3c4d5e6f708192a3b4c5d6e7f809",
+    "LocationType": "FileSystem",
+    "MediaType": "Video"
+  }
+]
