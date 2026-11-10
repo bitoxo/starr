@@ -104,6 +104,20 @@ wait_healthy() {
 
 # --- what to compare -------------------------------------------------------
 
+image=${ROLLBACK_IMAGE:-}
+if [ -z "$image" ]; then
+  # The newest release tag strictly before HEAD, so a tagged HEAD compares
+  # against the release before it. With no earlier release in this history
+  # (the first commit, or a fresh clone without tags) there is nothing to
+  # roll back to: skip instead of failing.
+  if ! prev_tag=$(git -C "$repo" describe --tags --abbrev=0 --match 'v*' HEAD^ 2>/dev/null); then
+    echo "skip: no release before HEAD in this history, nothing to roll back to"
+    echo "      (missing tags? git fetch --tags; or set ROLLBACK_IMAGE=<image>)"
+    exit 0
+  fi
+  image="ghcr.io/bitoxo/starr:${prev_tag#v}"
+fi
+
 if [ -z "${STARR_BIN:-}" ]; then
   log "building the current binary"
   (cd "$repo" && cargo build -q -p starr-server --locked)
@@ -111,14 +125,6 @@ if [ -z "${STARR_BIN:-}" ]; then
 fi
 [ -x "$STARR_BIN" ] || fail "no executable at STARR_BIN=$STARR_BIN"
 
-image=${ROLLBACK_IMAGE:-}
-if [ -z "$image" ]; then
-  # The newest release tag strictly before HEAD, so a tagged HEAD compares
-  # against the release before it.
-  prev_tag=$(git -C "$repo" describe --tags --abbrev=0 --match 'v*' HEAD^) ||
-    fail "no previous v* tag found (fetch tags: git fetch --tags)"
-  image="ghcr.io/bitoxo/starr:${prev_tag#v}"
-fi
 if ! docker image inspect "$image" >/dev/null 2>&1; then
   log "pulling $image"
   docker pull -q "$image" >/dev/null || fail "cannot pull $image (logged in to ghcr.io?)"
