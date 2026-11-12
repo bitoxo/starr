@@ -2,6 +2,11 @@
 
 All notable changes to Starr. Versions follow [SemVer](https://semver.org/); before 1.0.0 minor versions may break.
 
+## Unreleased
+
+### Fixed
+- Album cover grids load up to three times faster on a cold cache: only the request to the Cover Art Archive counts against its budget of 4 per second, no longer the two redirects to archive.org and its storage host.
+
 ## 0.4.2 — 2026-11-10 · Jellyfin 12.4
 
 ### Fixed
