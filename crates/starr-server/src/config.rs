@@ -317,8 +317,7 @@ pub fn config_docs_markdown() -> String {
         let help = arg
             .get_long_help()
             .or_else(|| arg.get_help())
-            .map(ToString::to_string)
-            .unwrap_or_default();
+            .map_or_default(ToString::to_string);
         let help = help
             .split_whitespace()
             .collect::<Vec<_>>()

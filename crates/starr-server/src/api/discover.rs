@@ -635,7 +635,7 @@ pub async fn discover_categories(
             kind: c.kind,
             discover_ready: c.catalog.is_some(),
             requestable,
-            lists: c.catalog.as_ref().map(lists_for).unwrap_or_default(),
+            lists: c.catalog.as_ref().map_or_default(lists_for),
             providers,
             genres,
             attributions,

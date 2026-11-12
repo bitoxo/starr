@@ -472,8 +472,7 @@ impl ServiceClient {
         // Discord and most others put it), long segments, query values.
         let segments: Vec<&str> = parsed
             .path_segments()
-            .map(|s| s.filter(|s| !s.is_empty()).collect())
-            .unwrap_or_default();
+            .map_or_default(|s| s.filter(|s| !s.is_empty()).collect());
         let last = segments.len().saturating_sub(1);
         for (index, segment) in segments.iter().enumerate() {
             if (index == last && segment.len() >= 8) || segment.len() >= 16 {

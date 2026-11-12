@@ -325,7 +325,7 @@ pub(crate) async fn unmapped_libraries(state: &AppState) -> Result<Vec<UnmappedL
             .filter(|r| r.ignored_at.is_none())
             .map(|r| r.library.clone())
             .collect();
-        let instance_roles = roles.get(&id).map(Vec::as_slice).unwrap_or_default();
+        let instance_roles = roles.get(&id).map_or_default(Vec::as_slice);
         for library in libraries::unmapped(&listed, &role_libraries(instance_roles)) {
             out.push(UnmappedLibrary {
                 service_id: id,
@@ -377,7 +377,7 @@ pub async fn member_libraries(
     ids.sort_unstable();
     let mut out = Vec::new();
     for instance in ids {
-        let instance_roles = roles.get(&instance).map(Vec::as_slice).unwrap_or_default();
+        let instance_roles = roles.get(&instance).map_or_default(Vec::as_slice);
         let Some((first, _)) = instance_roles.first() else {
             continue;
         };

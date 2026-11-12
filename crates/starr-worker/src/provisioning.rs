@@ -183,10 +183,7 @@ fn wanted(
     members
         .iter()
         .map(|m| {
-            let ents = entitlements
-                .get(&m.id)
-                .map(Vec::as_slice)
-                .unwrap_or_default();
+            let ents = entitlements.get(&m.id).map_or_default(Vec::as_slice);
             let unmapped = roles
                 .iter()
                 .filter(|(c, s)| s.libraries.is_empty() && libraries::entitled(ents, enabled, *c))

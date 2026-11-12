@@ -1064,16 +1064,11 @@ async fn validate_source_settings(
     let lists = state.db.source_lists(source.service_instance_id).await?;
     let profiles = lists
         .as_ref()
-        .map(|l| l.quality_profiles.as_slice())
-        .unwrap_or_default();
-    let folders = lists
-        .as_ref()
-        .map(|l| l.root_folders.as_slice())
-        .unwrap_or_default();
+        .map_or_default(|l| l.quality_profiles.as_slice());
+    let folders = lists.as_ref().map_or_default(|l| l.root_folders.as_slice());
     let metadata_profiles = lists
         .as_ref()
-        .map(|l| l.metadata_profiles.as_slice())
-        .unwrap_or_default();
+        .map_or_default(|l| l.metadata_profiles.as_slice());
     if let Some(id) = body.metadata_profile_id {
         if !adapters::has_metadata_profiles(&source.adapter_type) {
             return Err(ApiError::Validation(

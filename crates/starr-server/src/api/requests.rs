@@ -331,8 +331,7 @@ impl MyRequest {
                 Some(album) if listenable(item) => albums
                     .get(&album.release_group)
                     .cloned()
-                    .map(open_in_links)
-                    .unwrap_or_default(),
+                    .map_or_default(open_in_links),
                 _ => Vec::new(),
             }
         };
@@ -848,8 +847,7 @@ pub(crate) async fn my_requests(
                 links
                     .get(&request.catalog_item_id)
                     .cloned()
-                    .map(open_in_links)
-                    .unwrap_or_default()
+                    .map_or_default(open_in_links)
             } else {
                 Vec::new()
             };

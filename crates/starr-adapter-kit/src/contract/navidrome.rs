@@ -396,8 +396,7 @@ impl NavidromeFake {
             let id = user["id"].as_str().unwrap_or_default().to_owned();
             let grants = user["libraries"]
                 .as_array()
-                .map(|ls| ls.iter().filter_map(|l| l["id"].as_u64()).collect())
-                .unwrap_or_default();
+                .map_or_default(|ls| ls.iter().filter_map(|l| l["id"].as_u64()).collect());
             state.grants.insert(id.clone(), grants);
             if let Some((_, password)) = passwords.iter().find(|(n, _)| user["userName"] == *n) {
                 state.passwords.insert(id, (*password).to_owned());

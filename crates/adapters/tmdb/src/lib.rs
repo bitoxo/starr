@@ -527,9 +527,9 @@ impl Catalog for Tmdb {
             params::apply_fallback(&mut entry, &english.into_entry(item.kind), language);
         }
         let certifications = if series {
-            wire::series_certifications(wire.content_ratings.map(|r| r.results).unwrap_or_default())
+            wire::series_certifications(wire.content_ratings.map_or_default(|r| r.results))
         } else {
-            let releases = wire.release_dates.map(|r| r.results).unwrap_or_default();
+            let releases = wire.release_dates.map_or_default(|r| r.results);
             facts.digital_releases = wire::digital_releases(&releases);
             wire::movie_certifications(&releases)
         };
@@ -539,9 +539,7 @@ impl Catalog for Tmdb {
             genres,
             trailer: wire.videos.and_then(|v| wire::trailer(v.results)),
             certifications,
-            watch_offers: wire::watch_offers(
-                wire.watch_providers.map(|w| w.results).unwrap_or_default(),
-            ),
+            watch_offers: wire::watch_offers(wire.watch_providers.map_or_default(|w| w.results)),
             children: if series {
                 wire::seasons(wire.seasons)
                     .into_iter()
