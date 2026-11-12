@@ -2,6 +2,11 @@
 
 All notable changes to Starr. Versions follow [SemVer](https://semver.org/); before 1.0.0 minor versions may break.
 
+## Unreleased
+
+### Fixed
+- Typing in the search no longer leaves stale searches waiting in MusicBrainz's queue: a search the text has moved past is cancelled instead of waiting its turn, and music search results are cached for a day instead of an hour.
+
 ## 0.4.2 — 2026-11-10 · Jellyfin 12.4
 
 ### Fixed
