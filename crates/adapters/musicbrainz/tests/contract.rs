@@ -614,7 +614,10 @@ async fn trending_and_popular_are_listenbrainz_statistics() {
         filter: None,
     };
     let week = a.list(&list(ListKind::Trending, 1)).await.unwrap();
-    // The entry without a release-group MBID is dropped.
+    // The entry without a release-group MBID is dropped, and so is the
+    // second row of a release group (statistics count by artist credit
+    // and title, so one release group can show up twice): the first,
+    // most listened one stays.
     assert_eq!(titles(&week.items), ["Monsters", "After Hours"]);
     assert_eq!(week.next, Some(2));
     let monsters = week.items[0].album.as_ref().unwrap();

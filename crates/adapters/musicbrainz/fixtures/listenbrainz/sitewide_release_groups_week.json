@@ -26,13 +26,22 @@
         "release_group_name": "After Hours"
       },
       {
+        "artist_mbids": [
+          "62162215-b023-4f0e-84bd-1e9412d5b32c"
+        ],
+        "artist_name": "All Time Low",
+        "listen_count": 140,
+        "release_group_mbid": "326b4a29-dff5-4fab-87dc-efc1494001c6",
+        "release_group_name": "Monsters"
+      },
+      {
         "artist_name": "Someone Unmatched",
         "listen_count": 120,
         "release_group_name": "No MBID here"
       }
     ],
     "offset": 0,
-    "count": 3,
+    "count": 4,
     "total_release_group_count": 60,
     "range": "week",
     "last_updated": 1793700000,
