@@ -68,7 +68,9 @@ const MAX_THROTTLE: Duration = Duration::from_hours(1);
 pub const MAX_REDIRECTS: usize = 3;
 /// Pause after a 503 from a service that answers overload with 503
 /// ([`ClientOptions::unavailable_is_throttle`]) without a `Retry-After`.
-const UNAVAILABLE_THROTTLE: Duration = Duration::from_secs(10);
+/// Short: such a 503 means "slow down" at a per-second limit (`MusicBrainz`
+/// 1 req/s), and the pause holds every caller of the service.
+const UNAVAILABLE_THROTTLE: Duration = Duration::from_secs(2);
 
 /// The User-Agent of every request Starr sends: product token with Starr's
 /// version and the project URL as contact (spec 0006 Q1, ADR 0013). Nothing

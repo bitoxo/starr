@@ -2,6 +2,11 @@
 
 All notable changes to Starr. Versions follow [SemVer](https://semver.org/); before 1.0.0 minor versions may break.
 
+## Unreleased
+
+### Fixed
+- A 503 without `Retry-After` from MusicBrainz, ListenBrainz, the Cover Art Archive or StashDB pauses that service for 2 seconds instead of 10; a `Retry-After` is still honoured (up to an hour).
+
 ## 0.4.2 — 2026-11-10 · Jellyfin 12.4
 
 ### Fixed

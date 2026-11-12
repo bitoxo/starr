@@ -422,3 +422,30 @@ async fn only_a_used_up_window_with_reset_in_pauses_and_briefly() {
         other => panic!("{other:?}"),
     }
 }
+
+/// A 503 without `Retry-After` from a service that answers overload with
+/// 503 pauses every caller briefly, for two seconds (`MusicBrainz` sends
+/// such 503s at its 1 req/s limit, and the pause holds every member).
+#[tokio::test]
+async fn a_503_without_retry_after_pauses_two_seconds() {
+    let server = MockServer::start().await;
+    Mock::given(path("/busy"))
+        .respond_with(ResponseTemplate::new(503))
+        .mount(&server)
+        .await;
+    let strict = no_credential(&server.uri(), true);
+    assert_eq!(
+        strict.get_json::<serde_json::Value>("busy").await,
+        Err(AdapterError::Throttled {
+            retry_after: Some(Duration::from_secs(2))
+        })
+    );
+    let paused = strict.throttled_for().unwrap();
+    assert!(paused <= Duration::from_secs(2), "{paused:?}");
+    // Meanwhile the next call fails without a request.
+    assert!(matches!(
+        strict.get_json::<serde_json::Value>("busy").await,
+        Err(AdapterError::Throttled { .. })
+    ));
+    assert_eq!(server.received_requests().await.unwrap().len(), 1);
+}
