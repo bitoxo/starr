@@ -335,11 +335,17 @@ impl MusicBrainz {
             payload.release_groups.len(),
             payload.total_release_group_count,
         );
+        // Statistics count by artist credit and title, so one release
+        // group can come back in two rows (e.g. credited with and without
+        // a featured artist): keep its first, most listened one on the
+        // page.
+        let mut seen = std::collections::HashSet::new();
         Ok(Page {
             items: payload
                 .release_groups
                 .into_iter()
                 .filter_map(wire::StatsReleaseGroupWire::into_entry)
+                .filter(|e| seen.insert(e.item.id.clone()))
                 .collect(),
             next: next_page(page, more),
         })
