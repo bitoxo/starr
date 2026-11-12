@@ -66,7 +66,7 @@
 - One invite creates a member's accounts on Jellyfin, Emby and Navidrome, with one password and the right libraries. Suspend or remove them in one place.
 - Plan-only until you go live: Starr shows what it would change on each server and writes nothing before you say so.
 - API keys encrypted at rest, optional web/worker split so the internet-facing part can't read them, TOTP, audit log, no telemetry.
-- One Rust binary with SQLite and the UI built in. Rolling back one release is changing the image tag.
+- One Rust binary with SQLite and the UI built in. Rolling back one release is changing the image tag. A fresh install idles at about 20 MB of RAM; the image is about 175 MB.
 
 Starr sits on top of your stack: it doesn't download, index or stream, never deletes media files, and has no AI features. Switch it off and everything keeps working as before. Optional and off by default: a private category for Whisparr and StashDB that only members you allow can see.
 
@@ -262,7 +262,7 @@ Switching: connect the Radarr and Sonarr you already use (Starr recognises what'
 <details>
 <summary><a id="roadmap"></a><b>Roadmap</b>: Plex and more languages next, then what you vote for</summary>
 
-Next: **Plex** and **more UI languages**. Plex comes after Jellyfin and Navidrome on purpose, because they are built by and for their communities, and after Emby, which many of the same households run.
+Next: **Plex** and **more UI languages**. Starr started with Jellyfin, Emby and Navidrome; Plex is next.
 
 Then, in the order you vote for them: request quotas · podcasts and audiobooks (Audiobookshelf) · more personal settings · "Open in" your own app (Infuse, Arpeggi, …) · quick trailers · kids accounts · a richer listening profile · your own logo and colours · announcements to members · a nerd corner with uptimes and read-only SQL · a second music metadata source · an iOS app · opt-in AI: requests from listening history, a monthly "new for you" letter.
 
