@@ -578,7 +578,7 @@ async fn responses_are_cached_with_the_specs_lifetimes() {
         .iter()
         .map(|(k, (_, ttl))| (k.split('?').next().unwrap().to_owned(), *ttl))
         .collect();
-    assert_eq!(ttls["ws/2/artist"], Duration::from_hours(1));
+    assert_eq!(ttls["ws/2/artist"], Duration::from_hours(24));
     assert_eq!(
         ttls[&format!("ws/2/release-group/{OK_COMPUTER}")],
         Duration::from_hours(7 * 24)

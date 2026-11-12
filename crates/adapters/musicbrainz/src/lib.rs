@@ -85,12 +85,15 @@ pub const RATE_LIMIT: RateLimit = RateLimit {
     per: Duration::from_secs(1),
 };
 
-/// Cache lifetimes (spec 0006 "musicbrainz"): search 1 h, album details 7
-/// days, discography 1 day, `ListenBrainz` lists by their headers within
-/// 1 h to 1 day. `MusicBrainz` sends no useful lifetimes, so min = max.
+/// Cache lifetimes (spec 0006 "musicbrainz"): search 1 day (raised from the
+/// spec's 1 h by the maintainer, 2026-11-12: each search costs two requests
+/// of the 1 req/s budget, and results barely change in a day), album
+/// details 7 days, discography 1 day, `ListenBrainz` lists by
+/// their headers within 1 h to 1 day. `MusicBrainz` sends no useful
+/// lifetimes, so min = max.
 pub const SEARCH_CACHE: CachePolicy = CachePolicy {
-    min_ttl: Duration::from_hours(1),
-    max_ttl: Duration::from_hours(1),
+    min_ttl: Duration::from_hours(24),
+    max_ttl: Duration::from_hours(24),
 };
 pub const DETAILS_CACHE: CachePolicy = CachePolicy {
     min_ttl: Duration::from_hours(7 * 24),

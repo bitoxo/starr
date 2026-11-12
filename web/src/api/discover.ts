@@ -121,14 +121,23 @@ export function useHighlights(category?: string, { enabled = true }: { enabled?:
   })
 }
 
-/** Search across movies, series, artists and albums; idle while `query` is blank. */
+/**
+ * Search across movies, series, artists and albums; idle while `query` is blank. A search the
+ * text has moved past is aborted (TanStack Query cancels a fetch whose `signal` was read once
+ * nothing observes it), so stale queries do not wait in MusicBrainz's 1 req/s queue.
+ */
 export function useSearch(query: string) {
   const text = query.trim()
   return useInfiniteQuery({
     queryKey: [...DISCOVER, 'search', text],
     enabled: text !== '',
-    queryFn: ({ pageParam }) =>
-      unwrap(api.GET('/api/v1/search', { params: { query: { query: text, page: pageParam } } })),
+    queryFn: ({ pageParam, signal }) =>
+      unwrap(
+        api.GET('/api/v1/search', {
+          params: { query: { query: text, page: pageParam } },
+          signal,
+        }),
+      ),
     initialPageParam: 1,
     getNextPageParam: nextPage,
   })

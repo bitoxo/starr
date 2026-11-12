@@ -1,8 +1,10 @@
-import { fireEvent, screen, waitFor, within } from '@testing-library/react'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { fireEvent, renderHook, screen, waitFor, within } from '@testing-library/react'
+import type { ReactNode } from 'react'
 import { useLocation } from 'react-router'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import type { DiscoverCategory, TitleCard } from '@/api/discover'
+import { type DiscoverCategory, type TitleCard, useSearch } from '@/api/discover'
 import { ok, renderWithProviders } from '@/test/render'
 
 import SearchPage from './SearchPage'
@@ -64,7 +66,10 @@ function renderAt(path: string) {
 }
 
 describe('Search (spec 0008 IA, MEM-17)', () => {
-  beforeEach(() => api.GET.mockReset())
+  // A block body: a function returned from beforeEach runs as cleanup, which would call the mock.
+  beforeEach(() => {
+    api.GET.mockReset()
+  })
 
   it('marks every result with its category, keeping the caption in the grid', async () => {
     serve()
@@ -127,6 +132,7 @@ describe('Search (spec 0008 IA, MEM-17)', () => {
     await waitFor(() =>
       expect(api.GET).toHaveBeenCalledWith('/api/v1/search', {
         params: { query: { query: 'harbor', page: 2 } },
+        signal: expect.any(AbortSignal),
       }),
     )
   })
@@ -146,5 +152,28 @@ describe('Search (spec 0008 IA, MEM-17)', () => {
       '/discover/movies',
     )
     expect(screen.getByRole('link', { name: 'Music' }).getAttribute('href')).toBe('/discover/music')
+  })
+
+  it('cancels a search the text has moved past, so it does not queue on the server', async () => {
+    const signals: AbortSignal[] = []
+    api.GET.mockImplementation((_path: string, init: { signal: AbortSignal }) => {
+      signals.push(init.signal)
+      return new Promise(() => {})
+    })
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } })
+    const wrapper = ({ children }: { children: ReactNode }) => (
+      <QueryClientProvider client={client}>{children}</QueryClientProvider>
+    )
+    const { rerender } = renderHook(({ text }) => useSearch(text), {
+      initialProps: { text: 'harb' },
+      wrapper,
+    })
+    await waitFor(() => expect(signals).toHaveLength(1))
+    rerender({ text: 'harbor' })
+    await waitFor(() => expect(signals).toHaveLength(2))
+    expect(signals[0]?.aborted).toBe(true)
+    expect(signals[1]?.aborted).toBe(false)
+    // Cancelled, not failed: the old search shows no error.
+    expect(client.getQueryState(['discover', 'search', 'harb'])?.status).toBe('pending')
   })
 })
