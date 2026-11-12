@@ -5,7 +5,7 @@
 use std::time::Duration;
 
 use secrecy::SecretString;
-use starr_adapter_kit::{AuthScheme, Endpoint, ServiceClient};
+use starr_adapter_kit::{AuthScheme, ClientOptions, Endpoint, ServiceClient};
 use starr_core::adapters::{
     AdapterDescriptor, AdapterError, Budgets, IdentityRule, RateLimit, SecretClass, Version,
     VersionRange,
@@ -123,7 +123,7 @@ fn no_credential(uri: &str, unavailable_is_throttle: bool) -> ServiceClient {
             auth: AuthScheme::None,
             credential: SecretString::from(String::new()),
         },
-        starr_adapter_kit::ClientOptions {
+        ClientOptions {
             rate_limit: DESCRIPTOR.budgets.rate_limit,
             unavailable_is_throttle,
             max_wait: None,
@@ -297,7 +297,7 @@ async fn retry_after_is_capped_and_a_slow_budget_fails_fast() {
             auth: AuthScheme::None,
             credential: SecretString::from(String::new()),
         },
-        starr_adapter_kit::ClientOptions {
+        ClientOptions {
             rate_limit: RateLimit {
                 requests: 1,
                 per: Duration::from_mins(1),
@@ -448,4 +448,86 @@ async fn a_503_without_retry_after_pauses_two_seconds() {
         Err(AdapterError::Throttled { .. })
     ));
     assert_eq!(server.received_requests().await.unwrap().len(), 1);
+}
+
+/// The Cover Art Archive's 307 goes to `archive.org`, whose 302 goes to a
+/// storage host: with `get_bytes_redirected` only requests to the client's
+/// own origin take from its budget, hops to other origins do not (each
+/// host has its own limits). A hop back to the client's own origin still
+/// does. `get_bytes_anonymous` (a catalog's images on its CDN) keeps every
+/// hop on the budget.
+#[tokio::test]
+async fn only_requests_to_the_clients_own_origin_take_from_its_budget() {
+    let archive = MockServer::start().await;
+    let storage = MockServer::start().await;
+    let download = format!("{}/download/cover.jpg", storage.uri());
+    let image = format!("{}/items/cover.jpg", storage.uri());
+    let home = format!("{}/files/cover.jpg", archive.uri());
+    Mock::given(path("/rg/front-250"))
+        .respond_with(ResponseTemplate::new(307).insert_header("location", download.as_str()))
+        .mount(&archive)
+        .await;
+    Mock::given(path("/rg/home"))
+        .respond_with(ResponseTemplate::new(307).insert_header("location", home.as_str()))
+        .mount(&archive)
+        .await;
+    Mock::given(path("/download/cover.jpg"))
+        .respond_with(ResponseTemplate::new(302).insert_header("location", image.as_str()))
+        .mount(&storage)
+        .await;
+    Mock::given(path("/items/cover.jpg"))
+        .respond_with(
+            ResponseTemplate::new(200)
+                .insert_header("content-type", "image/jpeg")
+                .set_body_bytes(vec![1, 2, 3]),
+        )
+        .mount(&storage)
+        .await;
+    // Two requests per minute, waiting at most 50 ms.
+    let budgeted = || {
+        ServiceClient::with_options(
+            &DESCRIPTOR,
+            Endpoint {
+                base_url: Url::parse(&archive.uri()).unwrap(),
+                auth: AuthScheme::None,
+                credential: SecretString::from(String::new()),
+            },
+            ClientOptions {
+                rate_limit: RateLimit {
+                    requests: 2,
+                    per: Duration::from_mins(1),
+                },
+                unavailable_is_throttle: true,
+                max_wait: Some(Duration::from_millis(50)),
+                private_content: false,
+            },
+        )
+        .unwrap()
+    };
+    let client = budgeted();
+    // Three requests, one of them to the archive: one unit of the budget.
+    let cover = client
+        .get_bytes_redirected("rg/front-250", None, 1024, |_| true)
+        .await
+        .unwrap();
+    assert_eq!(cover.body, [1, 2, 3]);
+    assert_eq!(storage.received_requests().await.unwrap().len(), 2);
+    // The second unit goes to this request; its hop back to the archive
+    // finds the budget used up.
+    assert!(matches!(
+        client
+            .get_bytes_redirected("rg/home", None, 1024, |_| true)
+            .await,
+        Err(AdapterError::Throttled { .. })
+    ));
+    assert_eq!(archive.received_requests().await.unwrap().len(), 2);
+    // Anonymous fetches meter every hop: the third request (the image)
+    // finds the budget of two used up.
+    assert!(matches!(
+        budgeted()
+            .get_bytes_anonymous("rg/front-250", &[], None, 1024, |_| true)
+            .await,
+        Err(AdapterError::Throttled { .. })
+    ));
+    assert_eq!(storage.received_requests().await.unwrap().len(), 3);
 }
