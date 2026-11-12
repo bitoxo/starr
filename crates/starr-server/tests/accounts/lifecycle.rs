@@ -264,8 +264,7 @@ async fn needs_you_lists_conflicts_and_libraries_the_service_no_longer_lists() {
     let res = env.send(get("/api/v1/admin/notifications")).await;
     let kinds: Vec<&str> = res.body["items"]
         .as_array()
-        .map(|items| items.iter().filter_map(|n| n["kind"].as_str()).collect())
-        .unwrap_or_default();
+        .map_or_default(|items| items.iter().filter_map(|n| n["kind"].as_str()).collect());
     assert!(kinds.contains(&"account_privileged"), "{}", res.raw);
 }
 

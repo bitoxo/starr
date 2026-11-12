@@ -156,9 +156,8 @@ fn discography_album(
     known: &BTreeMap<String, (Availability, bool)>,
 ) -> DiscographyAlbum {
     let album = entry.album;
-    let (release_type, secondary_types) = album
-        .map(|a| (a.primary_type, a.secondary_types))
-        .unwrap_or_default();
+    let (release_type, secondary_types) =
+        album.map_or_default(|a| (a.primary_type, a.secondary_types));
     let (status, mine) = known
         .get(&entry.item.id)
         .copied()
@@ -308,8 +307,7 @@ pub async fn album_details(
             .album_links(&[rg])
             .await?
             .remove(&rg)
-            .map(open_in_links)
-            .unwrap_or_default(),
+            .map_or_default(open_in_links),
         _ => Vec::new(),
     };
     let entry = details.entry;

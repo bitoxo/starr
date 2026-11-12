@@ -620,14 +620,12 @@ impl InstanceView {
                 .flatten(),
             state: entry.map(|e| state_dto(&e.state)),
             conflict_account,
-            steps: entry
-                .map(|e| {
-                    e.steps
-                        .iter()
-                        .map(|s| step_dto(s, &self.library_names))
-                        .collect()
-                })
-                .unwrap_or_default(),
+            steps: entry.map_or_default(|e| {
+                e.steps
+                    .iter()
+                    .map(|s| step_dto(s, &self.library_names))
+                    .collect()
+            }),
             locked_by_starr: row.and_then(|r| r.remote_id.as_deref()).is_some_and(|id| {
                 self.accounts
                     .iter()
@@ -656,8 +654,7 @@ async fn instance_views(state: &AppState) -> Result<Vec<InstanceView>, ApiError>
         let adapter_type = services
             .iter()
             .find(|s| s.id == id)
-            .map(|s| s.adapter_type.clone())
-            .unwrap_or_default();
+            .map_or_default(|s| s.adapter_type.clone());
         out.push(instance_view(state, id, name, adapter_type).await?);
     }
     Ok(out)

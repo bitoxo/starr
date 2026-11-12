@@ -285,8 +285,7 @@ impl Respond for Responder {
                         .url
                         .query_pairs()
                         .find(|(k, _)| k.eq_ignore_ascii_case("userId"))
-                        .map(|(_, v)| v.into_owned())
-                        .unwrap_or_default();
+                        .map_or_default(|(_, v)| v.into_owned());
                     return self.password(&id, &body);
                 }
                 let rest = path.strip_prefix("/Users/").unwrap_or_default();

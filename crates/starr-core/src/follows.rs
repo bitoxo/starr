@@ -387,8 +387,7 @@ mod tests {
     #[test]
     fn a_follow_notifies_about_its_cap_once_per_week() {
         let start = DateTime::parse_from_rfc3339("2026-11-01T12:00:00Z")
-            .map(|d| d.with_timezone(&Utc))
-            .unwrap_or_default();
+            .map_or_default(|d| d.with_timezone(&Utc));
         assert_eq!(cap_week(start, start), 0);
         assert_eq!(cap_week(start, start + TimeDelta::days(6)), 0);
         assert_eq!(cap_week(start, start + TimeDelta::days(7)), 1);

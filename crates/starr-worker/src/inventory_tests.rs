@@ -35,8 +35,7 @@ impl Respond for Items {
             .url
             .query_pairs()
             .find(|(k, _)| k == "ParentId")
-            .map(|(_, v)| v.into_owned())
-            .unwrap_or_default();
+            .map_or_default(|(_, v)| v.into_owned());
         let albums = request
             .url
             .query_pairs()

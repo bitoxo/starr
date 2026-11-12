@@ -535,20 +535,17 @@ pub fn assemble(primary: Listing<Item>, episodes: Option<Listing<Item>>) -> List
                 _ => return None,
             };
             let units = match kind {
-                ItemKind::Series => UnitCounts::Seasons(
-                    present
-                        .get(&item.id)
-                        .map(|seasons| {
-                            seasons
-                                .iter()
-                                .map(|(&number, episodes)| SeasonPresence {
-                                    number,
-                                    episodes: u32::try_from(episodes.len()).unwrap_or(u32::MAX),
-                                })
-                                .collect()
-                        })
-                        .unwrap_or_default(),
-                ),
+                ItemKind::Series => {
+                    UnitCounts::Seasons(present.get(&item.id).map_or_default(|seasons| {
+                        seasons
+                            .iter()
+                            .map(|(&number, episodes)| SeasonPresence {
+                                number,
+                                episodes: u32::try_from(episodes.len()).unwrap_or(u32::MAX),
+                            })
+                            .collect()
+                    }))
+                }
                 // An album without a track count is listed with none: it
                 // never counts as complete (positive evidence only).
                 ItemKind::Album => UnitCounts::Tracks(item.child_count.unwrap_or(0)),
