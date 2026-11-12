@@ -22,3 +22,8 @@ Live check (read-only, 2026-11-07): a genre search returns only
 releases carrying the exact tag, in search-score order (no popularity), and
 MusicBrainz may answer 503 while a refresh runs; the fake for that case is
 in `starr-worker` (`refresh_lists_stops_at_a_503_and_keeps_the_cached_lanes`).
+
+Addition for the duplicate-album fix (after 0.4.2):
+`listenbrainz/sitewide_release_groups_week.json` holds a made-up second row
+of the same release group under another artist credit (fewer listens),
+which the adapter drops; not observed live.
