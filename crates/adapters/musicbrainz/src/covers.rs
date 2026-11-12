@@ -28,8 +28,9 @@ pub const COVER_SIZES: &[&str] = &["250", "500", "1200"];
 pub const MAX_COVER_BYTES: usize = 10 * 1024 * 1024;
 
 /// The archive documents no rate limit but lists 503 for exceeding one;
-/// Starr stays at a few requests per second (each cover costs three: the
-/// archive's 307, archive.org's 302 to a storage host, the image).
+/// Starr stays at a few requests per second. Only the request to the
+/// archive counts: the redirects to `archive.org` and its storage host go
+/// to other hosts and take nothing from this budget.
 pub const CAA_RATE_LIMIT: RateLimit = RateLimit {
     requests: 4,
     per: Duration::from_secs(1),

@@ -722,7 +722,8 @@ impl ServiceClient {
     /// instance's credential** (images of a keyed catalog), following at
     /// most [`MAX_REDIRECTS`] redirects, each only to a URL `allow`
     /// accepts. Every hop shares this client's limiter, so the host's
-    /// budget covers images too; no hop carries the credential.
+    /// budget covers images too (its CDN included); no hop carries the
+    /// credential.
     pub async fn get_bytes_anonymous(
         &self,
         path: &str,
@@ -739,11 +740,14 @@ impl ServiceClient {
         let response = self
             .request_with(Method::GET, path, query, None, accept, max_body, first)
             .await?;
-        self.follow(path, response, accept, max_body, true, allow)
+        self.follow(path, response, accept, max_body, true, true, allow)
             .await
     }
 
     /// Follow the redirects of `response` (see [`Self::get_bytes_redirected`]).
+    /// Unless `hops_share_budget`, a hop to another origin than the base
+    /// URL's skips the limiter (the throttle gate still holds).
+    #[allow(clippy::too_many_arguments)]
     async fn follow(
         &self,
         path: &str,
@@ -751,6 +755,7 @@ impl ServiceClient {
         accept: Option<&str>,
         max_body: usize,
         anonymous: bool,
+        hops_share_budget: bool,
         allow: impl Fn(&Url) -> bool,
     ) -> Result<BinaryResponse, AdapterError> {
         let mut hops = 0;
@@ -784,6 +789,7 @@ impl ServiceClient {
                 absolute: true,
                 redirect_ok: true,
                 anonymous,
+                unmetered: !hops_share_budget && target.origin() != self.inner.base_url.origin(),
                 ..Extra::default()
             };
             response = self
@@ -835,8 +841,10 @@ impl ServiceClient {
     /// [`MAX_REDIRECTS`] redirects, each only to a URL `allow` accepts (the
     /// Cover Art Archive answers 307 to `archive.org`, which answers 302 to
     /// one of its storage hosts). Only for clients without a credential:
-    /// nothing but the URL travels to a redirect target. Every hop shares
-    /// this client's limiter.
+    /// nothing but the URL travels to a redirect target. Only requests to
+    /// the base URL's origin take from this client's limiter: a hop to
+    /// another origin is not covered by this client's budget (the throttle
+    /// gate still holds for every hop).
     pub async fn get_bytes_redirected(
         &self,
         path: &str,
@@ -856,7 +864,7 @@ impl ServiceClient {
         let response = self
             .request_with(Method::GET, path, &[], None, accept, max_body, first)
             .await?;
-        self.follow(path, response, accept, max_body, false, allow)
+        self.follow(path, response, accept, max_body, false, false, allow)
             .await
     }
 
@@ -1228,7 +1236,9 @@ impl ServiceClient {
                 retry_after: Some(remaining),
             });
         }
-        self.wait_turn().await?;
+        if !extra.unmetered {
+            self.wait_turn().await?;
+        }
 
         let mut url = if extra.absolute {
             Url::parse(path)
@@ -1426,6 +1436,9 @@ struct Extra {
     absolute: bool,
     /// Sent without the instance's credential or session token.
     anonymous: bool,
+    /// Sent without waiting for the limiter (a redirect hop to another
+    /// host, which this client's budget does not cover).
+    unmetered: bool,
 }
 
 /// A successful response before decoding.
