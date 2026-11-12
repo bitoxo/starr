@@ -220,7 +220,7 @@ Seerr (formerly Overseerr and Jellyseerr) is mature and does things Starr doesn'
 | Music (Lidarr, MusicBrainz) | no | yes |
 | Private category (Whisparr v3) | no | opt-in |
 | Media servers | Plex, Jellyfin or Emby, one at a time | Jellyfin and Emby (several each), Navidrome |
-| Plex | yes | planned next |
+| Plex | yes | not planned ([why](#roadmap)) |
 | Creates and manages media server accounts | no, imports existing users | yes |
 | Follow a series or artist | no | yes |
 | Several Radarr/Sonarr servers | yes: a default plus e.g. a 4K server, chosen per request | connect several; one per category takes requests, switchable, no choice per request |
@@ -260,13 +260,15 @@ Switching: connect the Radarr and Sonarr you already use (Starr recognises what'
 </details>
 
 <details>
-<summary><a id="roadmap"></a><b>Roadmap</b>: Plex and more languages next, then what you vote for</summary>
+<summary><a id="roadmap"></a><b>Roadmap</b>: more languages next, then what you vote for</summary>
 
-Next: **Plex** and **more UI languages**. Starr started with Jellyfin, Emby and Navidrome; Plex is next.
+Next: **more UI languages**.
 
 Then, in the order you vote for them: request quotas · podcasts and audiobooks (Audiobookshelf) · more personal settings · "Open in" your own app (Infuse, Arpeggi, …) · quick trailers · kids accounts · a richer listening profile · your own logo and colours · announcements to members · a nerd corner with uptimes and read-only SQL · a second music metadata source · an iOS app · opt-in AI: requests from listening history, a monthly "new for you" letter.
 
 No dates. Each idea is an issue with the `roadmap` label: [vote with 👍](https://github.com/bitoxo/starr/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap+sort%3Areactions-%2B1-desc), I sort by votes.
+
+Plex is not planned. Creating and managing each member's accounts is core to Starr. Plex accounts belong to plex.tv, where Starr can't create them or set their password, only share libraries with accounts that already exist.
 
 </details>
 
@@ -281,7 +283,7 @@ That catches a lot, not everything. No independent security review has happened 
 
 ## Contributing
 
-Starr has one maintainer, which is a risk for you and a limit for the project. Wanted: a **co-maintainer**, **adapter owners** who run Emby, Navidrome or Plex, **testers** for release candidates, **security reviewers**, later **translators**. Say hello in [Discussions](https://github.com/bitoxo/starr/discussions).
+Starr has one maintainer, which is a risk for you and a limit for the project. Wanted: a **co-maintainer**, **adapter owners** who run Emby or Navidrome, **testers** for release candidates, **security reviewers**, later **translators**. Say hello in [Discussions](https://github.com/bitoxo/starr/discussions).
 
 Ideas go to a [feature request](https://github.com/bitoxo/starr/issues/new?template=feature_request.yml); bugs, questions, security and how code gets in: [CONTRIBUTING.md](CONTRIBUTING.md).
 
