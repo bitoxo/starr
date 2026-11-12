@@ -254,7 +254,7 @@ Read 2026-11-02/03 [S]. Recorded 2026-11-06 by read-only queries with a fresh RE
 - `https://coverartarchive.org/release-group/{mbid}/front-250|-500|-1200` → 307 to `https://archive.org/download/mbid-…/…_thumb250.jpg`, which answers 302 to a storage host such as `dn720706.ca.archive.org`; 404 when no front image is chosen [S; live requests without credentials, 2026-11-03].
 - Docs: "no rate limiting rules in place", but list 503 for exceeding one [S]; actual 503 behaviour [?].
 - Images are not CC0; terms for re-serving them through Starr's proxy [?].
-- Starr: only the web process fetches covers, at most 4 requests/s (each cover costs three: 307, 302, image), follows at most three redirects and each only to `https://archive.org` or `https://*.archive.org`, caches covers on disk and a 404 ("no cover") for a day; a 503 pauses the archive client.
+- Starr: only the web process fetches covers, at most 4 requests/s to `coverartarchive.org` (only the first request of a cover counts; the 302 from `archive.org` and the image from its storage host go to other hosts and take nothing from that budget, while at most 8 covers are fetched at once), follows at most three redirects and each only to `https://archive.org` or `https://*.archive.org`, caches covers on disk and a 404 ("no cover") for a day; a 503 pauses the archive client.
 
 ## Seerr (reference only)
 
