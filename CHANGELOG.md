@@ -2,6 +2,11 @@
 
 All notable changes to Starr. Versions follow [SemVer](https://semver.org/); before 1.0.0 minor versions may break.
 
+## Unreleased
+
+### Fixed
+- The music lane "Trending this week" shows each album once; an album listed twice in ListenBrainz's weekly statistics appeared twice.
+
 ## 0.4.2 — 2026-11-10 · Jellyfin 12.4
 
 ### Fixed
