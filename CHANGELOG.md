@@ -7,6 +7,7 @@ All notable changes to Starr. Versions follow [SemVer](https://semver.org/); bef
 ### Fixed
 - Album cover grids load up to three times faster on a cold cache: only the request to the Cover Art Archive counts against its budget of 4 per second, no longer the two redirects to archive.org and its storage host.
 - Typing in the search no longer leaves stale searches waiting in MusicBrainz's queue: a search the text has moved past is cancelled instead of waiting its turn, and music search results are cached for a day instead of an hour.
+- A 503 without `Retry-After` from MusicBrainz, ListenBrainz, the Cover Art Archive or StashDB pauses that service for 2 seconds instead of 10; a `Retry-After` is still honoured (up to an hour).
 - The music lane "Trending this week" shows each album once; an album listed twice in ListenBrainz's weekly statistics appeared twice.
 
 ## 0.4.2 — 2026-11-10 · Jellyfin 12.4

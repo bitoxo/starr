@@ -423,6 +423,33 @@ async fn only_a_used_up_window_with_reset_in_pauses_and_briefly() {
     }
 }
 
+/// A 503 without `Retry-After` from a service that answers overload with
+/// 503 pauses every caller briefly, for two seconds (`MusicBrainz` sends
+/// such 503s at its 1 req/s limit, and the pause holds every member).
+#[tokio::test]
+async fn a_503_without_retry_after_pauses_two_seconds() {
+    let server = MockServer::start().await;
+    Mock::given(path("/busy"))
+        .respond_with(ResponseTemplate::new(503))
+        .mount(&server)
+        .await;
+    let strict = no_credential(&server.uri(), true);
+    assert_eq!(
+        strict.get_json::<serde_json::Value>("busy").await,
+        Err(AdapterError::Throttled {
+            retry_after: Some(Duration::from_secs(2))
+        })
+    );
+    let paused = strict.throttled_for().unwrap();
+    assert!(paused <= Duration::from_secs(2), "{paused:?}");
+    // Meanwhile the next call fails without a request.
+    assert!(matches!(
+        strict.get_json::<serde_json::Value>("busy").await,
+        Err(AdapterError::Throttled { .. })
+    ));
+    assert_eq!(server.received_requests().await.unwrap().len(), 1);
+}
+
 /// The Cover Art Archive's 307 goes to `archive.org`, whose 302 goes to a
 /// storage host: with `get_bytes_redirected` only requests to the client's
 /// own origin take from its budget, hops to other origins do not (each
