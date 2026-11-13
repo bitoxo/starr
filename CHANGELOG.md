@@ -2,7 +2,7 @@
 
 All notable changes to Starr. Versions follow [SemVer](https://semver.org/); before 1.0.0 minor versions may break.
 
-## Unreleased
+## 0.4.3 — 2026-11-13 · Faster music pages
 
 ### Fixed
 - Album cover grids load up to three times faster on a cold cache: only the request to the Cover Art Archive counts against its budget of 4 per second, no longer the two redirects to archive.org and its storage host.
